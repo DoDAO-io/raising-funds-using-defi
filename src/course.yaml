@@ -1,21 +1,26 @@
 title: Raising Funds in DeFi
 key: raising-funds-in-DeFi
 summary: >
-  Introductory course to learn about the new innovative techniques that can be used for raising funds in DeFi
+  Introductory course to learn about the new innovative techniques that can be
+  used for raising funds in DeFi
 highlights:
   - Introduction
   - Bonds Protocol
   - Chicken Bonds
   - Tokemak
 publishStatus: Draft
-thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/raise_funds_in_defi.png
-details: >-
-  In this course we first ....
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/raise_funds_in_defi.png
+details: In this course we first ....
 duration: 30 mins - 1 hour
 topics:
   - key: intoduction
     title: Intoduction
-    details: >+
+    details: |
       Raising Funds in DeFi
-courseAdmins: []
+courseAdmins:
+  - '0x47a67e14b3804dc652b3a3200d8c00d4f55abb6b'
 coursePassContent: Pass content of Course !!!!!!!!!!
+topicConfig:
+  showExplanations: false
+  showHints: false
