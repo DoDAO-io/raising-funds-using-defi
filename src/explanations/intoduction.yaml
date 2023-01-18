@@ -102,3 +102,10 @@
     https://www.linumlabs.com/articles/bonding-curves-the-what-why-and-shapes-behind-it
 
     - https://yos.io/2018/11/10/bonding-curves/
+- key: bonds
+  shortTitle: Bonds
+  details: >-
+    Bonding is a mechanism in which a User can sell an asset (i.e. Quote Token)
+    in the bond market (for an existing Quote & Base pair created by an Issuer)
+    to a protocol in exchange for discounted  Payout Token at a future date.
+  title: Bonds
