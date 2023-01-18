@@ -4,9 +4,24 @@
   details: >
     ### What is a Bonding Curve?
 
-    Bonding Curves Offerings, or BCOs, allow projects to efficiently, fairly,
-    and reliably distribute tokens to project adopters, who fund and speculate
-    on new business ventures in a transparent way.
+
+    The Bonding Curves Offerings (BCO) provides a way for projects to
+    efficiently, fairly, and reliably distribute tokens to project adopters in a
+    transparent way. 
+
+
+    A bonding curve is a mathematical curve that defines the relationship
+    between price and token supply. In other words, it's a way to visualize how
+    the price of a token changes as more tokens are minted. Here's an example of
+    a bonding curve, where currentPrice = tokenSupply²:
+
+
+    ![Simple Bonding
+    Curve](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/simple_bonding_curve.png)
+
+    `Source: https://yos.io/2018/11/10/bonding-curves/`
+
+
 
     They are built upon one of the most fundamental concepts in economics: price
     being a function of supply and demand. This tried and tested economic law is
