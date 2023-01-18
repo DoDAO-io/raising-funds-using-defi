@@ -16,8 +16,9 @@
     a bonding curve, where currentPrice = tokenSupply²:
 
 
-    ![Simple Bonding
-    Curve](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/simple_bonding_curve.png)
+    <img style="max-height:300px"
+    src="https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/simple_bonding_curve.png"
+    />
 
     `Source: https://yos.io/2018/11/10/bonding-curves/`
 
