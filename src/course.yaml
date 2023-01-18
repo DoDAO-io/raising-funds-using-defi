@@ -18,6 +18,12 @@ topics:
     title: Intoduction
     details: |
       Raising Funds in DeFi
+  - key: chicken-bonds
+    title: Chicken bonds
+    details: >+
+     Chicken bond is a novel bonding mechanism, which allows protocols to deepen the protocol owned liquidity of their own token.
+    explanations: chicken-bonds.yaml
+    questions: chicken-bonds.yaml
 courseAdmins:
   - '0x47a67e14b3804dc652b3a3200d8c00d4f55abb6b'
 coursePassContent: Pass content of Course !!!!!!!!!!
