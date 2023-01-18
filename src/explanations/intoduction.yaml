@@ -13,7 +13,8 @@
     A bonding curve is a mathematical curve that defines the relationship
     between price and token supply. In other words, it's a way to visualize how
     the price of a token changes as more tokens are minted. Here's an example of
-    a bonding curve, where currentPrice = tokenSupply²:
+    a bonding curve, where `currentPrice = tokenSupply²`:
+
 
 
     <img style="max-height:300px"
