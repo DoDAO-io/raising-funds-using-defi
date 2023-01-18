@@ -35,6 +35,43 @@
     distribution is automatic and configurable. 
 
 
+    ### Typical flow of a bonding curve interaction:
+
+    - A smart contract is created that allows users to mint/buy a new token (eg.
+    Bonding Curve Token, BCT) with a specified reserve currency (let's say DAI).
+
+    - The price of BCT is algorithmically calculated in relation to its current
+    circulating supply and shown in its reserve currency, DAI.
+
+    - With the reserve currency, the user can buy the new BCT token through a
+    smart contract. The sold DAI is kept in the smart contract as collateral and
+    not dispersed to any person or team.
+
+    - After the user completes their purchase, the price of the token will move
+    along the bonding curve in relation to the amount of supply the user has
+    just minted (likely moving the price up for future buyers)
+
+    - At any point, a BCT holder can decide to burn/sell their token back to the
+    curve. If the price continues to go up after their initial purchase, the
+    user will likely sell at a profit (minus gas and fees). The user will
+    receive back the bonded DAI from the smart contract after their sell is
+    approved.
+
+
+    ### Key features and benefits of bonding curves:
+
+    - Limitless Supply - There is no limit to the number of tokens that can be
+    minted.
+
+    - Deterministic Price Calculation - The price of the tokens increases and
+    decreases according to the number of tokens minted.
+
+    - Continuous Price - The price of token n is less than token n+1 and more
+    than token n-1.
+
+    - Immediate Liquidity - Tokens can be bought or sold instantaneously at any
+    time.
+
 
     ### References
 
