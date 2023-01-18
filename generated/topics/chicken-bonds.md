@@ -5,7 +5,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ## Chicken bonds
  
-Chicken bond is a novel bonding mechanism, which allows protocols to deepen the protocol owned liquidity of their own token. 
+Chicken bond is a novel bonding mechanism, which allows protocols to deepen the protocol owned liquidity of their own token.
 
 
 ## Links

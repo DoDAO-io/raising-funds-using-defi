@@ -10,10 +10,16 @@
     "Chicken Bonds",
     "Tokemak"
   ],
-  "publishStatus": "Draft",
-  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jpeg",
-  "courseAdmins": [],
+  "publishStatus": "Live",
+  "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/raise_funds_in_defi.png",
+  "courseAdmins": [
+    "0x47a67e14b3804dc652b3a3200d8c00d4f55abb6b"
+  ],
   "coursePassContent": "Pass content of Course !!!!!!!!!!",
+  "topicConfig": {
+    "showExplanations": false,
+    "showHints": false
+  },
   "topics": [
     {
       "title": "Intoduction",
@@ -28,7 +34,7 @@
     {
       "title": "Chicken bonds",
       "key": "chicken-bonds",
-      "details": "Chicken bond is a novel bonding mechanism, which allows protocols to deepen the protocol owned liquidity of their own token. \n",
+      "details": "Chicken bond is a novel bonding mechanism, which allows protocols to deepen the protocol owned liquidity of their own token.\n",
       "order": 1,
       "explanations": [
         {
