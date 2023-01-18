@@ -25,32 +25,38 @@
     `Source: https://yos.io/2018/11/10/bonding-curves/`
 
 
+    The Bonding Curve explains how the price of a token is determined by the
+    number of tokens that have already been minted. In the case of an
+    exponential curve, such as the one shown in the example, the growth rate
+    will speed up as the number of tokens minted increases.
 
-    They are built upon one of the most fundamental concepts in economics: price
-    being a function of supply and demand. This tried and tested economic law is
-    the complex study of a more familiar adage: an asset is only worth what
-    someone is willing to pay for it.
 
-    The Bonding Curve ensures that each newly minted token (which is sold to a
-    buyer in the market), is more expensive than the previous token. Because the
-    price of each token is defined by the curve / formula itself, every market
-    participant knows exactly how much each token will cost at any given time.
-    As tokens have the lowest price at the lowest part of the curve, there is a
-    price advantage for early adopters.
+    When someone buys a token, each successive buyer will need to pay a slightly
+    higher price per token, which could generate profits for the earliest
+    investors. As more people learn about the project and buying continues, the
+    value of each token will go up slowly along the bonding curve. As tokens
+    have the lowest price at the lowest part of the curve, there is a price
+    advantage for early adopters. Early buyers have a considerable upside
+    potential when compared with later entrants to market, as prices are lowest
+    when supply is low as well.
 
-    Early buyers have a considerable upside potential when compared with later
-    entrants to market, as prices are lowest when supply is low as well.
 
-    The most fundamental advantage of Bonding Curves over traditional asset
-    pricing mechanisms is that the pricing of assets is transparent, defined,
-    and immutable at all stages. The market is able to reach the equilibrium of
-    consensus through clearly defined rules, without third-party intervention.
+    Early buyers of tokens have a considerable upside potential when compared
+    with later entrants to market, as prices are lowest when supply is low. As
+    tokens have the lowest price at the lowest part of the curve, early adopters
+    can benefit from a price advantage. By getting in early, buyers can take
+    advantage of the potential for growth as prices increase as more people
+    enter the market.
 
-    Additionally, this fundraising method addresses many of the inefficiencies
-    that have led to fraud and misappropriation within the Initial Coin Offering
-    (ICO) model. Starting offer prices are not set arbitrarily by the project's
-    founders. All tokens are accounted for at all times. The token’s
-    distribution is automatic and configurable. 
+
+    The most significant advantage that Bonding Curves have over traditional
+    asset pricing methods is the fact that the pricing of assets is transparent,
+    set in stone(on-chain), and unchanging at all points. The market is able to
+    reach a collective agreement through well-defined rules, without needing
+    outside intervention. Because the cost per token is decided by the
+    curve/formula, every person involved knows how much each token will cost
+    ahead of time. This allows for a honest and just market where everyone knows
+    the score.
 
 
     ### Typical flow of a bonding curve interaction:
