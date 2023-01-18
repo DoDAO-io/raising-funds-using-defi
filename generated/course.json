@@ -26,7 +26,14 @@
       "key": "intoduction",
       "details": "Raising Funds in DeFi\n",
       "order": 0,
-      "explanations": [],
+      "explanations": [
+        {
+          "key": "bondig-curves",
+          "shortTitle": "Bonding Curves",
+          "details": "### What is a Bonding Curve?\nBonding Curves Offerings, or BCOs, allow projects to efficiently, fairly, and reliably distribute tokens to project adopters, who fund and speculate on new business ventures in a transparent way.\nThey are built upon one of the most fundamental concepts in economics: price being a function of supply and demand. This tried and tested economic law is the complex study of a more familiar adage: an asset is only worth what someone is willing to pay for it.\nThe Bonding Curve ensures that each newly minted token (which is sold to a buyer in the market), is more expensive than the previous token. Because the price of each token is defined by the curve / formula itself, every market participant knows exactly how much each token will cost at any given time. As tokens have the lowest price at the lowest part of the curve, there is a price advantage for early adopters.\nEarly buyers have a considerable upside potential when compared with later entrants to market, as prices are lowest when supply is low as well.\nThe most fundamental advantage of Bonding Curves over traditional asset pricing mechanisms is that the pricing of assets is transparent, defined, and immutable at all stages. The market is able to reach the equilibrium of consensus through clearly defined rules, without third-party intervention.\nAdditionally, this fundraising method addresses many of the inefficiencies that have led to fraud and misappropriation within the Initial Coin Offering (ICO) model. Starting offer prices are not set arbitrarily by the project's founders. All tokens are accounted for at all times. The token’s distribution is automatic and configurable. \n",
+          "title": "Bondig Curves"
+        }
+      ],
       "questions": [],
       "readings": [],
       "summaries": []
