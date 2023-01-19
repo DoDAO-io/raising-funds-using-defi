@@ -1,3 +1,12 @@
+- key: crowdfunding-issues
+  shortTitle: 'Crowdfunding Issues '
+  details: |-
+    Crowdfunding Issues 
+
+    Crowdfunding Issues 
+
+    Crowdfunding Issues 
+  title: 'Crowdfunding Issues '
 - key: bondig-curves
   title: Bondig Curves
   shortTitle: Bonding Curves
@@ -105,15 +114,6 @@
 
     -
     https://medium.com/molecule-blog/designing-different-fundraising-scenarios-with-sigmoidal-token-bonding-curves-ceafc734ed97
-- key: crowdfunding-issues
-  shortTitle: 'Crowdfunding Issues '
-  details: |-
-    Crowdfunding Issues 
-
-    Crowdfunding Issues 
-
-    Crowdfunding Issues 
-  title: 'Crowdfunding Issues '
 - key: bonds
   title: Bonds
   shortTitle: DeFi Bonds
