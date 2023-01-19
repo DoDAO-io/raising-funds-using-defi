@@ -108,7 +108,7 @@
 - key: bonds
   title: Bonds
   shortTitle: DeFi Bonds
-  details: >-
+  details: >
     Bonds in DeFi are quite different from Traditional Bonds
 
 
@@ -139,17 +139,18 @@
     Some of the common mechanics that we see in bonds used in DeFi projects to
     raise capital are
 
-    1. **Native Token in Bonds**: Projects sell their native token as part of
-    the bonds, and in return they can ask for a stable token or a lesser
-    volatile token. 
+    1. **Exchange of Native Token**: As part of the bonds, projects sell their
+    native token and in return they ask for a stable token or a lesser volatile
+    token. 
 
-    2. **Discount on Tokens**: Normally the projetcs 
+    2. **Discount on Tokens**: To make the bonds attractive, projects sell the
+    bonds at a discounted price, or can accrue interest on the tokens preset in
+    the bond. The real profit from the bonds is only determined when the bond
+    matures. 
 
     3. **Protocol owned Liquidity**: The main use case for this is if the
     projects want to get access to different tokens that are used as part of the
     product.
 
-
-    Bonding is a mechanism in which a User can sell an asset (i.e. Quote Token)
-    in the bond market (for an existing Quote & Base pair created by an Issuer)
-    to a protocol in exchange for discounted  Payout Token at a future date.
+    4. **Secondary Markets**:  Most of these bonds can be sold at a secondary
+    market place, so the investor doesn't have to wait for the bond to mature.
