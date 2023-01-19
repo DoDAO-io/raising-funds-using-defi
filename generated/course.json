@@ -35,9 +35,9 @@
         },
         {
           "key": "bonds",
-          "shortTitle": "Bonds",
-          "details": "Bonding is a mechanism in which a User can sell an asset (i.e. Quote Token) in the bond market (for an existing Quote & Base pair created by an Issuer) to a protocol in exchange for discounted  Payout Token at a future date.",
-          "title": "Bonds"
+          "shortTitle": "DeFi Bonds",
+          "details": "Bonds in DeFi are a bit different from Traditional Bonds\n\n### Traditional Bonds\nA bond is a debt security, similar to an IOU. Borrowers issue bonds to raise money from investors willing to lend them money for a certain amount of time.\n\nWhen you buy a bond, you are lending to the issuer, which may be a government, municipality, or corporation. In return, the issuer promises to pay you a specified rate of interest during the life of the bond and to repay the principal, also known as face value or par value of the bond, when it \"matures,\" or comes due after a set period of time.\n\n### DeFi Bonds\n\n\n\nBonding is a mechanism in which a User can sell an asset (i.e. Quote Token) in the bond market (for an existing Quote & Base pair created by an Issuer) to a protocol in exchange for discounted  Payout Token at a future date.",
+          "title": "DeFi Bonds"
         }
       ],
       "questions": [],
