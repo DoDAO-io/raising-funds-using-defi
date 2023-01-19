@@ -186,7 +186,8 @@
     https://docs.google.com/document/d/1VNkBjjGhcZUV9CyC0ccWYbqeOoVKT2maqX0rK3yXB20/edit
   title: Curation Markets
 - key: building-economies
-  shortTitle: Building Economies
+  title: Building Economies
+  shortTitle: Economies
   details: >-
     Not long after the launch of Namecoin, Primecoin burst onto the scene. This
     network’s consensus mechanism involves identifying previously unknown prime
@@ -245,4 +246,3 @@
 
     -
     https://medium.com/giveth/blockchain-economies-and-the-commons-cdb67dd1a163
-  title: Building Economies
