@@ -139,11 +139,15 @@
     Some of the common mechanics that we see in bonds used in DeFi projects to
     raise capital are
 
-    1. Projects sell their native token in the bond, and in return they can ask
-    for a stable token or a lesser volatile token
+    1. **Native Token in Bonds**: Projects sell their native token as part of
+    the bonds, and in return they can ask for a stable token or a lesser
+    volatile token. 
 
-    2. 
+    2. **Discount on Tokens**: Normally the projetcs 
 
+    3. **Protocol owned Liquidity**: The main use case for this is if the
+    projects want to get access to different tokens that are used as part of the
+    product.
 
 
     Bonding is a mechanism in which a User can sell an asset (i.e. Quote Token)
