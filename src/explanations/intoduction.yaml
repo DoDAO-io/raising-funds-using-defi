@@ -119,6 +119,70 @@
 
     ### Augmented Bonding Curves
 
+    The Augmented Bonding Curve design can be conceptualized as a typical
+    bonding curve with the addition of a funding pool, a token lock-up/vesting
+    mechanism, and inter-system feedback loops. The system is launched in two
+    stages: the Hatch Phase and the Open Phase.
+
+
+    During the Hatch Phase, initial contributors (i.e. founding members of the
+    organization, devoted contributors, initial investors or “Hatchers”)
+    participate in a hatch sale. The point of this phase is to gather
+    contributors and pool capita. A percentage is put into the Reserve Pool and
+    “bonded” to the curve (i.e. minting tokens and determining the initial spot
+    price used during the Open Phase) and a percentage is put into the Funding
+    Pool. The capital in the Funding Pool remains un-bonded as a floating source
+    of capital that can be distributed as real capital outside of the bonding
+    curve. For their contribution, Hatchers receive newly minted tokens,
+    specific to the Commons, in return.
+
+
+    In a typical bonding curve system, these tokens could then be burned at any
+    point or after an arbitrary temporal deadline. In an augmented bonding curve
+    system, tokens minted during the Hatch Phase are locked (burning is
+    disabled) in a vesting process. This vesting period combats any harmful
+    early speculation/arbitrage that would affect the stability of the Reserve
+    Pool. Although burning tokens to withdraw DAI is disabled, Hatchers’ tokens
+    are far from useless — they can still be used to curate options for future
+    capital allocation. Early in the system, this token usage is critical to
+    ensure the capital in the Funding Pool is allocated to community
+    initiatives, research projects and development milestones which will help
+    grow the commons.
+
+
+    After the goal for the Hatch Sale is met, the vesting process is initialized
+    and the system enters the Open Phase. In the Open Phase, anyone can mint
+    tokens by contributing DAI into the curve, hence becoming ‘members of the
+    Commons’. Their contribution will go directly into the Reserve Pool,
+    returning newly minted unlocked tokens that can be burned or used to vote
+    within the system. For the Hatchers, the first inter-system feedback loop
+    comes into play. The Hatchers tokens are slowly unlocked in correlation to
+    how much capital has been allocated to fund projects that support the
+    commons. This means that for the Hatchers’ tokens to vest, capital from the
+    Funding Pool has to be allocated to fund projects that positively impact the
+    commons. With this vesting process and introduction of a governance model
+    (we will be exploring Conviction Voting), members of the Commons (token
+    holders), are economically incentivized to participate in the system’s
+    governance process to allocate funding to curated projects that have the
+    most beneficial impact on the Commons. This combats a known incentive
+    misalignment observed in capital-allocating DAOs — in which capital
+    allocations are rare because members are too selective or stingy with funds.
+
+
+    Finally, whenever tokens are burned (withdrawn for DAI → $), an exit tax is
+    enacted on liquidation. As Members “cash out” and liquidate their tokens for
+    DAI, a small percentage of their returns are sent back into the Funding
+    Pool, allowing for the simultaneous funding of the commons while
+    contributors are earning returns. This means the system always benefits,
+    even if speculators are just looking to make returns.
+
+
+    The goal of the system is to attract new members of the Commons that see the
+    impact of the Commons and want to be a part of the movement so that the
+    Funding Pool can grow.
+
+
+
 
      
     ### References
