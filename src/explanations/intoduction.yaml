@@ -117,6 +117,10 @@
     time.
 
 
+    ### Augmented Bonding Curves
+
+
+     
     ### References
 
     - https://hackernoon.com/what-are-bonding-curve-offerings-xi2k34bm
@@ -131,6 +135,11 @@
 
     -
     https://medium.com/molecule-blog/designing-different-fundraising-scenarios-with-sigmoidal-token-bonding-curves-ceafc734ed97
+
+    -
+    https://blog.goodaudience.com/rewriting-the-story-of-human-collaboration-c33a8a4cd5b8
+
+    - https://medium.com/giveth/deep-dive-augmented-bonding-curves-3f1f7c1fa751
 - key: bonds
   title: Bonds
   shortTitle: DeFi Bonds
