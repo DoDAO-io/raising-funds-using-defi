@@ -1,12 +1,12 @@
 - key: crowdfunding-issues
-  shortTitle: 'Crowdfunding Issues '
+  title: 'Crowdfunding Issues '
+  shortTitle: 'Current Issues '
   details: |-
     Crowdfunding Issues 
 
     Crowdfunding Issues 
 
     Crowdfunding Issues 
-  title: 'Crowdfunding Issues '
 - key: bondig-curves
   title: Bondig Curves
   shortTitle: Bonding Curves
