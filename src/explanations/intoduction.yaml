@@ -1,12 +1,12 @@
 - key: crowdfunding-issues
   title: 'Crowdfunding Issues '
   shortTitle: 'Current Issues '
-  details: |-
-    Crowdfunding Issues 
+  details: >-
+    - Unlike existing crowdfunding platforms, Catalyst offers incentive-driven
+    fundraising where backers can potentially earn a return on their
+    contribution.
 
-    Crowdfunding Issues 
-
-    Crowdfunding Issues 
+    - 
 - key: bondig-curves
   title: Bondig Curves
   shortTitle: Bonding Curves
