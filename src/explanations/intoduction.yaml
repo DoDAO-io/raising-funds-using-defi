@@ -247,28 +247,36 @@
     -
     https://medium.com/giveth/blockchain-economies-and-the-commons-cdb67dd1a163
 - key: other-techniques
+  title: Other Techniques
   shortTitle: Other Techniques
-  details: |-
+  details: >-
     ## Quadratic Funding
-        https://youtu.be/qyd7mvQmn5I?t=1220
-        Created by Glen Wyel at Microsoft and Vitalik Buterin founder of Ethereum,
-        with this mechanism you have a crowdfunding campaign that is allocated
-        dollars from a central matching pool based on which projects are more
-        democratically supported as opposed to those into which more capital goes.
-        It is in opposition to 1:1 as that is plutocratic and based only on capital
-        needs. It is instead based on the number of contributors as opposed to the
-        amount funded, reducing whale power and favoring democratic.
-        Example: You raise a grant that gets $100 from 100 contributors, and I raise
-        a grant that gets $100 from 1 contributor, despite both grants being donated
-        $100, you will get 99% of the matching pool. It’s a cool mechanism because
-        it is a collective intelligence mechanism that routes money to where the
-        “poor and the many” have an advantage over the rich and the few.
-        You may give “only” a dollar, but really you are part of building an
-        aggregate signal of what public goods folks want to see funded. Problems:
-        sybil attacks, needing to raise matching pool funds.
-        It’s like voting! Mitigating a plutocratic methodology with a one person:
-        one vote identity style.
+
+    https://youtu.be/qyd7mvQmn5I?t=1220
+
+
+    Created by Glen Wyel at Microsoft and Vitalik Buterin founder of Ethereum,
+    with this mechanism you have a crowdfunding campaign that is allocated
+    dollars from a central matching pool based on which projects are more
+    democratically supported as opposed to those into which more capital goes.
+    It is in opposition to 1:1 as that is plutocratic and based only on capital
+    needs. It is instead based on the number of contributors as opposed to the
+    amount funded, reducing whale power and favoring democratic.
+
+    Example: You raise a grant that gets $100 from 100 contributors, and I raise
+    a grant that gets $100 from 1 contributor, despite both grants being donated
+    $100, you will get 99% of the matching pool. It’s a cool mechanism because
+    it is a collective intelligence mechanism that routes money to where the 
+    “poor and the many” have an advantage over the rich and the few.
+
+
+    You may give “only” a dollar, but really you are part of building an
+    aggregate signal of what public goods folks want to see funded. Problems:
+
+    * sybil attacks, needing to raise matching pool funds.
+
+    * It’s like voting! Mitigating a plutocratic methodology with a one person:
+    one vote identity style.
 
         ## References
         -    https://medium.com/giveth/coordination-mechanisms-notes-from-a-conversation-with-griff-green-kevin-owocki-af95f3e831b1
-  title: Other Techniques
