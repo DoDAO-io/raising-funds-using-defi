@@ -365,6 +365,18 @@
 
     4. **Secondary Markets**: Most of these bonds can be sold at a secondary
     market place, so the investor doesn't have to wait for the bond to mature.
+- key: staking
+  shortTitle: Staking
+  details: >-
+    Staking refers to the process of holding and locking up digital assets, such
+    as cryptocurrencies, as collateral in order to earn a return on investment
+    (ROI). This is typically done in order to provide security for a network or
+    to vote on governance decisions for a decentralized platform. By staking
+    their assets, users can earn rewards in the form of new tokens, interest, or
+    other incentives. The specific details of staking can vary depending on the
+    platform, but it is a way for users to earn a return on their crypto assets
+    while supporting the network.
+  title: Staking
 - key: building-economies
   title: Building Economies
   shortTitle: Economies
@@ -426,18 +438,6 @@
 
     -
     https://medium.com/giveth/blockchain-economies-and-the-commons-cdb67dd1a163
-- key: staking
-  shortTitle: Staking
-  details: >-
-    Staking refers to the process of holding and locking up digital assets, such
-    as cryptocurrencies, as collateral in order to earn a return on investment
-    (ROI). This is typically done in order to provide security for a network or
-    to vote on governance decisions for a decentralized platform. By staking
-    their assets, users can earn rewards in the form of new tokens, interest, or
-    other incentives. The specific details of staking can vary depending on the
-    platform, but it is a way for users to earn a return on their crypto assets
-    while supporting the network.
-  title: Staking
 - key: other-techniques
   title: Other Techniques
   shortTitle: Other Techniques
