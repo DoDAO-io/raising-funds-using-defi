@@ -32,18 +32,22 @@
     decide to use one of the DeFi primitives for fundraising. The most common
     DeFi primitives for fundraising currently used are:
 
-    1. Bonding Curves - Used for bootstrapping funds where the early investors
-    are rewarded more than the people of join at a later stage
+    1. Bonding Curves - Bootstrapping funds with earlier investors being
+    rewarded more lucrative than those who join the project later on.
 
-    2. Liquidity Mining/Yield Farming - In this native tokens are given to the
-    investors who provide funds that can be used for trading, lending or
-    borrowing. In this technique, almost full control of the funds remain with
-    investors and they can opt out when they want.
+    2. Liquidity Mining/Yield Farming - Offering native tokens to investors in
+    exchange for providing liquidity to the protocol which can be used for
+    trading, lending, or borrowing. This structure allows investors to have
+    nearly full control over the funds and they can choose to exit the position
+    when desired.
 
-    3. Staking - 
+    3. Staking allows investors to deposit their funds with a protocol and earn
+    interest on them. In the event of an unexpected loss of funds, some money
+    may be deducted from the deposited funds. 
 
-
-
+    4. DeFi bonds are an innovative mechanism that allows investors to purchase
+    tokens at a discount. Investors purchase the bonds and then get access to
+    the tokens once the bond matures.
 
 
     Innovation is key when it comes to fundraising, and by thinking outside the
