@@ -213,14 +213,22 @@
 
     - https://medium.com/giveth/deep-dive-augmented-bonding-curves-3f1f7c1fa751
 - key: liquidity-mining
-  shortTitle: Liquidity Mining
-  details: |-
-    Liquidity Mining
-
-    Liquidity Mining
-
-    Liquidity Mining
   title: Liquidity Mining
+  shortTitle: Liquidity Mining
+  details: >+
+    ## Liquidity Mining
+
+    Liquidity mining is a process where users can earn rewards for providing
+    liquidity to a decentralized finance (DeFi) platform, typically by holding
+    and trading a specific asset or group of assets within a liquidity pool. The
+    rewards are typically paid out in the form of the platform's native token,
+    and are designed to incentivize users to help increase the liquidity of the
+    platform. This can help to improve the overall functioning of the platform,
+    making it more attractive to other users and helping to drive further
+    adoption.
+
+
+
 - key: bonds
   title: Bonds
   shortTitle: DeFi Bonds
