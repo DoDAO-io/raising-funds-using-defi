@@ -365,6 +365,15 @@
 
     4. **Secondary Markets**: Most of these bonds can be sold at a secondary
     market place, so the investor doesn't have to wait for the bond to mature.
+- key: balancer-bootstrapping-pools
+  shortTitle: Bootstrapping Pools
+  details: |-
+    Balancer Bootstrapping Pools
+
+    Balancer Bootstrapping Pools
+
+    Balancer Bootstrapping Pools
+  title: Balancer Bootstrapping Pools
 - key: other-techniques
   title: Other Techniques
   shortTitle: Other Techniques
@@ -450,12 +459,3 @@
 
     -
     https://medium.com/giveth/coordination-mechanisms-notes-from-a-conversation-with-griff-green-kevin-owocki-af95f3e831b1
-- key: balancer-bootstrapping-pools
-  shortTitle: Bootstrapping Pools
-  details: |-
-    Balancer Bootstrapping Pools
-
-    Balancer Bootstrapping Pools
-
-    Balancer Bootstrapping Pools
-  title: Balancer Bootstrapping Pools
