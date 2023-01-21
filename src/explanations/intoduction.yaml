@@ -165,16 +165,21 @@
 
     ### Limitations
 
-    - Basic form of bonding curves don't keep a minimal reserve that might be
-    needed to bootstrap the project
+    * Basic forms of bonding curves don't keep a minimal reserve that might be
+    needed to bootstrap the project.
 
-    - Users can buy or sell the tokens to the bonding curve. Minting of new
-    tokens based on time schedule is not possible, but most of the new projects
-    do need it to compensate for the initial burn rate 
-
+    * Users can buy or sell the tokens to the bonding curve, but minting of new
+    tokens based on time schedule is not possible. This could be an issue for
+    new projects that need to compensate for an initial burn rate.
 
 
     ### Augmented Bonding Curves
+
+
+    `x = y` is a simplest bonding curve. By adding more variable or constraints
+    to the formula you can make the bonding curve more suitable to the needs of
+    your project. 
+
 
     The Augmented Bonding Curve design can be conceptualized as a typical
     bonding curve with the addition of a funding pool, a token lock-up/vesting
