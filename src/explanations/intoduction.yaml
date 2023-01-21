@@ -128,18 +128,24 @@
     ### Buying/Minting tokens from bonding curve:
 
     - A bonding curve smart contract is created that allows users to buy/mint a
-    new token (eg. Bonding Curve Token, BCT) with by supplying a currency for
+    new token (eg. Bonding Curve Token, ABC) with by supplying a currency for
     example USDC.
 
-    - The price of BCT is algorithmically calculated in relation to its current
+    - The price of ABC is algorithmically calculated in relation to its current
     circulating supply and shown in its reserve currency, USDC.
 
-    - By providing USDC to the contract, the user can buy the new BCT token
+    - By providing USDC to the contract, the user can buy the new ABC token
     through a smart contract. 
 
     - After the user completes their purchase, the price of the token will move
     along the bonding curve in relation to the amount of supply the user has
     just minted (likely moving the price up for future buyers)
+
+    - A ABC holder can choose to burn or sell their token back to the curve at
+    any time. If the price of the token goes up after they purchase it, they
+    will likely sell it at a profit (minus gas and fees). They will receive the
+    bonded USDC back from the smart contract after their sell is approved.
+
 
 
     ### Key benefits of bonding curves:
@@ -155,6 +161,17 @@
 
     - Immediate Liquidity - Tokens can be bought or sold instantaneously at any
     time.
+
+
+    ### Limitations
+
+    - Basic form of bonding curves don't keep a minimal reserve that might be
+    needed to bootstrap the project
+
+    - Users can buy or sell the tokens to the bonding curve. Minting of new
+    tokens based on time schedule is not possible, but most of the new projects
+    do need it to compensate for the initial burn rate 
+
 
 
     ### Augmented Bonding Curves
