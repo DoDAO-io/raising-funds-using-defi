@@ -178,7 +178,8 @@
 
     `x = y` is a simplest bonding curve. By adding more variable or constraints
     to the formula you can make the bonding curve more suitable to the needs of
-    your project. 
+    your project.  Augment Bonding Curve explained below, gives once such
+    example and how the bonding curves can be extended.
 
 
     The Augmented Bonding Curve design can be conceptualized as a typical
@@ -190,6 +191,7 @@
     <img style="max-height:600px"
     src="https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/augmented_bonding_curve.png"
     />
+
 
     `Source:
     https://medium.com/giveth/deep-dive-augmented-bonding-curves-3f1f7c1fa751`
