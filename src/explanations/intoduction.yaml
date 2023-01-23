@@ -383,7 +383,7 @@
 - key: bonds
   title: Bonds
   shortTitle: DeFi Bonds
-  details: >
+  details: >-
     Bonds in DeFi are quite different from Traditional Bonds
 
 
@@ -429,6 +429,10 @@
 
     4. **Secondary Markets**: Most of these bonds can be sold at a secondary
     market place, so the investor doesn't have to wait for the bond to mature.
+
+
+    In the next chapters, we will be looking at a couple of protocols that
+    provides ability to create and sell bonds.
 - key: balancer-bootstrapping-pools
   shortTitle: Bootstrapping Pools
   details: |-
