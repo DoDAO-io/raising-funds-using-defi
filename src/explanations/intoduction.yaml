@@ -279,6 +279,8 @@
     moved their funds again.
 
 
+    ## Drawbacks of Liquidity Mining
+
     There are several drawbacks to attracting liquidity simply by giving native
     tokens in exchange:
 
@@ -291,6 +293,19 @@
 
     3. Even after providing heavy rewards, the investors remain in full control
     of the liquidity and can choose to leave the protocol at any time.
+
+
+    Two most common designs that different projects adopted to combat this
+    problem are
+
+    1. **Protocol Owned Liquidity** - Using this protocols would sell their
+    native tokens in the forma of bonds at a discounted price in exchange for
+    the needed assets. Bonds generally have a maturity date or vesting schedule
+    towards distribution of native tokens. This mechanism is covered in detail
+    in one of the following chapters.
+
+
+    2. 
 - key: staking
   shortTitle: Staking
   details: >-
