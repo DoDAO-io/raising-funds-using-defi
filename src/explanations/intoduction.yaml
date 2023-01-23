@@ -316,8 +316,24 @@
     shows their commitment to the project. This model was first introduced by
     Curve protocol.
 - key: staking
+  title: Staking
   shortTitle: Staking
   details: >-
+
+    In many cases enterprises need funds to cover unforeseen events that can
+    result in losses. Most of the times these funds are provided by insurance
+    providers or investors. 
+
+
+    On the lines of crowdfunding model, DeFi protocols makes it possible for
+    anyone to stake/provide their funds that can be used for coverage of the
+    losses that occur from unforeseen events and in return the protocols rewards
+    these investors with either their native or some other currency. This is to
+    compensate the investors for the risk. 
+
+
+
+
     Staking refers to the process of holding and locking up digital assets, such
     as cryptocurrencies, as collateral in order to earn a return on investment
     (ROI). This is typically done in order to provide security for a network or
@@ -326,7 +342,6 @@
     other incentives. The specific details of staking can vary depending on the
     platform, but it is a way for users to earn a return on their crypto assets
     while supporting the network.
-  title: Staking
 - key: bonds
   title: Bonds
   shortTitle: DeFi Bonds
