@@ -130,19 +130,21 @@
     Liquidity without having to pay for it outright. 
 
 
-
     The way it works is by creating a 'flywheel effect' between bonding and
     bToken pricing. In other words, the more people bond, the more yield is
     retained for bToken holders. 
 
 
-    If the people choose to chicken out, that doesn't negatively impact the su
+    If someone decides to chicken out and leave the system, the yield they would
+    have earned from their TKN goes into the Reserve bucket. This increases
+    rewards for others who stay in the system, and incentivizes them to continue
+    participating.
 
 
-    A higher yield then increases the price premium over the underlying TKN,
-    making bonding more attractive because of the higher APR. Meanwhile, the
-    protocol is able to acquire both permanent and redeemable TKN liquidity,
-    which can be used for different needs based on the needs of the project.
+    A higher yield makes bonding more attractive, because it increases the price
+    premium over the underlying TKN. This provides the protocol with both
+    permanent and redeemable TKN liquidity, which can be used for different
+    needs based on the needs of the project.
 - key: drawbacks
   title: Drawbacks
   shortTitle: Drawbacks
