@@ -254,12 +254,15 @@
   shortTitle: Liquidity Mining
   details: >-
     Liquidity mining and yield farming are two terms that are often used
-    interchangeably in DeFi. However, there are currently more than 50 DEXs and
-    50 lending and borrowing protocols, but only a few of each have achieved
-    significant adoption. These platforms face a chicken and an egg problem,
-    i.e. the more liquidity (funds) they have, the better the trade will be, and
-    the more users will come to their protocol, which will further increase the
-    funds and liquidity on the protocol.
+    interchangeably in DeFi. 
+
+
+    There are currently more than 50 DEXs and 50 lending and borrowing
+    protocols, but only a few of each have achieved significant adoption. These
+    platforms face a chicken and an egg problem, i.e. the more liquidity (funds)
+    they have, the better the trade will be, and the more users will come to
+    their protocol, which will further increase the funds and liquidity on the
+    protocol.
 
 
     Not just the amount of a crypto currently, but also the number of crypto
