@@ -5,7 +5,58 @@
     ### Introduction
 
     Chicken bond is a novel bonding mechanism, which allows protocols to deepen
-    the protocol owned liquidity of their own token. 
+    the protocol owned liquidity at no cost while boosting yield opportunities
+    for their end users. 
+
+
+    Here users can purchase the bonds using a token(e.g. TNK). When the bond is
+    purchased it has zero number of bTokens. bTokens are self accruing tokens,
+    so its value keeps on increasing.  At a certain time in future the user who
+    purchases the bonds breaks even on its investment, i.e. the at that time
+    the 
+
+    `price of bToken * quantity = price of TKN * quantity invested in bond`. 
+
+
+    The yield amplification is achieved by directing additional yield from POL
+    and users bonding underlying tokens (TKN) to newly issued "boosted" tokens
+    (bTKN).
+
+
+    Acting as an autonomous self-bootstrapping treasury, the protocol is powered
+    by an innovative
+
+    bonding mechanism: users may deposit TKN in exchange for an accruing balance
+    of bTKN. At any
+
+    time, bond holders can either retrieve their principal foregoing the accrued
+    amount (“chicken out”)
+
+    or trade it in for the accrued bTKN (“chicken in”).
+
+
+    The TKN acquired by the system backs the bTKN supply: while a portion of the
+    TKN in the
+
+    treasury is directly redeemable by bTKN holders, another portion is
+    contributing permanently to the
+
+    redeemable value through its yield. Along with the yield retained from
+    pending bonds, the bTKN
+
+    benefits from a rapidly rising price floor, making it an attractive
+    investment.
+
+    Chicken Bonds are versatile and can be used by protocols to obtain DEX
+    liquidity or to pursue
+
+    sophisticated liquidity management strategies including algorithmic market
+    operators (AMOs). An
+
+    interesting use case involves bonding LP tokens.
+
+
+    -----
 
 
     In chicken bonds, users bond an amount of the protocol tokens in turn for
@@ -15,12 +66,6 @@
     and give up their possession of the underlying tokens (Chicken-in) or to
     cancel the bond and get back their principal amount of the underlying token
     (Chicken-out). 
-
-
-    Different stages of the bond are expressed via artwork as NFTs, these NFTs
-    can be transferred and point to the bond, meaning whoever owns the NFT is in
-    possession of the bond. The longer a bond has been going on for, the rarer
-    the NFT it is associated with.  
 
 
     The bTokens can either be redeemed for the underlying tokens from the
