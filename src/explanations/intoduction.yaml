@@ -253,7 +253,21 @@
   title: Liquidity Mining
   shortTitle: Liquidity Mining
   details: >+
-    ## Liquidity Mining
+    Liquidity mining and yield farming are two terms that are often used
+    interchangeably in DeFi. However, there are currently more than 50 DEXs and
+    50 lending and borrowing protocols, but only a few of each have achieved
+    significant adoption. These platforms face a chicken and an egg problem,
+    i.e. the more liquidity (funds) they have, the better the trade will be, and
+    the more users will come to their protocol, which will further increase the
+    funds and liquidity on the protocol.
+
+
+    So to attract investors to bring money, most of these protocols offer
+    rewards and share percentage of their fees. 
+
+
+
+
 
     Liquidity mining is a process where users can earn rewards for providing
     liquidity to a decentralized finance (DeFi) platform, typically by holding
