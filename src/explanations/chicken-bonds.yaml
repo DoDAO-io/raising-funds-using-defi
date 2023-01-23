@@ -124,60 +124,25 @@
     always has a minimum value. 
 - key: advantages
   title: Advantages
-  shortTitle: Advantages
-  details: >
-    ### The advantages
+  shortTitle: Final Thoughts
+  details: >-
+    The Chicken Bond protocol is a way for projects to get Protocol Owned
+    Liquidity without having to pay for it outright. 
 
 
-    Contrasting chicken bonds with another way which protocols use to deepen
-    liquidity of their token, staking. We have seen that in staking, protocols
-    initially offer a very high APR to attract users to deposit tokens in their
-    reserves and thus deepen their Protocol Owned Liquidity which can help the
-    protocol in gaining stability for their token, and credibility in the
-    market. But these high APRs are often unsustainable and as soon as the
-    protocol starts offering a more practical APR on staking, the users start
-    pulling out their funds since they no longer find this to be a profitable
-    investment. In this system we see that the protocol cannot reward users for
-    their prolonged participation, as the APR is likely to decrease in the long
-    run. 
 
-    On the other hand, chicken bonds help protocols deepen their liquidity by
-    providing a novel bonding mechanism which rewards users for their long term
-    participation while simultaneously deepening their Protocol Owned Liquidity.
-    Ofcourse, on the user side of things there is always the issue of volatility
-    of the bToken or the underlying token in DEXs which could mean that user
-    incurs a loss but in theory, the user can yield more with the bToken than
-    they would with the underlying token which is an attractive offer for the
-    users holding the underlying token, who are the target users for this
-    mechanism. 
-     
-    Helps deepen the liquidity of the protocol, and to hold a soft peg. 
-
-    The bond has no maturity, meaning the user can choose to reap the benefits
-    or quit if they do not find it to be profitable at anytime, which is often
-    not possible in staking. This makes chicken bonds more attractive to users.
-
-    The user can obtain dynamic NFTs whose rarity can vary depending on the time
-    that has passed since chickening in, etc. These NFTs are proof of ownership
-    of the bonds, meaning that the bonds can be sold and bought in markets,
-    opening new investment opportunities.
-
-    Other options of generating liquidity often involve recurring expenses from
-    the protocol, which is unsustainable unless there is a lot of funding for
-    the protocol. But in the case of chicken bonds, all the protocol needs to
-    capture liquidity is time, and ofcourse users to bond, the users will start
-    using chicken bonds when they realize that it is worthwhile.
+    The way it works is by creating a 'flywheel effect' between bonding and
+    bToken pricing. In other words, the more people bond, the more yield is
+    retained for bToken holders. 
 
 
-    An example of the advantage of bTokens with the use of bLUSD. Say LUSD is
-    trading at a price premium to its $1 peg, as long as LUSD is trading above
-    its peg, users will mint LUSD and try to take advantage of arbitrage. With
-    bLUSD, users can get compounded yield on LUSD which makes the arbitrage
-    option more attractive. This way, as long as there is a price premium for
-    LUSD, users will be more incentivized to invest it in chicken bonds and reap
-    more benefits. While simultaneously, the LUSD liquidity will be deepened,
-    making it stabler and helping to reduce the price premium, which is what is
-    expected of a stablecoin (to trade at peg value).
+    If the people choose to chicken out, that doesn't negatively impact the su
+
+
+    A higher yield then increases the price premium over the underlying TKN,
+    making bonding more attractive because of the higher APR. Meanwhile, the
+    protocol is able to acquire both permanent and redeemable TKN liquidity,
+    which can be used for different needs based on the needs of the project.
 - key: drawbacks
   title: Drawbacks
   shortTitle: Drawbacks
