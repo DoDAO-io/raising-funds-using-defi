@@ -348,12 +348,14 @@
     mechanism to raise funds
 
 
-    1. **Aave** -  Aave holders can lock their tokens into a Smart
-    Contract-based component called the Safety Module (SM). The locked AAVE will
-    be used as a mitigation tool in case of a Shortfall Event within the money
-    markets that belong to the Aave ecosystem. A Shortfall Event occurs when
-    there is a deficit. The interpretation for the occurrence of a Shortfall
-    Event is subject to the Protocol Governance vote, detailed in Governance.
+    #### **Aave** 
+
+    Aave holders can lock their tokens into a Smart Contract-based component
+    called the Safety Module (SM). The locked AAVE will be used as a mitigation
+    tool in case of a Shortfall Event within the money markets that belong to
+    the Aave ecosystem. A Shortfall Event occurs when there is a deficit. The
+    interpretation for the occurrence of a Shortfall Event is subject to the
+    Protocol Governance vote, detailed in Governance.
 
 
     In the instance of a Shortfall Event, part of the locked AAVE are auctioned
@@ -365,10 +367,10 @@
     return for receiving rewards, in the form of Safety Incentives (SI).
 
 
-    2. **Maker DAO** - 
+    #### **Maker DAO** 
 
 
-    3. **Sherlock** - 
+    #### **Sherlock** 
 - key: bonds
   title: Bonds
   shortTitle: DeFi Bonds
