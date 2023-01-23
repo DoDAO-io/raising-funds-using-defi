@@ -45,26 +45,19 @@
 
     #### Pending Bucket 
 
-    Contains the TKN bonded by users that are still active bond holders, i.e.
-
-    whose deposits haven’t been acquired by the protocol yet. Since bond holders
-    may withdraw
-
-    their bonded TKN at will (chicken out), their deposits are considered as
-    pending.
-
-    The yield earned by the Pending Bucket is credited to the Reserve Bucket.
+    The Pending Bucket contains the TKN that is still bonded by active users.
+    This means that their deposits haven't been acquired by the protocol yet.
+    Since bond holders may withdraw their bonded TKN at any time (chicken out),
+    their deposits are considered as pending. The yield earned by the Pending
+    Bucket is credited to the Reserve Bucket.
 
 
     #### Reserve Bucket
 
-    Contains a portion of the TKN relinquished by former bond holders after a
-
-    "chicken in" event as well as the yield of the Pending and the Permanent
-    Buckets.
-
-    The Reserve Bucket directly backs the bTKN supply through the redemption
-    mechanism.
+    This graph contains data on the total amount of TKN that was relinquished by
+    former bond holders after a "chicken in" event, as well as the yield of the
+    Pending and Permanent buckets. The Reserve bucket directly backs the bTokens
+    supply through the redemption mechanism.
 
 
     #### Permanent Bucket
@@ -73,7 +66,7 @@
     The yield earned by the Permanent Bucket is credited to the Reserve Bucket.
 
 
-    Having a Permanent Bucket may turn out as unnecessary or even detrimental
+    Having a Permanent Bucket can turn out as unnecessary or even detrimental
     for some use cases.
 
     As an alternative, the protocol can thus be set up without a Permanent
@@ -82,6 +75,7 @@
 
 
 
+    ## Investing
 
     It is understood that the user bonds the protocol tokens in return for a
     virtual accrual of bTokens which the user can choose to claim (Chicken-in)
@@ -119,20 +113,6 @@
 
     Now that we have that clear,  let us see where the bonded tokens go and how
     it aids in the bTokens achieving a boosted yield.
-
-    **Buckets**
-
-
-    Buckets are reserves of the underlying token. There are three “buckets” of
-    tokens where the bonded tokens are held. Think of these as an internal
-    segregation of assets by the protocol to have better clarity over how much
-    assets they hold and make use of in different aspects of the chicken bond. 
-
-
-    These are Pending, Reserve and Permanent buckets. The protocol generates
-    yield on the tokens from all three buckets and this yield from all the three
-    buckets is funneled into the Reserve bucket and bTokens can be redeemed for
-    a pro-rata ratio of the Reserve bucket.
 
 
     **Flow**
