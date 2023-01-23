@@ -74,52 +74,31 @@
 
 
 
+    ## Yield Amplification (bToken)
 
-    ## Investing
+    The Reserve Bucket not only earns a return on its own assets, but
+    additionally receives
 
-    It is understood that the user bonds the protocol tokens in return for a
-    virtual accrual of bTokens which the user can choose to claim (Chicken-in)
-    or not (Chicken-out). But the question of how the bTokens provide more yield
-    than the underlying tokens and how it is feasible for the protocol arises.
-    To answer that, we need to understand where the bonded underlying tokens go.
-    But first let us have a brief overview of the bonding itself.
+    the returns from the Pending and the Permanent Buckets, achieving an
+    amplified return.  This useful property is called yield amplification.
 
 
-    Users can benefit from the system by,
+    As the protocol doesn’t distribute any yields, but reinvests them inside the
+    Reserve Bucket, the
 
-    * **Bonding:** The user can make a profit by bonding, achieving breakeven
-    and then redeeming the bTokens
+    value of the Reserve Bucket grows over time even without the inflow of new
+    capital. Due to the
 
+    yield amplification, the Reserve Bucket grows faster than if the same funds
+    were invested regularly
 
-    * **Investing:** Buy the bTokens on the market as a long-term investment
-    with amplified returns and limited downside risks.
-
-    * **Sell the bond:** Sell the chicken-bond NFTs in NFT market places.
-
-
+    with a (compounding) rate of return.
 
 
-    At any point in time, the holder of the bond can decide to:
-
-    * **Claim bond (Chicken In):** claim and mint the accrued balance of bTokens
-    in exchange for the deposited tokens.
-
-    * **Cancel bond (Chicken Out):** retrieve the deposited tokens (principal)
-    forgoing the accrued balance of bTokens.
-
-    * **Users can sell their bonds:** Represented as NFTs on the secondary
-    market like OpenSea. This especially makes sense for bonds that have accrued
-    a significant amount of bTokens without breaking even yet.
-
-    Now that we have that clear,  let us see where the bonded tokens go and how
-    it aids in the bTokens achieving a boosted yield.
-
-
-    **Flow**
-
+    ## Flow
 
     First, when a user bonds their tokens, the tokens are sent to the Pending
-    bucket. Then, depending on whether the user chickens in, the “chickened-in”
+    bucket. Then, depending on whether the user chickens in, the "chickened-in"
     funds are sent to the other two buckets, Reserve and Permanent.
 
 
