@@ -17,65 +17,22 @@
     above this point is the user's profit.
 
 
-    The yield amplification is achieved by directing additional yield from POL
-    and users bonding underlying tokens (TKN) to newly issued "boosted" tokens
-    (bTKN).
+    At any time, bond holders can either retrieve their principal foregoing the
+    accrued amount (“chicken out”) or trade it in for the accrued bTKN (“chicken
+    in”).
 
 
-    Acting as an autonomous self-bootstrapping treasury, the protocol is powered
-    by an innovative
 
-    bonding mechanism: users may deposit TKN in exchange for an accruing balance
-    of bTKN. At any
-
-    time, bond holders can either retrieve their principal foregoing the accrued
-    amount (“chicken out”)
-
-    or trade it in for the accrued bTKN (“chicken in”).
+    The yield amplification is achieved by directing additional yield from
+    Protocol owned liquidity and users bonding underlying tokens (TKN) to newly
+    issued "boosted" tokens (bTKN).
 
 
-    The TKN acquired by the system backs the bTKN supply: while a portion of the
-    TKN in the
-
-    treasury is directly redeemable by bTKN holders, another portion is
-    contributing permanently to the
-
-    redeemable value through its yield. Along with the yield retained from
-    pending bonds, the bTKN
-
-    benefits from a rapidly rising price floor, making it an attractive
-    investment.
-
-    Chicken Bonds are versatile and can be used by protocols to obtain DEX
-    liquidity or to pursue
-
-    sophisticated liquidity management strategies including algorithmic market
-    operators (AMOs). An
-
-    interesting use case involves bonding LP tokens.
-
-
-    -----
-
-
-    In chicken bonds, users bond an amount of the protocol tokens in turn for
-    virtually accruing newly issued boosted tokens (bTokens) which have a higher
-    return than the yield on the underlying token.  After some time has passed,
-    the user can decide whether to mint the bTokens which have accrued virtually
-    and give up their possession of the underlying tokens (Chicken-in) or to
-    cancel the bond and get back their principal amount of the underlying token
-    (Chicken-out). 
-
-
-    The bTokens can either be redeemed for the underlying tokens from the
-    protocol, or be swapped in a DEX depending on whichever is more profitable
-    to the user. Moreover, the bTokens can be bought in DEXs as a form of
-    investment if the user believes in the long term appreciation of its value. 
-
-
-    Now that we have briefly introduced what chicken bonds are, let us dive a
-    little deeper and see how they work behind the scenes and some of its
-    advantages.
+    TKN acquired by the system backs the bTKN supply: while a portion of the TKN
+    in the treasury is directly redeemable by bTKN holders, another portion
+    contributes permanently to the redeemable value through its yield. Along
+    with the yield retained from pending bonds, bTKN benefits from a rapidly
+    rising price floor, making it an attractive investment.
 - key: learnings
   title: Learnings
   shortTitle: Learnings
