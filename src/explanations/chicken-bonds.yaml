@@ -145,3 +145,12 @@
     premium over the underlying TKN. This provides the protocol with both
     permanent and redeemable TKN liquidity, which can be used for different
     needs based on the needs of the project.
+
+
+    ### Downsides
+
+    - Though chicken bonds are a great instrument financially, it can be a bit
+    overwhelming for new users
+
+    - The system is dynamic, that means that there can be instances when, people
+    who bond early get less rewards than those who join later.
