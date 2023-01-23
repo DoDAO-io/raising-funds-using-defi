@@ -9,14 +9,12 @@
     for their end users. 
 
 
-    Here users can purchase the bonds using a token(e.g. TNK). When the bond is
-    purchased it has zero number of bTokens. bTokens are self accruing tokens,
-    so its value keeps on increasing.  At a certain time in future the user who
-    purchases the bonds breaks even on its investment, i.e. the at that time
-    the 
-
-    `price of bToken * quantity = price of TKN * quantity invested in bond`. The
-    bTokens accrued over and above this point is user's profit. 
+    Bond purchasers can buy bonds using a token (e.g. TNK). When the bond is
+    purchased, it has zero bTokens. bTokens are self-accruing tokens, so their
+    value keeps increasing. At a certain time in the future, the bond purchaser
+    breaks even on their investment, i.e. the `price of bToken * quantity =
+    price of TKN * quantity invested in bond`. The bTokens accrued over and
+    above this point is the user's profit.
 
 
     The yield amplification is achieved by directing additional yield from POL
