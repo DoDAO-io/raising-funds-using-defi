@@ -15,7 +15,8 @@
     purchases the bonds breaks even on its investment, i.e. the at that time
     the 
 
-    `price of bToken * quantity = price of TKN * quantity invested in bond`. 
+    `price of bToken * quantity = price of TKN * quantity invested in bond`. The
+    bTokens accrued over and above this point is user's profit. 
 
 
     The yield amplification is achieved by directing additional yield from POL
