@@ -305,7 +305,12 @@
     in one of the following chapters.
 
 
-    2. 
+    2. **veToken Model** - Using this model, significant portion of the newly
+    minted token rewards go to the investors, who buy the native token of the
+    project and lock it up for a certain time. Locking of the token proves(can
+    be 4 years of lockup time) that the investor believes in long term success
+    of the protocol and protocols. This model was first introduced by Curve
+    protocol.
 - key: staking
   shortTitle: Staking
   details: >-
