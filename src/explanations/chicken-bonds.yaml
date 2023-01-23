@@ -35,9 +35,52 @@
     rising price floor, making it an attractive investment.
 - key: learnings
   title: Learnings
-  shortTitle: Learnings
+  shortTitle: Treasury
   details: >
-    ### Learnings
+    ## Buckets
+
+    The protocol operates a Treasury that consists of three logical parts
+    (“buckets”): Pending Bucket, Reserve Bucket and Permanent Bucket.
+
+
+    #### Pending Bucket 
+
+    Contains the TKN bonded by users that are still active bond holders, i.e.
+
+    whose deposits haven’t been acquired by the protocol yet. Since bond holders
+    may withdraw
+
+    their bonded TKN at will (chicken out), their deposits are considered as
+    pending.
+
+    The yield earned by the Pending Bucket is credited to the Reserve Bucket.
+
+
+    #### Reserve Bucket
+
+    Contains a portion of the TKN relinquished by former bond holders after a
+
+    "chicken in" event as well as the yield of the Pending and the Permanent
+    Buckets.
+
+    The Reserve Bucket directly backs the bTKN supply through the redemption
+    mechanism.
+
+
+    #### Permanent Bucket
+
+    Contains the other portion of the TKN relinquished by former bond holders.
+    The yield earned by the Permanent Bucket is credited to the Reserve Bucket.
+
+
+    Having a Permanent Bucket may turn out as unnecessary or even detrimental
+    for some use cases.
+
+    As an alternative, the protocol can thus be set up without a Permanent
+    Bucket
+
+
+
 
 
     It is understood that the user bonds the protocol tokens in return for a
