@@ -423,9 +423,9 @@
         },
         {
           "key": "refernces",
-          "title": "References",
           "shortTitle": "References",
-          "details": "- https://bondprotocol.finance/ - https://docs.bondprotocol.finance/ - https://medium.com/@Bond_Protocol - https://eyesoftheworld.substack.com/p/olympus-pro\n"
+          "details": "- https://bondprotocol.finance/ \n- https://docs.bondprotocol.finance/ \n- https://medium.com/@Bond_Protocol \n- https://eyesoftheworld.substack.com/p/olympus-pro\n",
+          "title": "References"
         }
       ],
       "questions": [
