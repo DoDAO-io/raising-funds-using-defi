@@ -28,4 +28,5 @@ We will see many new ways that projects can raise money through DeFi or by using
  | S.No        | Title       | Contents   | Links      | Status      | Completion Week |
  | ----------- | ----------- |----------- |----------- | ----------- | ----------- |
  | 1      | Intoduction | | [Details](generated/topics/intoduction.md) <br/> [Explanations](generated/explanations/intoduction.md) <br/>  <br/>  <br/>  | undefined | undefined |
- | 2      | Chicken bonds | | [Details](generated/topics/chicken-bonds.md) <br/> [Explanations](generated/explanations/chicken-bonds.md) <br/>  <br/>  <br/> [Questions](generated/questions/chicken-bonds.md) | undefined | undefined | 
+ | 2      | Chicken bonds | | [Details](generated/topics/chicken-bonds.md) <br/> [Explanations](generated/explanations/chicken-bonds.md) <br/>  <br/>  <br/> [Questions](generated/questions/chicken-bonds.md) | undefined | undefined |
+ | 3      | Bond Protocol | | [Details](generated/topics/bond-protocol.md) <br/> [Explanations](generated/explanations/bond-protocol.md) <br/>  <br/>  <br/> [Questions](generated/questions/bond-protocol.md) | undefined | undefined | 

@@ -69,6 +69,12 @@ topics:
       deepen the protocol owned liquidity of their own token.
     explanations: chicken-bonds.yaml
     questions: chicken-bonds.yaml
+  - key: bond-protocol
+    title: Bond Protocol
+    details: >
+      Bond Protocol was born out of OIP-104 on July 15th, 2022 following the success of Olympus Pro (OP), enabling it to establish a standalone entity. It aims to be a credibly neutral platform, laser-focused on providing Bonds-as-a-Service to meet the needs of DeFi with innovative ideas.
+    explanations: bond-protocol.yaml
+    questions: bond-protocol.yaml
 courseAdmins:
   - '0x47a67e14b3804dc652b3a3200d8c00d4f55abb6b'
 coursePassContent: Pass content of Course !!!!!!!!!!
