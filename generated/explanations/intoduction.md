@@ -6,15 +6,23 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  ## Intoduction
  
  **Crowdfunding Issues **        
-- Unlike existing crowdfunding platforms, Catalyst offers incentive-driven fundraising where backers can potentially earn a return on their contribution.
-- Enables Price Discovery
-- 
+## Traditional Fundraising
+Traditional methods of fundraising can be quite limiting and outdated, often not taking into consideration new techniques that could make the project more appealing to not just venture capitalists, but to the community or customers as well. Some limitations of existing fundraising methods include:
 
+- Projects that speak VC-friendly language can easily raise funds, limiting access for first time founders or creators. 
+- The process can be time-consuming and frustrating, often requiring a lot of upfront work with no guarantee of success. 
+- Price is set by the founders or VCs, without any price discovery. 
+- Most investment opportunities are only available to accredited investors, i.e. people earning more than $200,000 (or a few other constraints)
 
+## DeFi Fundraising
+In DeFi projects, one or more tokens can be issued and then sold by the project using some of the fundraising primitives that have been developed in the ecosystem.  One thing to note is that many of the projects in Crypto might not adhere to security laws (selling of the shares/stocks in open market) and it is very important to do your proper research before you decide to use one of the DeFi primitives for fundraising. The most common DeFi primitives for fundraising currently used are:
+1. **Bonding Curves** - Bootstrapping funds with earlier investors being rewarded more lucrative than those who join the project later on.
+2. **Liquidity Mining/Yield Farming** - Offering native tokens to investors in exchange for providing liquidity to the protocol which can be used for trading, lending, or borrowing. This structure allows investors to have nearly full control over the funds and they can choose to exit the position when desired.
+3. **Staking** - Staking allows investors to deposit their funds with a protocol and earn interest on them. In the event of an unexpected loss of funds, some money may be deducted from the deposited funds. 
+4. **DeFi Bonds** - DeFi bonds are an innovative mechanism that allows investors to purchase tokens at a discount. Investors purchase the bonds and then get access to the tokens once the bond matures.
+5. **Quadratic Funding** - In this crowdfunding method, money from a central matching pool is allocated based on which projects are more democratically supported as opposed to those into which more capital goes.
 
-## Trust with Blockchain
- There are solutions out there in cooperative structures: communities come together around shared goals (the commons) and value their local communities and environments. They have their own non-hierarchical governance structures and decision-making processes. These are great solutions, but they have a problem. They rely on trust, which today is person to person — this doesn’t scale. So how can we scale this trust and these coordination mechanisms to apply commons-type solutions on a global scale?
-
+We will cover each of these funding methods in the following sections. 
 
 ## References
 - https://medium.com/giveth/the-commons-stack-scaling-the-commons-to-re-prioritize-people-and-the-planet-fdc076aec4eb
@@ -40,10 +48,12 @@ Early buyers of tokens have a considerable upside potential when compared with l
 The most significant advantage that Bonding Curves have over traditional asset pricing methods is the fact that the pricing of assets is transparent, set in stone(on-chain), and unchanging at all points. The market is able to reach a collective agreement through well-defined rules, without needing outside intervention. Because the cost per token is decided by the curve/formula, every person involved knows how much each token will cost ahead of time. This allows for a honest and just market where everyone knows the score.
 
 ### Buying/Minting tokens from bonding curve:
-- A bonding curve smart contract is created that allows users to buy/mint a new token (eg. Bonding Curve Token, BCT) with by supplying a currency for example USDC.
-- The price of BCT is algorithmically calculated in relation to its current circulating supply and shown in its reserve currency, USDC.
-- By providing USDC to the contract, the user can buy the new BCT token through a smart contract. 
+- A bonding curve smart contract is created that allows users to buy/mint a new token (eg. Bonding Curve Token, ABC) with by supplying a currency for example USDC.
+- The price of ABC is algorithmically calculated in relation to its current circulating supply and shown in its reserve currency, USDC.
+- By providing USDC to the contract, the user can buy the new ABC token through a smart contract. 
 - After the user completes their purchase, the price of the token will move along the bonding curve in relation to the amount of supply the user has just minted (likely moving the price up for future buyers)
+- A ABC holder can choose to burn or sell their token back to the curve at any time. If the price of the token goes up after they purchase it, they will likely sell it at a profit (minus gas and fees). They will receive the bonded USDC back from the smart contract after their sell is approved.
+
 
 ### Key benefits of bonding curves:
 - Limitless Supply - Normally there is no limit to the number of tokens that can be minted.
@@ -51,25 +61,26 @@ The most significant advantage that Bonding Curves have over traditional asset p
 - Continuous Price - The price of token n is less than token n+1 and more than token n-1.
 - Immediate Liquidity - Tokens can be bought or sold instantaneously at any time.
 
+### Limitations
+* Basic forms of bonding curves don't keep a minimal reserve that might be needed to bootstrap the project.
+* Users can buy or sell the tokens to the bonding curve, but minting of new tokens based on time schedule is not possible. This could be an issue for new projects that need to compensate for an initial burn rate.
+
 ### Augmented Bonding Curves
+The most basic form of a bonding curve is "x = y." By adding more variables or constraints to the formula, you can make the bonding curve more suitable to the needs of your project. The Augmented Bonding Curve, explained below, is one such example of how bonding curves can be extended.
+
 The Augmented Bonding Curve design can be conceptualized as a typical bonding curve with the addition of a funding pool, a token lock-up/vesting mechanism, and inter-system feedback loops. The system is launched in two stages: the Hatch Phase and the Open Phase.
 
 <img style="max-height:600px" src="https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/augmented_bonding_curve.png" />
+
 `Source: https://medium.com/giveth/deep-dive-augmented-bonding-curves-3f1f7c1fa751`
 
-During the Hatch Phase, initial contributors (i.e. founding members of the organization, devoted contributors, initial investors or “Hatchers”) participate in a hatch sale. The point of this phase is to gather contributors and pool capita. A percentage is put into the Reserve Pool and “bonded” to the curve (i.e. minting tokens and determining the initial spot price used during the Open Phase) and a percentage is put into the Funding Pool. The capital in the Funding Pool remains un-bonded as a floating source of capital that can be distributed as real capital outside of the bonding curve. For their contribution, Hatchers receive newly minted tokens, specific to the Commons, in return.
+The Hatch Phase is designed to allow initial contributors (founding members, devoted contributors, initial investors, etc.) to participate in a hatch sale. The purpose of this phase is to gather contributors and pool capital. A percentage of the capital is put into the Reserve Pool and used to mint tokens and determine the initial spot price during the Open Phase. The remaining capital in the Funding Pool is un-bonded and can be distributed as real capital outside of the bonding curve.
 
-In a typical bonding curve system, these tokens could then be burned at any point or after an arbitrary temporal deadline. In an augmented bonding curve system, tokens minted during the Hatch Phase are locked (burning is disabled) in a vesting process. This vesting period combats any harmful early speculation/arbitrage that would affect the stability of the Reserve Pool. Although burning tokens to withdraw DAI is disabled, Hatchers’ tokens are far from useless — they can still be used to curate options for future capital allocation. Early in the system, this token usage is critical to ensure the capital in the Funding Pool is allocated to community initiatives, research projects and development milestones which will help grow the commons.
+In a typical bonding curve system, the tokens can be burned at any time. However, in an augmented bonding curve system, the tokens minted during the Hatch Phase are locked and cannot be burned. This is to prevent any early speculation or arbitrage that could affect the stability of the Reserve Pool. It's important to have funds locked early on in the system to make sure that the capital in the Funding Pool is allocated to community initiatives, research projects and development milestones that will help the commons grow.
 
-After the goal for the Hatch Sale is met, the vesting process is initialized and the system enters the Open Phase. In the Open Phase, anyone can mint tokens by contributing DAI into the curve, hence becoming ‘members of the Commons’. Their contribution will go directly into the Reserve Pool, returning newly minted unlocked tokens that can be burned or used to vote within the system. For the Hatchers, the first inter-system feedback loop comes into play. The Hatchers tokens are slowly unlocked in correlation to how much capital has been allocated to fund projects that support the commons. This means that for the Hatchers’ tokens to vest, capital from the Funding Pool has to be allocated to fund projects that positively impact the commons. With this vesting process and introduction of a governance model (we will be exploring Conviction Voting), members of the Commons (token holders), are economically incentivized to participate in the system’s governance process to allocate funding to curated projects that have the most beneficial impact on the Commons. This combats a known incentive misalignment observed in capital-allocating DAOs — in which capital allocations are rare because members are too selective or stingy with funds.
+Once the goal for the Hatch Sale is reached, the new tokens go into a reserve pool where they can be bought or sold according to the bonding curve. The Hatchers tokens are gradually unlocked through this vesting process.
 
-Finally, whenever tokens are burned (withdrawn for DAI → $), an exit tax is enacted on liquidation. As Members “cash out” and liquidate their tokens for DAI, a small percentage of their returns are sent back into the Funding Pool, allowing for the simultaneous funding of the commons while contributors are earning returns. This means the system always benefits, even if speculators are just looking to make returns.
-
-The goal of the system is to attract new members of the Commons that see the impact of the Commons and want to be a part of the movement so that the Funding Pool can grow.
-
-
-
-
+Whenever tokens are burned, an exit tax is enacted on liquidation. As members "cash out" and liquidate their funds, a small percentage of their returns are sent back into the funding pool, allowing for the simultaneous funding of the commons while contributors are earning returns. This means that the system always benefits - even if speculators are just looking to make a quick return.
  
 ### References
 - https://hackernoon.com/what-are-bonding-curve-offerings-xi2k34bm
@@ -79,26 +90,49 @@ The goal of the system is to attract new members of the Commons that see the imp
 - https://medium.com/molecule-blog/designing-different-fundraising-scenarios-with-sigmoidal-token-bonding-curves-ceafc734ed97
 - https://blog.goodaudience.com/rewriting-the-story-of-human-collaboration-c33a8a4cd5b8
 - https://medium.com/giveth/deep-dive-augmented-bonding-curves-3f1f7c1fa751
+- https://medium.com/aventus/token-bonding-curves-683b8b309c18
  
  **Liquidity Mining**        
-## Liquidity Mining
-Liquidity mining is a process where users can earn rewards for providing liquidity to a decentralized finance (DeFi) platform, typically by holding and trading a specific asset or group of assets within a liquidity pool. The rewards are typically paid out in the form of the platform's native token, and are designed to incentivize users to help increase the liquidity of the platform. This can help to improve the overall functioning of the platform, making it more attractive to other users and helping to drive further adoption.
+Liquidity mining and yield farming are two terms that are often used interchangeably in DeFi. 
 
-## Yield Farming
-Yield farming is a type of liquidity mining that involves providing liquidity to decentralized finance (DeFi) platforms in order to earn returns in the form of various cryptocurrencies. Yield farming typically involves lending, borrowing, or staking assets in order to earn interest, receive dividends, or earn other types of returns. It is often done through smart contracts on blockchain platforms, which automate the process and provide transparency and security. The term "yield farming" is used because the returns earned through these activities can be quite high, similar to the returns earned through traditional farming.
+There are currently more than 50 DEXs and 50 lending and borrowing protocols, but only a few of each have achieved significant adoption. These platforms face a chicken and an egg problem, i.e. the more liquidity (funds) they have, the better the trade will be, and the more users will come to their protocol, which will further increase the funds and liquidity on the protocol.
 
-## Liquidity Mining vs Yield Farming
-The main difference between liquidity mining and yield farming is that liquidity mining typically refers to the process of providing liquidity to a decentralized finance (DeFi) platform in order to earn rewards, while yield farming specifically refers to the process of providing liquidity in order to earn high returns through lending, borrowing, or staking assets.
+Not just the amount of a crypto currently, but also the number of crypto currencies supported on a protocol also matters a lot. So to attract investors to bring money, most of these protocols offer rewards and share percentage of their fees. Rewards offered to the protocols are mostly the percentage of the trading fee and rewarding their native token. For example, 0x protocol offers ZRX tokens as rewards to its investors.
 
-Both liquidity mining and yield farming are used to incentivize users to help increase the liquidity of a DeFi platform, but yield farming is more focused on the earning of high returns, and the term "yield farming" is often used to emphasize the high returns earned through the process.
+In the summer of 2020 and in 2021, we saw an influx of new projects offering investors and users huge rewards in order to attract them to their protocols. Most of these projects are in competition with one another, so investors have been able to take advantage of this by moving their funds around to different protocols and earning high rewards. As the rewards decreased or if another platform offered more attractive rewards, investors moved their funds again.
 
-Another point to note is that liquidity mining is not limited to DeFi, it could be used in traditional finance too, while yield farming is specific to DeFi ecosystem
+## Drawbacks of Liquidity Mining
+There are several drawbacks to attracting liquidity simply by giving native tokens in exchange:
+1. The liquidity providers are not motivated to help the protocol grow in the long term, so they may move to other protocols that offer better short-term rewards.
+2. By giving away native tokens, protocols increase the total supply of their tokens in the market, which can cause prices to drop.
+3. Even after providing heavy rewards, the investors remain in full control of the liquidity and can choose to leave the protocol at any time.
 
+There are two common designs that different projects have adopted to combat this problem:
 
+1. **Protocol Owned Liquidity** - Using this protocols sell their native tokens in the form of bonds at a discounted price in exchange for the needed assets. Bonds generally have a maturity date or vesting schedule towards distribution of native tokens. This mechanism is covered in detail in one of the following chapters. 
 
+2. **veToken Model** - The veToken Model is a way of distributing newly minted tokens to investors who buy the native token of the project and lock it up for a certain period of time. This act of locking up the token proves that the investor believes in the long term success of the protocol and shows their commitment to the project. This model was first introduced by Curve protocol. 
+ **Staking**        
 
+## Background
+Most enterprises need coverage for unforeseen events that could lead to financial losses, and this coverage is typically provided by insurance providers or investors. However, with the advent of decentralized finance (DeFi) protocols, it is now possible for anyone to stake/provide their funds to be used for the coverage of such losses. In return, the protocols usually reward these investors with either their native currency or some other form of compensation, in order to account for the risk they take by staking their funds.
 
- 
+## What is Staking?
+Staking is the process of holding and locking up digital assets, such as cryptocurrencies, as a means of providing security for a protocol. By staking their assets, investors can earn rewards in the form of new tokens, interest, or other incentives. The specifics of staking can differ depending on the protocol, but it is generally a way for users to earn a return on their crypto assets while supporting the project.
+
+## Examples
+Following are two of the many examples where protocols using staking mechanism to raise funds
+
+#### **Aave** 
+The Aave Safety Module (SM) is a Smart Contract-based component that allows Aave holders to lock their tokens. This locked AAVE will be used as a way to help mitigate any Shortfall Events that may occur within the money markets of the Aave ecosystem. A Shortfall Event is defined as a deficit, and the interpretation or occurrence of such an event is subject to Protocol Governance vote.
+
+If a Shortfall Event occurs, part of the locked AAVE is auctioned off on the market to be sold in order to cover the deficit that occurred. The Safety Module has a built-in backstop mechanism in place to prevent an excess flow of AAVE into the open market, which would further reduce the value of AAVE. Participants who lock AAVE into the Safety Module are effectively accepting the possibility of a Shortfall Event occurring, in exchange for receiving rewards in the form of Safety Incentives.
+
+#### **Sherlock** 
+When you stake USDC with Sherlock for a fixed term(6 months, 12 months etc.), you earn a market-leading APY in exchange for the risk that your funds could be used to pay out an exploit at a covered protocol. The APY for a staker is made up of three streams:
+1) Premiums from protocol customers
+2) Interest earned from depositing staker funds into yield strategies (Aave, Compound, etc.)
+3) Incentive rewards paid in SHER (Sherlock’s governance token) 
  **Bonds**        
 Bonds in DeFi are quite different from Traditional Bonds
 
@@ -116,52 +150,22 @@ There are a few common mechanics that we often see being used in bonds as a way 
 2. **Discount on Tokens**: To make the bonds more appealing, projects will sell them at a 
 3. **Protocol owned Liquidity**: This is often used when a project needs to gain access to various tokens that are utilized as part of the product. For instance, to demonstrate the full potential of a Decentralized Exchange or Lending & Borrowing, protocols require access to a great deal of liquidity of different tokens.
 4. **Secondary Markets**: Most of these bonds can be sold at a secondary market place, so the investor doesn't have to wait for the bond to mature.
- 
- **Building Economies**        
-Not long after the launch of Namecoin, Primecoin burst onto the scene. This network’s consensus mechanism involves identifying previously unknown prime numbers, and to date, Primecoin mining has led to the discovery of nearly 32 million prime numbers! In other words, the architects of this network succeeded in building an economy around the act of finding primes.
 
-As a CPU-mined cryptocurrency, there’s a distinct possibility that most of the mining being done on the Primecoin network is the work of botnets. Simply put, some jerk may have built malware to infect your grandma’s computer and force it to look for prime numbers. With all due respect to grandma, that is pretty awesome from the standpoint of mathematical research! We commend Primecoin on providing an outlet for such productive malfeasance.
-
-
-And of course, this story would be incomplete if we didn’t mention the Folding@home project. Predating the publication of the Bitcoin whitepaper by a full eight years, this incredible effort allows everyday people to contribute spare computing power to medical research that may hold answers to questions about Alzheimer’s, some cancers, and other serious maladies.
-
-At first, participants were asked to donate this computing power out of pure altruism. Later on, however, two teams created cryptocurrencies to reward those who take part in Folding@home: FoldingCoin, a token on the Bitcoin network; and CureCoin, the native asset of a dedicated blockchain.
-
-CureCoin & FoldingCoin successfully built a scalable economic system around an altruistic cause that allows all participants to profit accordingly to the value that they produce, as is typically seen in an efficient for-profit business models.
-
-Folding@home has inspired other distributed computing projects as well. UC Berkeley’s BOINC platform allows computer owners to contribute processing power to a range of efforts, including the search for extraterrestrial life via SETI@home. They can even receive rewards in the form of Gridcoin.
-
-Namecoin, Primecoin, and the coins attached to the @home projects have opened up a very interesting possibility. People who don’t care at all about curing cancer, or finding aliens, or any other underlying cause, may still ‘contribute’ to progress in that field by speculating on a related cryptocurrency, pushing up its price so that other people who aren’t interested in the topic still take notice and start mining it for profit. To put it another way, these projects have successfully created economies in which every participant, acting in their own self-interest, supports a worthy mission.
-
-### References
-- https://medium.com/giveth/blockchain-economies-and-the-commons-cdb67dd1a163 
+In the next chapters, we will be looking at a couple of protocols that provides ability to create and sell bonds. 
  **Other Techniques**        
 ## Quadratic Funding
-https://youtu.be/qyd7mvQmn5I?t=1220
 
-Created by Glen Wyel at Microsoft and Vitalik Buterin founder of Ethereum, with this mechanism you have a crowdfunding campaign that is allocated dollars from a central matching pool based on which projects are more democratically supported as opposed to those into which more capital goes. It is in opposition to 1:1 as that is plutocratic and based only on capital needs. It is instead based on the number of contributors as opposed to the amount funded, reducing whale power and favoring democratic.
-Example: You raise a grant that gets $100 from 100 contributors, and I raise a grant that gets $100 from 1 contributor, despite both grants being donated $100, you will get 99% of the matching pool. It’s a cool mechanism because it is a collective intelligence mechanism that routes money to where the  “poor and the many” have an advantage over the rich and the few.
+The Quadratic Funding mechanism, created by Glen Wyel at Microsoft and Vitalik Buterin, the founder of Ethereum, is a crowdfunding campaign in which dollars are allocated from a central matching pool to projects that are more democratically supported instead of those that receive more capital. This system is designed to reduce the power of whales (large investors) and favor democracy over plutocracy (a form of government in which the wealthy rule).
 
-You may give “only” a dollar, but really you are part of building an aggregate signal of what public goods folks want to see funded. Problems:
-* sybil attacks, needing to raise matching pool funds.
-* It’s like voting! Mitigating a plutocratic methodology with a one person: one vote identity style.
+Example: If you raise a grant that gets $100 from 100 contributors, and I raise a grant that gets $100 from 1 contributor, despite both grants being donated $100, you will get 99% of the matching pool. This is a great mechanism because it is a collective intelligence mechanism that routes money to where the  “poor and the many” have an advantage over the rich and the few.
 
+You may give "only" a dollar, but really you are part of building an aggregate signal of what public goods folks want to see funded. Problems like sybil attacks and the need to raise matching pool funds can be mitigated by using a one person: one vote identity style. 
 
 ## Retroactive Public Goods Funding 
-https://youtu.be/qyd7mvQmn5I?t=1680
-
-Karl Floersch is an inspiration for this mechanism, as they are implementing it at Optimism. It is a way of doing public goods funding retroactively. At Optimism, they are creating a committee of experts, and they’re channeling revenue from the Optimism network and asking that committee of experts which things in the past have delivered value to the ecosystem. The idea is that more talent will be directed toward developing public goods funding in the present based on the assurance that they will be rewarded for it in the future.
-
-## Hypercerts 
-https://youtu.be/qyd7mvQmn5I?t=2680
-Owocki is working on this mechanism with Protocol Labs. Carbon credits have market value; Hypercerts can generalize the magic of carbon credits into any impact vector. For example, I fix some potholes or pick up x-amount trash, etc. Any impact DAO could issue Hypercerts when their members have positive impact, and then bootstrap a marketplace of impact evaluators and get people who want to collect Hypercerts to show their virtue. Web2 = virtue-signaling. Web3 = proof-of-virtue.
-
-So we’re bootstrapping a triple-sided marketplace, where impact DAOs can issue Hypercerts, impact evaluators can stamp their legitimacy, and people who care can purchase them. Sum value is that any impact DAO can go from worrying about how much impact they can capture to how much they can create. That systematically shifts the incentives towards impact DAOs to having a business model, which means more capital and talent can rotate into impact DAOs. If you can create a decentralized signal generation collective intelligence marketplace, where people are issuing, evaluating and purchasing Hypercerts, you can have a decentralized data source about the impact.
-
-Challenge: why haven’t they worked in the past? Impact markets aren’t new. Owocki thinks the decentralized, blockchain aspect will make it reliable and successful. Bootstrapping the buy pressure will be the hardest part. We need to use social and cultural power to collect these things, then they’ll be successful. The dream is to create a market around it.
+Optimism is trying to do public goods funding retroactively by creating a committee of experts. They're taking revenue from the Optimism network and using it to pay the committee for their time researching which things in the past have delivered value to the ecosystem. The idea is that more talent will be directed toward developing public goods funding in the present based on the assurance that they will be rewarded for it in the future.
 
 ## References
-- https://medium.com/giveth/coordination-mechanisms-notes-from-a-conversation-with-griff-green-kevin-owocki-af95f3e831b1 
- **Staking**        
-Staking refers to the process of holding and locking up digital assets, such as cryptocurrencies, as collateral in order to earn a return on investment (ROI). This is typically done in order to provide security for a network or to vote on governance decisions for a decentralized platform. By staking their assets, users can earn rewards in the form of new tokens, interest, or other incentives. The specific details of staking can vary depending on the platform, but it is a way for users to earn a return on their crypto assets while supporting the network. 
+- https://medium.com/giveth/coordination-mechanisms-notes-from-a-conversation-with-griff-green-kevin-owocki-af95f3e831b1
+- https://youtu.be/qyd7mvQmn5I?t=1220
+- https://youtu.be/qyd7mvQmn5I?t=1680 
  
