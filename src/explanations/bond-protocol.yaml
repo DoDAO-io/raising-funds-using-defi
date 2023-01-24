@@ -102,10 +102,12 @@
 
 
     - **Issuer**: Create bond market by defining Payout Token to be paid out and
-    Quote Token to receive. - **User**: Purchase future-dated Payout Token with
-    Quote Token at the current market price and receive Bond Token to represent
-    their position while their bond vests. Once the Bond Token vest, it can be
-    redeemed for the Payout Token.
+    Quote Token to receive. 
+
+    - **User**: Purchase future-dated Payout Token with Quote Token at the
+    current market price and receive Bond Token to represent their position
+    while their bond vests. Once the Bond Token vest, it can be redeemed for the
+    Payout Token.
 
 
     ### Types of Bonds

@@ -405,9 +405,9 @@
         },
         {
           "key": "types-of-bonds",
-          "title": "Types of Bonds",
           "shortTitle": "Bond Types",
-          "details": "### Bond market participants\n\n- **Issuer**: Create bond market by defining Payout Token to be paid out and Quote Token to receive. - **User**: Purchase future-dated Payout Token with Quote Token at the current market price and receive Bond Token to represent their position while their bond vests. Once the Bond Token vest, it can be redeemed for the Payout Token.\n\n### Types of Bonds\n\n- **Fixed-term bonds**\n  * Each position vests a set amount of time after purchase (based on UTC timestamp)\n  * Tokenized as ERC1155\n\n- **Fixed-expiry bonds**\n  * All purchases vest at a specific timestamp\n  * Tokenized as ERC20\n  * Minimum 3 days vesting to maximum 9 months (on Bond Protocol front-end)\n"
+          "details": "### Bond market participants\n\n- **Issuer**: Create bond market by defining Payout Token to be paid out and Quote Token to receive. \n- **User**: Purchase future-dated Payout Token with Quote Token at the current market price and receive Bond Token to represent their position while their bond vests. Once the Bond Token vest, it can be redeemed for the Payout Token.\n\n### Types of Bonds\n\n- **Fixed-term bonds**\n  * Each position vests a set amount of time after purchase (based on UTC timestamp)\n  * Tokenized as ERC1155\n\n- **Fixed-expiry bonds**\n  * All purchases vest at a specific timestamp\n  * Tokenized as ERC20\n  * Minimum 3 days vesting to maximum 9 months (on Bond Protocol front-end)\n",
+          "title": "Types of Bonds"
         },
         {
           "key": "advantages",
