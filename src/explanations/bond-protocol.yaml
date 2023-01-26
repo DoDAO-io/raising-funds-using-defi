@@ -74,12 +74,11 @@
     accumulate their own liquidity. 
 
 
-    Protocol Owned Liquidity (POL) allows a protocol to provide guarantees to
-    users that there is always sufficient liquidity for normal market
-    operations. Without POL and relying on external liquidity providers, in
-    distress market conditions, liquidity is often pulled from the protocol,
-    exacerbating the situation with less exit liquidity (liquidity death
-    spiral).
+    Protocol Owned Liquidity (POL) allows a protocols to attain sufficient
+    liquidity for normal market operations. Without POL and relying on external
+    liquidity providers, in distress market conditions, liquidity is often
+    pulled from the protocol, exacerbating the situation with less exit
+    liquidity (liquidity death spiral).
 
 
     Another benefit is that POL transforms liquidity from a liability to a
