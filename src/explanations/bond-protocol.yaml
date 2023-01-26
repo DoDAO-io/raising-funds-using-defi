@@ -97,7 +97,7 @@
 - key: types-of-bonds
   title: Types of Bonds
   shortTitle: Bond Types
-  details: >
+  details: >-
     ### Bond market participants
 
 
@@ -116,11 +116,17 @@
     - **Fixed-term bonds**
       * Each position vests a set amount of time after purchase (based on UTC timestamp)
       * Tokenized as ERC1155
+      * Better for short-term programs,
 
     - **Fixed-expiry bonds**
       * All purchases vest at a specific timestamp
       * Tokenized as ERC20
       * Minimum 3 days vesting to maximum 9 months (on Bond Protocol front-end)
+      * Better for longer-term (3mo+) programs.
+
+
+    **More Here** -
+    https://medium.com/@Bond_Protocol/short-long-term-bonds-1103a3f4412d
 - key: advantages
   title: Advantages
   shortTitle: Advantages
