@@ -417,9 +417,9 @@
         },
         {
           "key": "growth-and-adoption",
-          "title": "Growth and Adoption",
           "shortTitle": "Growth",
-          "details": "### Growth and Adoption of Bonds Protocol\nBond Protocol has achieved tremendous success through bonds. The protocol amassed over $150 million in assets in its first six months. This is greater than many protocols' TVL, and it will never have to pay for them again. Not only that, but the majority of these assets are productive; rather than costing the protocol money, they generate it.\nOlympus changed the game with its bonding mechanism to acquire liquidity. Olympus-style bonds have been around for almost [18 months](https://olympusdao.medium.com/introducing-olympus-pro-d8db3052fca5) and have been used by over 50 protocols on 7 chains. Bonding allows savvy protocols to generate on-demand liquidity using their governance tokens. The total bonded value stands at [$18 million](https://app.bondprotocol.finance/#/issuers) as of Jan 2023 with [750+](https://app.bondprotocol.finance/#/issuers) total bonds.\n"
+          "details": "### Growth and Adoption of Bonds Protocol\nBond Protocol has achieved tremendous success through bonds. The protocol amassed over $150 million in assets in its first six months. This is greater than many protocols' TVL, and it will never have to pay for them again. Not only that, but the majority of these assets are productive; rather than costing the protocol money, they generate it.\nOlympus changed the game with its bonding mechanism to acquire liquidity. Olympus-style bonds have been around for almost [18 months](https://olympusdao.medium.com/introducing-olympus-pro-d8db3052fca5) and have been used by over 50 protocols on 7 chains. Bonding allows savvy protocols to generate on-demand liquidity using their governance tokens. \n\nThe total bonded value stands at [~$22 million](https://app.bondprotocol.finance/#/issuers) as of Jan 26, 2023 with [885+](https://app.bondprotocol.finance/#/issuers) total bonds.\n",
+          "title": "Growth and Adoption"
         },
         {
           "key": "refernces",
