@@ -62,6 +62,12 @@
           "title": "Other Techniques",
           "shortTitle": "Other Techniques",
           "details": "## Quadratic Funding\n\nThe Quadratic Funding mechanism, created by Glen Wyel at Microsoft and Vitalik Buterin, the founder of Ethereum, is a crowdfunding campaign in which dollars are allocated from a central matching pool to projects that are more democratically supported instead of those that receive more capital. This system is designed to reduce the power of whales (large investors) and favor democracy over plutocracy (a form of government in which the wealthy rule).\n\nExample: If you raise a grant that gets $100 from 100 contributors, and I raise a grant that gets $100 from 1 contributor, despite both grants being donated $100, you will get 99% of the matching pool. This is a great mechanism because it is a collective intelligence mechanism that routes money to where the  “poor and the many” have an advantage over the rich and the few.\n\nYou may give \"only\" a dollar, but really you are part of building an aggregate signal of what public goods folks want to see funded. Problems like sybil attacks and the need to raise matching pool funds can be mitigated by using a one person: one vote identity style. \n\n## Retroactive Public Goods Funding \nOptimism is trying to do public goods funding retroactively by creating a committee of experts. They're taking revenue from the Optimism network and using it to pay the committee for their time researching which things in the past have delivered value to the ecosystem. The idea is that more talent will be directed toward developing public goods funding in the present based on the assurance that they will be rewarded for it in the future.\n\n## References\n- https://medium.com/giveth/coordination-mechanisms-notes-from-a-conversation-with-griff-green-kevin-owocki-af95f3e831b1\n- https://youtu.be/qyd7mvQmn5I?t=1220\n- https://youtu.be/qyd7mvQmn5I?t=1680"
+        },
+        {
+          "key": "whale-problem",
+          "shortTitle": "Whale Problem",
+          "details": "Whale Problem\n\n\nWhale Problem\n\n\nWhale Problem",
+          "title": "Whale Problem"
         }
       ],
       "questions": [],
