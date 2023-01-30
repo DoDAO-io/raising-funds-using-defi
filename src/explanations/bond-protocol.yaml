@@ -169,10 +169,6 @@
     assets and LP tokens. The vesting period, bond capacity, and market duration
     can be tuned to suit your protocol’s needs. 
 
-    ![Bond Protocol
-    Architecture](https://github.com/DoDAO-io/raising-funds-using-defi/blob/4f970f73ec8f4da8e093487828a261be6facce7c/images/bond_protocol_architecture.png?raw=true)
-    `Reference: https://docs.bondprotocol.finance/`
-
 
     - **Composable**: Bond purchasers receive Bond Tokens (tokenized bonds) that
     represent their positions which allow for the creation of secondary markets.
