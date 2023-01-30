@@ -23,7 +23,7 @@
     significant change from the traditional way of liquidity mining, where
     projects rent liquidity with rewards.
 
-     ![Flow of funds in traditional model](https://github.com/DoDAO-io/raising-funds-using-defi/blob/4f970f73ec8f4da8e093487828a261be6facce7c/images/flow_of_funds_in_traditional_model.png?raw=true) `Reference: https://docs.bondprotocol.finance/`
+     ![Flow of funds in traditional model](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/flow_of_funds_in_traditional_model.png) `Reference: https://docs.bondprotocol.finance/`
 
     In the earlier DeFi model, projects pay tokens from their treasury over a
     set period of time to rent liquidity and the attention of liquidity
@@ -39,7 +39,7 @@
 
 
     ![Flow of funds using
-    bonding](https://github.com/DoDAO-io/raising-funds-using-defi/blob/4f970f73ec8f4da8e093487828a261be6facce7c/images/flow_of_funds_using_bonding.png?raw=true)
+    bonding](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/flow_of_funds_using_bonding.png)
     `Reference: https://docs.bondprotocol.finance/`
 
 
