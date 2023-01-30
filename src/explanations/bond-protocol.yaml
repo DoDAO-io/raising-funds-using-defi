@@ -72,8 +72,11 @@
     largest discount.
 
 
-    Below image is a good visualization of how it works: ![Dutch
-    Auction](https://github.com/DoDAO-io/raising-funds-using-defi/blob/4f970f73ec8f4da8e093487828a261be6facce7c/images/dutch_auction.png?raw=true)
+    Below image is a good visualization of how it works: 
+
+
+    ![Dutch
+    Auction](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/dutch_auction.png)
     `Reference:
     https://medium.com/@Bond_Protocol/auctions-what-the-dutch-80e4bb3ee7ad`
 
