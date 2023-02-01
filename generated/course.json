@@ -730,15 +730,6 @@
       ],
       "readings": [],
       "summaries": []
-    },
-    {
-      "key": "regulations",
-      "title": "Regulations",
-      "details": "When issuing tokens it is very important to be aware of different regulatory implications. Here we try to touch upon some of the most important points\n\n## U.S. Securities and Exchange Commission (SEC)\nIn the United States, cryptocurrencies have received a lot of attention from both federal and state governments. The SEC typically has authority over the issuance or resale of any security token or other digital asset that constitutes security.\n\nThe SEC has been unequivocal in its opinion that even if a token issued in an ICO has utility, the token will still be deemed a security that is subject to the Securities Act if it meets elements of the Howey test.\n\nSecurities such as stocks and debt instruments, and also investment contracts, are under the direction of the SEC. Derivatives such as futures and swaps pertaining to commodities are under the oversight of the CFTC, unless those commodities are securities.\n\nThe future of cryptocurrency regulation is still an open question.\n\n## Howey Test\nThe Howey Test is derived from a 1946 Supreme Court ruling in the case of the SEC v. W.J. Howey Co., which has been reaffirmed by the courts several times. Under the Howey Test, a transaction is considered a security if the following four criteria are met:\n- Money is invested.\n- There is an expectation the investor will earn a profit.\n- The investment is in a common enterprise.\n- Profits are generated via the efforts of others.\n\n## Notable Regulations\nSome of the most crucial legal frameworks that help you to fundraise from retail or private investors to offer you approval and remain compliant include the following.\n1. **Reg CF** - Reg CF permits non-accredited (retail) investors to purchase private companies up to a certain limit depending on either their net-worth or annual income, helping businesses raise up to $5 million per year.\n2. **Reg A** - Regulation A Tier 2 (the Mini-IPO/Reg A) is a less demanding variation of initial public offering (IPO). It's less regulated and can be used to raise up to $75 million every 12 months. It enables retail investors to invest alongside accredited and institutional investors\n3. **Reg D** - Regulation D, Rule 506 allows accredited investors to invest in private investment firms without an upper limit and without having to go public.\n\n\n\n ",
-      "explanations": [],
-      "readings": [],
-      "summaries": [],
-      "questions": []
     }
   ]
 }
