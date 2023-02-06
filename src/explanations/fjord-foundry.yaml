@@ -1,0 +1,144 @@
+- key: intro-to-fjord-foundry
+  title: What is Fjord Foundry?
+  shortTitle: Fjord Foundry
+  details: >
+    ### What is Fjord Foundry?
+        
+
+    Fjord Foundry is a community platform that connects project teams with passionate supporters via Liquidity Bootstrapping Pools (LBP's). It empowers project teams to generate liquidity directly through community participation. The creators of Fjord Foundry believe in a world where decentralized, permissionless engagement creates the ideal conditions for bold ideas to thrive and gives individuals and communities the power to shape the future they want to see.
+    
+    
+    Fjord Foundry specializes in Fair Launch Auctions (FLAs) - a crowdfunding mechanism that enables projects and ideas from around the world to raise money from individuals without any barriers to entry. The platform is designed to make it easy for users to create and use Liquidity Bootstrapping Pools (LBPs) through its intuitive and user-friendly website. The main concept of Fjord Foundry is to allow for the distribution of tokens and NFTs with a transparent, open, and fair price discovery mechanism. The platform has a long-standing reputation in the industry, which has led to an [exclusive collaboration agreement](https://snapshot.org/#/balancer.eth/proposal/0xcc065f373e15a264e1647bc794a4a83039fc4d377a69875ec828eb0148faa4ba) between the Balancer DAO and Fjord Foundry. This agreement allows Fjord Foundry to offer the most cutting-edge and efficient LBP technology to its users.
+    
+    
+    #### Why Choose Fjord?
+
+
+    Fjord Foundry is a community platform that offers several advantages over other platforms. 
+
+
+    - **Sniper Bots** 
+    One of the key advantages of Fjord Foundry is its resistance to sniper bots. On other platforms, the token or NFT launch process is often gamed by experienced developers who use bots specifically designed to detect when a new token or NFT is listed, allowing them to scoop up all of the supply before anyone else even has a chance. However, Fjord Foundry has implemented a built-in high-low price discovery mechanism, which makes it resistant to sniper bots. This allows users to join in whenever they feel the price is fair.
+
+    - **Providing Equal Opportunity** 
+    Another advantage of Fjord Foundry is its provision of equal opportunity. On Fjord Foundry, whales, VCs, and other large players are unable to game the start of liquidity bootstrapping pools (LBPs), which means the average person is given the opportunity to participate in these opportunities without worrying about asymmetric information that can affect launch events. The platform provides open and transparent token and NFT LBPs, with all the information users need right in front of them.
+
+    - **Sustainable Communities** 
+    Fjord Foundry also promotes sustainable communities by deterring sniper bots and allowing communities equal opportunity to participate in token and NFT launch events. This fosters a sense of trust and ownership among community members, which can encourage greater community involvement and more engaged communities over the long term.
+
+    - **Price Discovery** 
+    Fjord Foundry's LBP's allow for price discovery, as the price of the token starts high and drops over time based on a pre-configured price decay curve. This can be resisted by buying pressure from participants, and anyone can buy into or sell out of the LBP freely at any time, so the price truly regulates itself.
+
+    - **Proven Track Record** 
+    Fjord Foundry has a proven track record of hosting the highest volume and enabling teams to bootstrap the highest amount when compared to other comparable platforms, by a significant margin. The platform encourages wider community participation, and users do not need to rely on traditional funding methods to build their ideas.
+
+
+- key: liquidity-bootstrapping-pool
+  title: What is Liquidity Bootstrapping Pool?
+  shortTitle: LBP
+  details: >
+    ### What is a Liquidity Bootstrapping Pool?
+
+
+    A Liquidity Bootstrapping Pool (LBP) is a specific configuration of [Balancer's Liquidity Pools](https://docs.balancer.fi/products/balancer-pools/liquidity-bootstrapping-pools-lbps). LBPs are primarily used to distribute digital tokens using a fair, open, and transparent price discovery mechanism.
+
+
+    Liquidity Bootstrapping Pools (LBPs) are just smart pools that can change token weighting dynamically (for example, 1/99 to 99/1 for TokenA/TokenB). [Weighted Math](https://docs.balancer.fi/concepts/math/weighted-math) along with time-dependent weights is used by LBPs. The pool owner, who also has the ability to pause exchanges, chooses the starting and ending weights and timings.
+
+
+    Consider the beginning price of your LBP to be the ceiling you wish to set for the token sale. This may appear contradictory, but because LBPs operate differently than other token sales, your starting price should be significantly higher than what you believe to be the reasonable price. This does not imply that you are attempting to sell the token for more than it is worth. Setting a high initial price allows the changing pool weights of your LBP to fully effect the price, gradually dropping it until market equilibrium is established. Unlike previous token sale methods, such as bonding curves, consumers are disincentivized to buy early and instead gain from waiting for the price to fall until it hits a level they consider fair.
+
+
+    Below image gives nice visualization of how the price discovery curve varies with start and end weights.
+
+
+    But having said that, price does not always keep decreasing as it not only depends on the weights but also takes the demand into consideration. Thus the price can also increase if there is an increased demand. [Here](https://fjordfoundry.com/pools/mainnet/0xCe7B614d4898125a6B0D398AF3A8A7EB318416A0) is an example:
+
+
+    [Here](https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2) is a primer on fair token launches and liquidity bootstrapping pools if you want to dive deeper.
+
+
+    You can also follow the steps [here](https://help.fjordfoundry.com/fjord-foundry-docs/for-lbp-hosts/how-to-create-an-lbp) to create an LBP yourself.
+
+
+    Below is a visual representation of the pool weight distribution shifting:
+
+
+    #### Key Features
+
+
+    * **Price discovery** - One of the key features of LBPs is the mechanism of price discovery. The price of the token starts high and drops based on a pre-configured price decay curve. This process can be resisted by buying pressure from LBP participants, and anyone can buy into or sell out of the LBP freely at any time, so the price truly regulates itself.
+
+
+    * **Permissionless participation** - Another feature of LBPs is open and permissionless participation. Unlike other platforms, LBPs do not require whitelists, hard caps, or listing requirements. There is no minimum or maximum allocation and LBP participants are free to choose how much they want to buy.
+
+    
+    * **Fair distribution** - LBPs also promote fair distribution of tokens, flipping the first-come-first-serve launch model on its head. This ensures that it's no longer a race where the first bot in or the transaction with the highest gas fee wins. It allows for getting tokens into the hands of as many people as possible in a fair way that disincentives front-runners and whales from getting better rates than smaller participants.
+
+    
+    * **Capital efficiency** - Lastly, LBPs provide capital efficiency, as The initial value of the project's token in LBP can be multiplied by up to 99 times in relation to the collateral put with it. Furthermore, unless the project's tokens already exist outside of the LBP, the collateral can be fully reclaimed at the end of the LBP, in which case someone may choose to sell into the LBP.
+
+
+- key: liquidity-bootstrapping-pool-continue
+  title: Token divestments via LBPs
+  shortTitle: Token divestments
+  details: >
+    ### How does Fjord support token divestments via LBPs?
+    
+    
+    Fjord can support sustainable token divestment of token assets for projects and DAOs that hold the tokens of another project in their treasury via a partnership or agreement. It is common for there to be donations made of tokens to a particular charity or group or a need to generate liquidity for tokens held in the treasury. However, it can be challenging to divest these tokens without harming the market and/or community for that token. Additionally, it can be time-consuming to constantly undertake this process.
+
+
+    Many projects have given large portions of tokens to well-known groups and figureheads. For example, Vitalik Buterin received trillions of Shiba Inu tokens while Gitcoin also received trillions of Akita Inu tokens via Vitalik ($5 million USD in value). The Gitcoin community was left with the question of what was the most efficient, fair, and appropriate way to maximize the sale value of the tokens while not causing an immediate and negative impact to the token price and the AKITA community.
+
+
+    The answer for Gitcoin was a Balancer Liquidity Bootstrapping (LBP) Pool created and hosted by Fjord Foundry. The price decay mechanics of an LBP allow for true price discovery, and for price decay to occur via weighted pools over a time duration that can be customized to the LBP owner's choosing. In the instance of Gitcoin, the LBP was scheduled over a period of 365 days, ensuring a supply shock did not instantly crash the price of the token.
+
+
+    Additionally, the Fjord platform allows for both buying and selling of AKITA, so the price is able to generally keep equilibrium with the current market price available on alternative exchanges, with some savvy traders able to take quick advantage of any arbitrage opportunities that may arise from any price discrepancies. Due to the slow price decay over a long time horizon and the arbitrage opportunity, the main token of the LBP, in this case AKITA, is slowly absorbed by the overall crypto market in exchange for WETH without a drastic impact to AKITA price.
+
+
+- key: redemption-pools
+  title: What are Redemption Pools?
+  shortTitle: Redemption Pools
+  details: >
+    ### What are Redemption Pools?
+
+    
+    These are special pools that allow projects to progressively distribute a token over a defined time period in exchange for a specified base token (In some cases this could be releasing a governance token in exchange for LP). During the Redemption Pool period, users can exchange the base token for the project's token, which contributes to the collective decision of the asset's fair value.
+    
+    
+    Previously, only particular base tokens (USDC, DAI, ETH, WETH) were available as assets for projects to accumulate via standard [Liquidity Bootstrapping Pools (LBPs) on Fjord](https://help.fjordfoundry.com/fjord-foundry-docs/welcome-info/welcome-to-fjord-foundry), however redemption pools let any asset to be designated for that role. 
+
+
+    #### Protocol Owned Liquidity via Redemption Pools
+
+
+    A protocol may desire to acquire POL from an audience that is optimistic on the protocol and wants to be more involved in it (among other things) in exchange for a reduced governance token. The protocol can set up a Redemption Pool on Fjord, which not only allows for the above distribution but also allows protocol members to collectively choose the discount of the governance token compared to the liquidity they provide to the protocol.
+
+
+    This form of governance token distribution allows the project to progressively distribute their token while acquiring more control over their liquidity.Furthermore, the extended time horizon for token distribution, as opposed to distributing over a condensed time period, allows a project to reduce point in time risk and provides greater flexibility to adjust the governance token distribution rate.
+
+
+    Redemption Pools can also be carried out in a sequential manner based on the needs of the project and do not have to be a single event. Sequentially launching Redemption Pools allows teams to tune the pool's weights and other factors as needed to support the continuing distribution of their token while also ensuring the discount rate falls within the intended target.
+
+
+    #### Token Buybacks via Redemption Pools
+    
+    
+    Token buybacks via redemption pools can be a powerful tool for decentralized autonomous organizations (DAOs) and projects to support the price of their native token during volatile market conditions. Redemption pools allow for efficient buybacks by providing a mechanism for the treasury to purchase its own tokens with reduced volatility, while also maximizing the number of tokens that are returned to the treasury.
+
+
+    When undertaking token buybacks via traditional automated market maker (AMM) models, treasuries may not be realizing the full potential of their buyback efforts. They may need to buy their token at a higher price, which can lead to a short-term spike in the token's value. However, this also means that fewer tokens are returned to the treasury, which can have a negative long-term impact on the price of the token. As a result, the overall impact of the buyback may not be as effective as it could have been, with less value accrued by the treasury in terms of quantity of tokens.
+
+
+    Conversely, undertaking a treasury buyback via Fjord's weighted liquidity pools allows projects to accumulate governance tokens back to the treasury in a slow and steady manner. The use of weighted pools enables a reduced market impact, leading to a higher accrual of tokens, less tokens on the market, and an improved composition of the treasury. This approach can help to ensure that token buybacks are effective in supporting the price of the token over the long term, by taking a more sustainable approach to removing tokens from circulation.
+
+
+- key: refernces
+  title: References
+  shortTitle: References
+  details: >
+    - https://fjordfoundry.com/
+    - https://help.fjordfoundry.com/fjord-foundry-docs/welcome-info/welcome-to-fjord-foundry
+    - https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2

@@ -1,0 +1,170 @@
+- uuid: fed2ef38-e906-4e1b-93bf-d4ec5bdf3ac3
+  type: SingleChoice
+  content: What is Fjord Foundry?
+  hint: NoHint
+  explanation: Fjord Foundry is a community platform that connects project teams with passionate supporters via Liquidity Bootstrapping Pools (LBP's). It empowers project teams to generate liquidity directly through community participation.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: A platform that raises money for individuals
+      key: A
+    - content: A platform that empowers project teams to generate liquidity directly through community participation
+      key: B
+    - content: A platform for money exchange
+      key: C
+    - content: A platform that creates sniper bots
+      key: D
+- uuid: 863ed099-ee12-4ca3-bca6-4a8bf8ef10d6
+  type: SingleChoice
+  content: How should the starting price of an LBP be set in comparison to what is believed to be the reasonable price?
+  hint: NoHint
+  explanation: Consider the beginning price of your LBP to be the ceiling you wish to set for the token sale. This may appear contradictory, but because LBPs operate differently than other token sales, your starting price should be significantly higher than what you believe to be the reasonable price. This does not imply that you are attempting to sell the token for more than it is worth.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: The same
+      key: A
+    - content: Significantly higher
+      key: B
+    - content: Comparable
+      key: C
+    - content: Significantly lower
+      key: D
+- uuid: a63726bc-1e36-4d9a-97b8-0fc8b405fac7
+  type: SingleChoice
+  content: Who chooses the starting and ending weights and timings in a Liquidity Bootstrapping Pool (LBP)?
+  hint: NoHint
+  explanation: The pool owner, who also has the ability to pause exchanges, chooses the starting and ending weights and timings.
+  answerKeys:
+    - A
+  difficultyLevel: Low
+  choices:
+    - content: The pool owner
+      key: A
+    - content: The pool participant
+      key: B
+    - content: The pool user
+      key: C
+    - content: The pool buyer
+      key: D
+- uuid: 2f1ea1ea-2bc3-403d-8caa-33155fc9403e
+  type: SingleChoice
+  content: What is the goal of setting a high initial price in a Liquidity Bootstrapping Pool (LBP)?
+  hint: NoHint
+  explanation: Setting a high initial price allows the changing pool weights of your LBP to fully effect the price, gradually dropping it until market equilibrium is established. Unlike previous token sale methods, such as bonding curves, consumers are disincentivized to buy early and instead gain from waiting for the price to fall until it hits a level they consider fair.
+  answerKeys:
+    - A
+  difficultyLevel: Low
+  choices:
+    - content: To sell the token for more than it is worth
+      key: A
+    - content: To allow the changing pool weights to fully effect the price
+      key: B
+    - content: To incentivize consumers to buy early
+      key: C
+    - content: To keep the price low
+      key: D
+- uuid: 923474a6-ec1a-47f6-8bf2-6139e4bf0b73
+  type: SingleChoice
+  content: Who can participate in LBPs?
+  hint: NoHint
+  explanation: On Fjord Foundry, whales, VCs, and other large players are unable to game the start of liquidity bootstrapping pools (LBPs), which means the average person is given the opportunity to participate in these opportunities without worrying about asymmetric information that can affect launch events.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: Those who have been whitelisted
+      key: A
+    - content: Anyone
+      key: B
+    - content: Only people with enough money
+      key: C
+    - content: Participants who meet the minimum or maximum allocation
+      key: D
+- uuid: adee7b00-ae1d-431c-82fb-4362cc778bce
+  type: SingleChoice
+  content: What feature of Fjord Foundry makes it resistant to sniper bots?
+  hint: NoHint
+  explanation: Fjord Foundry has implemented a built-in high-low price discovery mechanism, which makes it resistant to sniper bots. This allows users to join in whenever they feel the price is fair.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: A virtual queueing system for distributing tickets fairly
+      key: A
+    - content: An automated system for identifying suspicious behaviour
+      key: B
+    - content: A blockchain-based authentication system for tickets
+      key: C
+    - content: A built-in high-low price discovery mechanism
+      key: D
+- uuid: 9d94333d-1466-4fd2-a5c4-9e661f781fa1
+  type: SingleChoice
+  content: Is there a minimum or maximum allocation for LBP participants?
+  hint: NoHint
+  explanation: Unlike other platforms, LBPs do not require whitelists, hard caps, or listing requirements. There is no minimum or maximum allocation and LBP participants are free to choose how much they want to buy.
+  answerKeys:
+    - B
+  difficultyLevel: Low
+  choices:
+    - content: Yes, there is a minimum and maximum allocation.
+      key: A
+    - content: No, there is no minimum or maximum allocation.
+      key: B
+    - content: There is a minimum allocation, but no maximum allocation.
+      key: C
+    - content: There is a maximum allocation, but no minimum allocation.
+      key: D
+- uuid: 39b074b3-54f5-4fce-933e-f70a4441d933
+  type: SingleChoice
+  content: What is a key feature of Liquidity Bootstrapping Pools (LBPs)?
+  hint: NoHint
+  explanation: Some of the key features of LBPs are Permissionless participant, Price discovery, Capital efficiency and Fair distribution.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: Permissionless participation
+      key: A
+    - content: Price discovery
+      key: B
+    - content: Capital efficiency
+      key: C
+    - content: All of the above
+      key: D
+- uuid: b59363b6-e306-4c35-b611-eef7316d830a
+  type: SingleChoice
+  content: What happens during the Redemption Pool period?
+  hint: NoHint
+  explanation: Redemption pools are special pools that allow projects to progressively distribute a token over a defined time period in exchange for a specified base token (In some cases this could be releasing a governance token in exchange for LP). During the Redemption Pool period, users can exchange the base token for the project's token, which contributes to the collective decision of the asset's fair value.
+  answerKeys:
+    - C
+  difficultyLevel: Low
+  choices:
+    - content: Users pay for a governance token in exchange for liquidation tokens.
+      key: A
+    - content: Users can exchange the project's token for the base token.
+      key: B
+    - content: Users can exchange the base token for the project's token.
+      key: C
+    - content: Users decide an asset's fair value by making collective decisions.
+      key: D
+- uuid: 1f4a383e-9251-4ae7-97e0-7376e901fe0c
+  type: SingleChoice
+  content: What is the mechanism of price discovery in LBPs?
+  hint: NoHint
+  explanation: Price is determined by a number of factors such as demand and thus does not necessarily increase or decrease.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: A. Price starts low and increases based on a pre-configured price decay curve.
+      key: A
+    - content: B. Price starts high and drops based on a pre-configured price decay curve.
+      key: B
+    - content: C. Price remains constant and does not change.
+      key: C
+    - content: D. Price is determined by a number of factors such as demand and thus does not necessarily increase or decrease
+      key: D
