@@ -770,9 +770,9 @@
         },
         {
           "key": "refernces",
-          "title": "References",
           "shortTitle": "References",
-          "details": "- https://fjordfoundry.com/ - https://help.fjordfoundry.com/fjord-foundry-docs/welcome-info/welcome-to-fjord-foundry - https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2\n"
+          "details": "- https://fjordfoundry.com/ \n- https://help.fjordfoundry.com/fjord-foundry\n- docs/welcome-info/welcome-to-fjord-foundry \n- https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2\n",
+          "title": "References"
         }
       ],
       "questions": [
