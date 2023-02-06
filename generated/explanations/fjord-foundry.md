@@ -34,13 +34,15 @@ Consider the beginning price of your LBP to be the ceiling you wish to set for t
 
 Below image gives nice visualization of how the price discovery curve varies with start and end weights.
 
+![Price Discovery in LBP](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/price-discovery-in-lbp.gif)
+
 But having said that, price does not always keep decreasing as it not only depends on the weights but also takes the demand into consideration. Thus the price can also increase if there is an increased demand. [Here](https://fjordfoundry.com/pools/mainnet/0xCe7B614d4898125a6B0D398AF3A8A7EB318416A0) is an example:
+
+![KAP LBP](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/kap-lbp.png)
 
 [Here](https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2) is a primer on fair token launches and liquidity bootstrapping pools if you want to dive deeper.
 
 You can also follow the steps [here](https://help.fjordfoundry.com/fjord-foundry-docs/for-lbp-hosts/how-to-create-an-lbp) to create an LBP yourself.
-
-Below is a visual representation of the pool weight distribution shifting:
 
 #### Key Features
 
@@ -57,6 +59,7 @@ Below is a visual representation of the pool weight distribution shifting:
 
 Fjord can support sustainable token divestment of token assets for projects and DAOs that hold the tokens of another project in their treasury via a partnership or agreement. It is common for there to be donations made of tokens to a particular charity or group or a need to generate liquidity for tokens held in the treasury. However, it can be challenging to divest these tokens without harming the market and/or community for that token. Additionally, it can be time-consuming to constantly undertake this process.
 
+![How does Fjord support sustainable token divestments via LBPs](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/how_does_fjord_support_sustainable_token_divestments_via_lbp.png)
 Many projects have given large portions of tokens to well-known groups and figureheads. For example, Vitalik Buterin received trillions of Shiba Inu tokens while Gitcoin also received trillions of Akita Inu tokens via Vitalik ($5 million USD in value). The Gitcoin community was left with the question of what was the most efficient, fair, and appropriate way to maximize the sale value of the tokens while not causing an immediate and negative impact to the token price and the AKITA community.
 
 The answer for Gitcoin was a Balancer Liquidity Bootstrapping (LBP) Pool created and hosted by Fjord Foundry. The price decay mechanics of an LBP allow for true price discovery, and for price decay to occur via weighted pools over a time duration that can be customized to the LBP owner's choosing. In the instance of Gitcoin, the LBP was scheduled over a period of 365 days, ensuring a supply shock did not instantly crash the price of the token.
@@ -73,8 +76,7 @@ Previously, only particular base tokens (USDC, DAI, ETH, WETH) were available as
 #### Protocol Owned Liquidity via Redemption Pools
 
 A protocol may desire to acquire POL from an audience that is optimistic on the protocol and wants to be more involved in it (among other things) in exchange for a reduced governance token. The protocol can set up a Redemption Pool on Fjord, which not only allows for the above distribution but also allows protocol members to collectively choose the discount of the governance token compared to the liquidity they provide to the protocol.
-
-This form of governance token distribution allows the project to progressively distribute their token while acquiring more control over their liquidity.Furthermore, the extended time horizon for token distribution, as opposed to distributing over a condensed time period, allows a project to reduce point in time risk and provides greater flexibility to adjust the governance token distribution rate.
+![How does Fjord Support POL via Redemption Pools](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/how_does_fjord_support_pol_via_redemption_pools.png) This form of governance token distribution allows the project to progressively distribute their token while acquiring more control over their liquidity.Furthermore, the extended time horizon for token distribution, as opposed to distributing over a condensed time period, allows a project to reduce point in time risk and provides greater flexibility to adjust the governance token distribution rate.
 
 Redemption Pools can also be carried out in a sequential manner based on the needs of the project and do not have to be a single event. Sequentially launching Redemption Pools allows teams to tune the pool's weights and other factors as needed to support the continuing distribution of their token while also ensuring the discount rate falls within the intended target.
 

@@ -55,12 +55,12 @@
   hint: NoHint
   explanation: Setting a high initial price allows the changing pool weights of your LBP to fully effect the price, gradually dropping it until market equilibrium is established. Unlike previous token sale methods, such as bonding curves, consumers are disincentivized to buy early and instead gain from waiting for the price to fall until it hits a level they consider fair.
   answerKeys:
-    - A
+    - B
   difficultyLevel: Low
   choices:
     - content: To sell the token for more than it is worth
       key: A
-    - content: To allow the changing pool weights to fully effect the price
+    - content: To allow the changing pool weights to fully effect the price and disincentivize consumers to buy early
       key: B
     - content: To incentivize consumers to buy early
       key: C
@@ -147,7 +147,7 @@
       key: A
     - content: Users can exchange the project's token for the base token.
       key: B
-    - content: Users can exchange the base token for the project's token.
+    - content: Users can exchange the base token for the project's token and progressively distribute the token over a defined time period
       key: C
     - content: Users decide an asset's fair value by making collective decisions.
       key: D
@@ -160,11 +160,29 @@
     - D
   difficultyLevel: Low
   choices:
-    - content: A. Price starts low and increases based on a pre-configured price decay curve.
+    - content: Price starts low and increases based on a pre-configured price decay curve.
       key: A
-    - content: B. Price starts high and drops based on a pre-configured price decay curve.
+    - content: Price starts high and drops based on a pre-configured price decay curve.
       key: B
-    - content: C. Price remains constant and does not change.
+    - content: Price remains constant and does not change.
       key: C
-    - content: D. Price is determined by a number of factors such as demand and thus does not necessarily increase or decrease
+    - content: Price is determined by a number of factors such as demand and thus does not necessarily increase or decrease
       key: D
+- uuid: bc8c3242-ba49-4f19-ac01-60066d59d94f
+  type: SingleChoice
+  content: Which of these is not a configuration option while creating a new LBP?
+  hint: NoHint
+  explanation: Price is determined by a number of factors such as demand and can not be predetermined. Thus it is not available as a configuration option.
+  answerKeys:
+    - D
+  difficultyLevel: Low
+  choices:
+    - content: Start weight
+      key: A
+    - content: End weight
+      key: B
+    - content: Duration
+      key: C
+    - content: Final Price
+      key: D
+

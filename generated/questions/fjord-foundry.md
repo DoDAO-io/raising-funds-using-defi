@@ -58,8 +58,8 @@ Sub Topics: No Sub-Topics
 
 ##### What is the goal of setting a high initial price in a Liquidity Bootstrapping Pool (LBP)?  
 
-- [x]  To sell the token for more than it is worth
-- [ ]  To allow the changing pool weights to fully effect the price
+- [ ]  To sell the token for more than it is worth
+- [x]  To allow the changing pool weights to fully effect the price and disincentivize consumers to buy early
 - [ ]  To incentivize consumers to buy early
 - [ ]  To keep the price low
   
@@ -140,7 +140,7 @@ Sub Topics: No Sub-Topics
 
 - [ ]  Users pay for a governance token in exchange for liquidation tokens.
 - [ ]  Users can exchange the project's token for the base token.
-- [x]  Users can exchange the base token for the project's token.
+- [x]  Users can exchange the base token for the project's token and progressively distribute the token over a defined time period
 - [ ]  Users decide an asset's fair value by making collective decisions.
   
 Hint: NoHint
@@ -154,14 +154,30 @@ Sub Topics: No Sub-Topics
 
 ##### What is the mechanism of price discovery in LBPs?  
 
-- [ ]  A. Price starts low and increases based on a pre-configured price decay curve.
-- [ ]  B. Price starts high and drops based on a pre-configured price decay curve.
-- [ ]  C. Price remains constant and does not change.
-- [x]  D. Price is determined by a number of factors such as demand and thus does not necessarily increase or decrease
+- [ ]  Price starts low and increases based on a pre-configured price decay curve.
+- [ ]  Price starts high and drops based on a pre-configured price decay curve.
+- [ ]  Price remains constant and does not change.
+- [x]  Price is determined by a number of factors such as demand and thus does not necessarily increase or decrease
   
 Hint: NoHint
          
 Explanation: Price is determined by a number of factors such as demand and thus does not necessarily increase or decrease.
+
+Sub Topics: No Sub-Topics
+ 
+
+---
+
+##### Which of these is not a configuration option while creating a new LBP?  
+
+- [ ]  Start weight
+- [ ]  End weight
+- [ ]  Duration
+- [x]  Final Price
+  
+Hint: NoHint
+         
+Explanation: Price is determined by a number of factors such as demand and can not be predetermined. Thus it is not available as a configuration option.
 
 Sub Topics: No Sub-Topics
  
