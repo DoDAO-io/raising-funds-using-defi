@@ -736,6 +736,338 @@
       ],
       "readings": [],
       "summaries": []
+    },
+    {
+      "title": "Fjord Foundry",
+      "key": "fjord-foundry",
+      "details": "Fjord Foundry is a community platform that connects project teams with passionate supporters via Liquidity Bootstrapping Pools (LBP's). It empowers project teams to generate liquidity directly through community participation. The creators of Fjord Foundry believe in a world where decentralized, permissionless engagement creates the ideal conditions for bold ideas to thrive and gives individuals and communities the power to shape the future they want to see.\n",
+      "order": 3,
+      "explanations": [
+        {
+          "key": "intro-to-fjord-foundry",
+          "title": "What is Fjord Foundry?",
+          "shortTitle": "Fjord Foundry",
+          "details": "### What is Fjord Foundry?\n    \n\nFjord Foundry is a community platform that connects project teams with passionate supporters via Liquidity Bootstrapping Pools (LBP's). It empowers project teams to generate liquidity directly through community participation. The creators of Fjord Foundry believe in a world where decentralized, permissionless engagement creates the ideal conditions for bold ideas to thrive and gives individuals and communities the power to shape the future they want to see.\n\nFjord Foundry specializes in Fair Launch Auctions (FLAs) - a crowdfunding mechanism that enables projects and ideas from around the world to raise money from individuals without any barriers to entry. The platform is designed to make it easy for users to create and use Liquidity Bootstrapping Pools (LBPs) through its intuitive and user-friendly website. The main concept of Fjord Foundry is to allow for the distribution of tokens and NFTs with a transparent, open, and fair price discovery mechanism. The platform has a long-standing reputation in the industry, which has led to an [exclusive collaboration agreement](https://snapshot.org/#/balancer.eth/proposal/0xcc065f373e15a264e1647bc794a4a83039fc4d377a69875ec828eb0148faa4ba) between the Balancer DAO and Fjord Foundry. This agreement allows Fjord Foundry to offer the most cutting-edge and efficient LBP technology to its users.\n\n#### Why Choose Fjord?\n\nFjord Foundry is a community platform that offers several advantages over other platforms. \n\n- **Sniper Bots**  One of the key advantages of Fjord Foundry is its resistance to sniper bots. On other platforms, the token or NFT launch process is often gamed by experienced developers who use bots specifically designed to detect when a new token or NFT is listed, allowing them to scoop up all of the supply before anyone else even has a chance. However, Fjord Foundry has implemented a built-in high-low price discovery mechanism, which makes it resistant to sniper bots. This allows users to join in whenever they feel the price is fair.\n- **Providing Equal Opportunity**  Another advantage of Fjord Foundry is its provision of equal opportunity. On Fjord Foundry, whales, VCs, and other large players are unable to game the start of liquidity bootstrapping pools (LBPs), which means the average person is given the opportunity to participate in these opportunities without worrying about asymmetric information that can affect launch events. The platform provides open and transparent token and NFT LBPs, with all the information users need right in front of them.\n- **Sustainable Communities**  Fjord Foundry also promotes sustainable communities by deterring sniper bots and allowing communities equal opportunity to participate in token and NFT launch events. This fosters a sense of trust and ownership among community members, which can encourage greater community involvement and more engaged communities over the long term.\n- **Price Discovery**  Fjord Foundry's LBP's allow for price discovery, as the price of the token starts high and drops over time based on a pre-configured price decay curve. This can be resisted by buying pressure from participants, and anyone can buy into or sell out of the LBP freely at any time, so the price truly regulates itself.\n- **Proven Track Record**  Fjord Foundry has a proven track record of hosting the highest volume and enabling teams to bootstrap the highest amount when compared to other comparable platforms, by a significant margin. The platform encourages wider community participation, and users do not need to rely on traditional funding methods to build their ideas.\n"
+        },
+        {
+          "key": "liquidity-bootstrapping-pool",
+          "title": "What is Liquidity Bootstrapping Pool?",
+          "shortTitle": "LBP",
+          "details": "### What is a Liquidity Bootstrapping Pool?\n\nA Liquidity Bootstrapping Pool (LBP) is a specific configuration of [Balancer's Liquidity Pools](https://docs.balancer.fi/products/balancer-pools/liquidity-bootstrapping-pools-lbps). LBPs are primarily used to distribute digital tokens using a fair, open, and transparent price discovery mechanism.\n\nLiquidity Bootstrapping Pools (LBPs) are just smart pools that can change token weighting dynamically (for example, 1/99 to 99/1 for TokenA/TokenB). [Weighted Math](https://docs.balancer.fi/concepts/math/weighted-math) along with time-dependent weights is used by LBPs. The pool owner, who also has the ability to pause exchanges, chooses the starting and ending weights and timings.\n\nConsider the beginning price of your LBP to be the ceiling you wish to set for the token sale. This may appear contradictory, but because LBPs operate differently than other token sales, your starting price should be significantly higher than what you believe to be the reasonable price. This does not imply that you are attempting to sell the token for more than it is worth. Setting a high initial price allows the changing pool weights of your LBP to fully effect the price, gradually dropping it until market equilibrium is established. Unlike previous token sale methods, such as bonding curves, consumers are disincentivized to buy early and instead gain from waiting for the price to fall until it hits a level they consider fair.\n\nBelow image gives nice visualization of how the price discovery curve varies with start and end weights.\n\nBut having said that, price does not always keep decreasing as it not only depends on the weights but also takes the demand into consideration. Thus the price can also increase if there is an increased demand. [Here](https://fjordfoundry.com/pools/mainnet/0xCe7B614d4898125a6B0D398AF3A8A7EB318416A0) is an example:\n\n[Here](https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2) is a primer on fair token launches and liquidity bootstrapping pools if you want to dive deeper.\n\nYou can also follow the steps [here](https://help.fjordfoundry.com/fjord-foundry-docs/for-lbp-hosts/how-to-create-an-lbp) to create an LBP yourself.\n\nBelow is a visual representation of the pool weight distribution shifting:\n\n#### Key Features\n\n* **Price discovery** - One of the key features of LBPs is the mechanism of price discovery. The price of the token starts high and drops based on a pre-configured price decay curve. This process can be resisted by buying pressure from LBP participants, and anyone can buy into or sell out of the LBP freely at any time, so the price truly regulates itself.\n\n* **Permissionless participation** - Another feature of LBPs is open and permissionless participation. Unlike other platforms, LBPs do not require whitelists, hard caps, or listing requirements. There is no minimum or maximum allocation and LBP participants are free to choose how much they want to buy.\n\n* **Fair distribution** - LBPs also promote fair distribution of tokens, flipping the first-come-first-serve launch model on its head. This ensures that it's no longer a race where the first bot in or the transaction with the highest gas fee wins. It allows for getting tokens into the hands of as many people as possible in a fair way that disincentives front-runners and whales from getting better rates than smaller participants.\n\n* **Capital efficiency** - Lastly, LBPs provide capital efficiency, as The initial value of the project's token in LBP can be multiplied by up to 99 times in relation to the collateral put with it. Furthermore, unless the project's tokens already exist outside of the LBP, the collateral can be fully reclaimed at the end of the LBP, in which case someone may choose to sell into the LBP.\n"
+        },
+        {
+          "key": "liquidity-bootstrapping-pool-continue",
+          "title": "Token divestments via LBPs",
+          "shortTitle": "Token divestments",
+          "details": "### How does Fjord support token divestments via LBPs?\n\nFjord can support sustainable token divestment of token assets for projects and DAOs that hold the tokens of another project in their treasury via a partnership or agreement. It is common for there to be donations made of tokens to a particular charity or group or a need to generate liquidity for tokens held in the treasury. However, it can be challenging to divest these tokens without harming the market and/or community for that token. Additionally, it can be time-consuming to constantly undertake this process.\n\nMany projects have given large portions of tokens to well-known groups and figureheads. For example, Vitalik Buterin received trillions of Shiba Inu tokens while Gitcoin also received trillions of Akita Inu tokens via Vitalik ($5 million USD in value). The Gitcoin community was left with the question of what was the most efficient, fair, and appropriate way to maximize the sale value of the tokens while not causing an immediate and negative impact to the token price and the AKITA community.\n\nThe answer for Gitcoin was a Balancer Liquidity Bootstrapping (LBP) Pool created and hosted by Fjord Foundry. The price decay mechanics of an LBP allow for true price discovery, and for price decay to occur via weighted pools over a time duration that can be customized to the LBP owner's choosing. In the instance of Gitcoin, the LBP was scheduled over a period of 365 days, ensuring a supply shock did not instantly crash the price of the token.\n\nAdditionally, the Fjord platform allows for both buying and selling of AKITA, so the price is able to generally keep equilibrium with the current market price available on alternative exchanges, with some savvy traders able to take quick advantage of any arbitrage opportunities that may arise from any price discrepancies. Due to the slow price decay over a long time horizon and the arbitrage opportunity, the main token of the LBP, in this case AKITA, is slowly absorbed by the overall crypto market in exchange for WETH without a drastic impact to AKITA price.\n"
+        },
+        {
+          "key": "redemption-pools",
+          "title": "What are Redemption Pools?",
+          "shortTitle": "Redemption Pools",
+          "details": "### What are Redemption Pools?\n\nThese are special pools that allow projects to progressively distribute a token over a defined time period in exchange for a specified base token (In some cases this could be releasing a governance token in exchange for LP). During the Redemption Pool period, users can exchange the base token for the project's token, which contributes to the collective decision of the asset's fair value.\n\nPreviously, only particular base tokens (USDC, DAI, ETH, WETH) were available as assets for projects to accumulate via standard [Liquidity Bootstrapping Pools (LBPs) on Fjord](https://help.fjordfoundry.com/fjord-foundry-docs/welcome-info/welcome-to-fjord-foundry), however redemption pools let any asset to be designated for that role. \n\n#### Protocol Owned Liquidity via Redemption Pools\n\nA protocol may desire to acquire POL from an audience that is optimistic on the protocol and wants to be more involved in it (among other things) in exchange for a reduced governance token. The protocol can set up a Redemption Pool on Fjord, which not only allows for the above distribution but also allows protocol members to collectively choose the discount of the governance token compared to the liquidity they provide to the protocol.\n\nThis form of governance token distribution allows the project to progressively distribute their token while acquiring more control over their liquidity.Furthermore, the extended time horizon for token distribution, as opposed to distributing over a condensed time period, allows a project to reduce point in time risk and provides greater flexibility to adjust the governance token distribution rate.\n\nRedemption Pools can also be carried out in a sequential manner based on the needs of the project and do not have to be a single event. Sequentially launching Redemption Pools allows teams to tune the pool's weights and other factors as needed to support the continuing distribution of their token while also ensuring the discount rate falls within the intended target.\n\n#### Token Buybacks via Redemption Pools\n\nToken buybacks via redemption pools can be a powerful tool for decentralized autonomous organizations (DAOs) and projects to support the price of their native token during volatile market conditions. Redemption pools allow for efficient buybacks by providing a mechanism for the treasury to purchase its own tokens with reduced volatility, while also maximizing the number of tokens that are returned to the treasury.\n\nWhen undertaking token buybacks via traditional automated market maker (AMM) models, treasuries may not be realizing the full potential of their buyback efforts. They may need to buy their token at a higher price, which can lead to a short-term spike in the token's value. However, this also means that fewer tokens are returned to the treasury, which can have a negative long-term impact on the price of the token. As a result, the overall impact of the buyback may not be as effective as it could have been, with less value accrued by the treasury in terms of quantity of tokens.\n\nConversely, undertaking a treasury buyback via Fjord's weighted liquidity pools allows projects to accumulate governance tokens back to the treasury in a slow and steady manner. The use of weighted pools enables a reduced market impact, leading to a higher accrual of tokens, less tokens on the market, and an improved composition of the treasury. This approach can help to ensure that token buybacks are effective in supporting the price of the token over the long term, by taking a more sustainable approach to removing tokens from circulation.\n"
+        },
+        {
+          "key": "refernces",
+          "title": "References",
+          "shortTitle": "References",
+          "details": "- https://fjordfoundry.com/ - https://help.fjordfoundry.com/fjord-foundry-docs/welcome-info/welcome-to-fjord-foundry - https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2\n"
+        }
+      ],
+      "questions": [
+        {
+          "uuid": "fed2ef38-e906-4e1b-93bf-d4ec5bdf3ac3",
+          "type": "SingleChoice",
+          "content": "What is Fjord Foundry?",
+          "hint": "NoHint",
+          "explanation": "Fjord Foundry is a community platform that connects project teams with passionate supporters via Liquidity Bootstrapping Pools (LBP's). It empowers project teams to generate liquidity directly through community participation.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "A platform that raises money for individuals",
+              "key": "A"
+            },
+            {
+              "content": "A platform that empowers project teams to generate liquidity directly through community participation",
+              "key": "B"
+            },
+            {
+              "content": "A platform for money exchange",
+              "key": "C"
+            },
+            {
+              "content": "A platform that creates sniper bots",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "863ed099-ee12-4ca3-bca6-4a8bf8ef10d6",
+          "type": "SingleChoice",
+          "content": "How should the starting price of an LBP be set in comparison to what is believed to be the reasonable price?",
+          "hint": "NoHint",
+          "explanation": "Consider the beginning price of your LBP to be the ceiling you wish to set for the token sale. This may appear contradictory, but because LBPs operate differently than other token sales, your starting price should be significantly higher than what you believe to be the reasonable price. This does not imply that you are attempting to sell the token for more than it is worth.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "The same",
+              "key": "A"
+            },
+            {
+              "content": "Significantly higher",
+              "key": "B"
+            },
+            {
+              "content": "Comparable",
+              "key": "C"
+            },
+            {
+              "content": "Significantly lower",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a63726bc-1e36-4d9a-97b8-0fc8b405fac7",
+          "type": "SingleChoice",
+          "content": "Who chooses the starting and ending weights and timings in a Liquidity Bootstrapping Pool (LBP)?",
+          "hint": "NoHint",
+          "explanation": "The pool owner, who also has the ability to pause exchanges, chooses the starting and ending weights and timings.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "The pool owner",
+              "key": "A"
+            },
+            {
+              "content": "The pool participant",
+              "key": "B"
+            },
+            {
+              "content": "The pool user",
+              "key": "C"
+            },
+            {
+              "content": "The pool buyer",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "2f1ea1ea-2bc3-403d-8caa-33155fc9403e",
+          "type": "SingleChoice",
+          "content": "What is the goal of setting a high initial price in a Liquidity Bootstrapping Pool (LBP)?",
+          "hint": "NoHint",
+          "explanation": "Setting a high initial price allows the changing pool weights of your LBP to fully effect the price, gradually dropping it until market equilibrium is established. Unlike previous token sale methods, such as bonding curves, consumers are disincentivized to buy early and instead gain from waiting for the price to fall until it hits a level they consider fair.",
+          "answerKeys": [
+            "A"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "To sell the token for more than it is worth",
+              "key": "A"
+            },
+            {
+              "content": "To allow the changing pool weights to fully effect the price",
+              "key": "B"
+            },
+            {
+              "content": "To incentivize consumers to buy early",
+              "key": "C"
+            },
+            {
+              "content": "To keep the price low",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "923474a6-ec1a-47f6-8bf2-6139e4bf0b73",
+          "type": "SingleChoice",
+          "content": "Who can participate in LBPs?",
+          "hint": "NoHint",
+          "explanation": "On Fjord Foundry, whales, VCs, and other large players are unable to game the start of liquidity bootstrapping pools (LBPs), which means the average person is given the opportunity to participate in these opportunities without worrying about asymmetric information that can affect launch events.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Those who have been whitelisted",
+              "key": "A"
+            },
+            {
+              "content": "Anyone",
+              "key": "B"
+            },
+            {
+              "content": "Only people with enough money",
+              "key": "C"
+            },
+            {
+              "content": "Participants who meet the minimum or maximum allocation",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "adee7b00-ae1d-431c-82fb-4362cc778bce",
+          "type": "SingleChoice",
+          "content": "What feature of Fjord Foundry makes it resistant to sniper bots?",
+          "hint": "NoHint",
+          "explanation": "Fjord Foundry has implemented a built-in high-low price discovery mechanism, which makes it resistant to sniper bots. This allows users to join in whenever they feel the price is fair.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "A virtual queueing system for distributing tickets fairly",
+              "key": "A"
+            },
+            {
+              "content": "An automated system for identifying suspicious behaviour",
+              "key": "B"
+            },
+            {
+              "content": "A blockchain-based authentication system for tickets",
+              "key": "C"
+            },
+            {
+              "content": "A built-in high-low price discovery mechanism",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9d94333d-1466-4fd2-a5c4-9e661f781fa1",
+          "type": "SingleChoice",
+          "content": "Is there a minimum or maximum allocation for LBP participants?",
+          "hint": "NoHint",
+          "explanation": "Unlike other platforms, LBPs do not require whitelists, hard caps, or listing requirements. There is no minimum or maximum allocation and LBP participants are free to choose how much they want to buy.",
+          "answerKeys": [
+            "B"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Yes, there is a minimum and maximum allocation.",
+              "key": "A"
+            },
+            {
+              "content": "No, there is no minimum or maximum allocation.",
+              "key": "B"
+            },
+            {
+              "content": "There is a minimum allocation, but no maximum allocation.",
+              "key": "C"
+            },
+            {
+              "content": "There is a maximum allocation, but no minimum allocation.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "39b074b3-54f5-4fce-933e-f70a4441d933",
+          "type": "SingleChoice",
+          "content": "What is a key feature of Liquidity Bootstrapping Pools (LBPs)?",
+          "hint": "NoHint",
+          "explanation": "Some of the key features of LBPs are Permissionless participant, Price discovery, Capital efficiency and Fair distribution.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Permissionless participation",
+              "key": "A"
+            },
+            {
+              "content": "Price discovery",
+              "key": "B"
+            },
+            {
+              "content": "Capital efficiency",
+              "key": "C"
+            },
+            {
+              "content": "All of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "b59363b6-e306-4c35-b611-eef7316d830a",
+          "type": "SingleChoice",
+          "content": "What happens during the Redemption Pool period?",
+          "hint": "NoHint",
+          "explanation": "Redemption pools are special pools that allow projects to progressively distribute a token over a defined time period in exchange for a specified base token (In some cases this could be releasing a governance token in exchange for LP). During the Redemption Pool period, users can exchange the base token for the project's token, which contributes to the collective decision of the asset's fair value.",
+          "answerKeys": [
+            "C"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Users pay for a governance token in exchange for liquidation tokens.",
+              "key": "A"
+            },
+            {
+              "content": "Users can exchange the project's token for the base token.",
+              "key": "B"
+            },
+            {
+              "content": "Users can exchange the base token for the project's token.",
+              "key": "C"
+            },
+            {
+              "content": "Users decide an asset's fair value by making collective decisions.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "1f4a383e-9251-4ae7-97e0-7376e901fe0c",
+          "type": "SingleChoice",
+          "content": "What is the mechanism of price discovery in LBPs?",
+          "hint": "NoHint",
+          "explanation": "Price is determined by a number of factors such as demand and thus does not necessarily increase or decrease.",
+          "answerKeys": [
+            "D"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "A. Price starts low and increases based on a pre-configured price decay curve.",
+              "key": "A"
+            },
+            {
+              "content": "B. Price starts high and drops based on a pre-configured price decay curve.",
+              "key": "B"
+            },
+            {
+              "content": "C. Price remains constant and does not change.",
+              "key": "C"
+            },
+            {
+              "content": "D. Price is determined by a number of factors such as demand and thus does not necessarily increase or decrease",
+              "key": "D"
+            }
+          ]
+        }
+      ],
+      "readings": [],
+      "summaries": []
     }
   ]
 }
