@@ -1102,7 +1102,39 @@
       ],
       "readings": [],
       "summaries": [],
-      "questions": []
+      "questions": [
+        {
+          "uuid": "cdb36b34-b7bf-4d51-b5b2-f0e620871527",
+          "type": "MultipleChoice",
+          "content": "What is Polymath used for? (Select two options)",
+          "hint": "Nohint",
+          "explanation": "Polymath is an asset tokenization platform that enables people to digitize real world assets and can mint tokens backing the assets for the purpose of getting investors or generally raising funds for projects.",
+          "answerKeys": [
+            "A",
+            "511103dc"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "To raise funds for projects",
+              "key": "A"
+            },
+            {
+              "content": "To mint tokens",
+              "key": "0877fea8"
+            },
+            {
+              "content": "To digitize real-world assets",
+              "key": "511103dc"
+            },
+            {
+              "content": "To whitelist investors",
+              "key": "11c1dafa"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
