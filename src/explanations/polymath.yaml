@@ -151,3 +151,57 @@
     is why Polymath is committed to making the process of securitizing physical
     assets via tokens operated on the blockchain seamless. 
   title: Polymath Capital Platform
+- key: polymath-token-studio
+  shortTitle: Token Studio
+  details: >-
+    The Polymath token studio is the platform where issuers can create security
+    tokens either on the Polymesh network or on Ethereum. The process of
+    creating these tokens starts with reservation, which is a 60-day period
+    where a security token ticker symbol can be locked before opening it up to
+    the public. For example, if GMT is a ticker symbol that is available on
+    Polymesh, an issuer can reserve GMT for a period of 60 days within which the
+    token must be created and if after that period the token is not created,
+    then GMT is made available for the public to use. Reserving a token on
+    Polymath costs 500 POLYX.
+
+
+    Before the minting process can begin, the issuer needs to firstly assemble
+    the team that will provide the base requirements for the token to be
+    created. This team can be a combination of Legal Firms, Deal Brokers, KYC
+    providers, and a network of custody agents among others.
+
+
+    Once the issuer is ready to mint the security token, 2500 POLYX is required
+    to sign the transaction so that the token will go live. After that process
+    is completed then the compliance rules of the token can be set so that
+    people who will own the token will be bound by those rules. The last process
+    is then to distribute the token.
+
+
+    When Polymath was first launched on Ethereum, it created the POLY token
+    which is an ERC20 token. However, when it moved to Polymesh which is its own
+    Blockchain network, it changed its token to POLYX. Issuers who owned POLY
+    and wish to change them to POLYX so as to use the Polymesh blockchain can do
+    so by following the steps in the video below:
+
+
+    [![POLY to POLYX Upgrade
+    Bridge](https://img.youtube.com/vi/zZetUxboCSI/0.jpg)](https://www.youtube.com/watch?v=zZetUxboCSI)
+
+
+    In order to know how to mint a security token on the Polymesh network, watch
+    the video below:
+
+
+    [![Token Studio on
+    Polymesh](https://img.youtube.com/vi/TGDBulqZUM0/0.jpg)](https://www.youtube.com/watch?v=TGDBulqZUM0)
+
+
+    Also, Polymath supports the minting of security tokens that operate on the
+    Ethereum Blockchain to enable people who want to use a general-purpose
+    blockchain network. To set this up, watch the video below:
+
+
+    [![Token Studio on
+    Ethereum](https://img.youtube.com/vi/C0eM1GU2G04/0.jpg)](https://www.youtube.com/watch?v=C0eM1GU2G04)
+  title: Polymath Token Studio
