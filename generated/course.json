@@ -1313,6 +1313,36 @@
               "key": "397f96e5"
             }
           ]
+        },
+        {
+          "uuid": "38e5332c-8814-4fc7-ab9b-1f1b8a02b298",
+          "type": "SingleChoice",
+          "content": "What is the cost of reserving a token on Polymath token studio?",
+          "hint": "Nohint    ",
+          "explanation": "Reserving a token on Polymath costs 500 POLYX.",
+          "answerKeys": [
+            "b67868fd"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "500 POLY",
+              "key": "A"
+            },
+            {
+              "content": "1000 POLYX",
+              "key": "e44c2dac"
+            },
+            {
+              "content": "800 POLY",
+              "key": "e903f436"
+            },
+            {
+              "content": "500 POLYX",
+              "key": "b67868fd"
+            }
+          ]
         }
       ]
     }
