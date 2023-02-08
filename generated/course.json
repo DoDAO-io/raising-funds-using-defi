@@ -1133,6 +1133,36 @@
               "key": "11c1dafa"
             }
           ]
+        },
+        {
+          "uuid": "d02ac3f0-055b-4513-b376-7d5c37473f52",
+          "type": "SingleChoice",
+          "content": "What is the standard for regulated assets living on the Blockchain that Polymath is powered by?",
+          "hint": "Nohint    ",
+          "explanation": "As a security token, Polymenth is powered by ERC1400 which is the standard for regulated assets living on the Blockchain.  ",
+          "answerKeys": [
+            "342d85c3"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "ERC20",
+              "key": "A"
+            },
+            {
+              "content": "ERC1400",
+              "key": "342d85c3"
+            },
+            {
+              "content": "ERC721",
+              "key": "ba58c0c8"
+            },
+            {
+              "content": "ERC1155",
+              "key": "61f14d68"
+            }
+          ]
         }
       ]
     }
