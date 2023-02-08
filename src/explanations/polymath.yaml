@@ -43,3 +43,62 @@
     transfer disable functions, asset recovery, and identity verification, and
     with a deeply technical team focused on making the process simpler and
     easier, Polymath is powering the future of security tokens
+- key: polymesh
+  shortTitle: Polymesh
+  details: >-
+    Polymesh is the purpose-built blockchain network built by the Polymath team
+    to manage security tokens. At the advent of Polymath, smart contracts were
+    launched on a general blockchain, Ethereum, to build a token that will
+    digitize physical assets. These tokens would serve as security tokens such
+    that people who own physical assets in real life, can have a digital token
+    to prove ownership of such assets. These tokens can then be traded in the
+    primary and secondary markets thereby transferring ownership of not just the
+    token but also the assets. 
+
+
+    However, there are many challenges surrounding the ERC20 protocol that was
+    to be used that would make it not suitable for security tokens. Some of
+    those challenges include anonymity since people can trade tokens without
+    necessarily verifying their identities so this could easily create a
+    loophole for theft. Also, these assets sit on regulated markets but the core
+    ERC20 protocol was built for an unregulated environment so there is almost
+    no way to enforce compliance with procedures and basic requirements for
+    trading securities on the Blockchain.
+
+
+    These and many more issues created an opportunity for a new protocol and a
+    new network, hence Polymath going ahead to build the Polymesh network
+    specifically for security tokens, backed by the ERC 1400 protocol which was
+    also created for securities. Polymesh, therefore, was built on the parity
+    substrate framework because of its novel technology, product roadmap and fit
+    with what Ploymath is building, community and a number of other factors some
+    of which include:
+
+
+    * Modularity: Polymath operates a modular structure as a part of its
+    infrastructure where new rules and features can be added to the network
+    easily by creating new modules while maintaining an interoperable library of
+    the ERC 1400 protocol where people can use only parts of the protocol that
+    makes sense to them. Substrate also operates a similar model thereby making
+    a seamless integration possible. It has a library of modules for functions
+    such as finality, block production, balance management, governance features,
+    and support for smart contracts.
+
+    * Future-Proof Technology: The major parts of the Substrate infrastructure
+    are built on Rust; a language known for high performance, low runtime size,
+    and optimized for memory safety guarantees. It is also built on industry
+    standards such as LibP2P and WASM which are slowly being adopted by other
+    Blockchains like Ethereum.
+
+    * Governance and Upgrades: Polymesh being a blockchain built for a specific
+    purpose, needed to run on a framework that gives it the flexibility it
+    needed to provide all necessary requirements. Substrate provides a forkless
+    upgrade mechanism such that the process of upgrading the software is done
+    seamlessly. 
+
+    * Community: Polymath has a large number of people building various
+    solutions on their infrastructure and Substrate also has a great community
+    of developers that make the work seamless. So, there is a symbiotic
+    relationship between the two as Ploymesh can easily leverage the Substrate
+    community when releasing features or marketing their products.
+  title: Polymesh
