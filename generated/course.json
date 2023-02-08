@@ -1074,7 +1074,14 @@
       "key": "polymath",
       "title": "Polymath",
       "details": "Polymath is an asset tokenization platform that enables people to digitize real world assets and can mint tokens backing the assets for the purpose of getting investors or generally raising funds for projects.",
-      "explanations": [],
+      "explanations": [
+        {
+          "key": "what-is-polymath",
+          "shortTitle": "Introduction",
+          "details": "[![Introduction to Polymath](https://youtu.be/irGYjihFx3o)](https://youtu.be/irGYjihFx3o)",
+          "title": "What is Polymath?"
+        }
+      ],
       "readings": [],
       "summaries": [],
       "questions": []
