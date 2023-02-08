@@ -1223,6 +1223,36 @@
               "key": "e4f2a3e5"
             }
           ]
+        },
+        {
+          "uuid": "9fa7cf33-7e65-44fc-b235-0f8ff135d602",
+          "type": "SingleChoice",
+          "content": "Which of these is NOT a reason Polymesh was built on the Substrate framework?",
+          "hint": "Nohint    ",
+          "explanation": "Polymesh was built on the parity substrate framework because of its novel technology, product roadmap and fit with what Ploymath is building, community, and modularity.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Non Upgradable",
+              "key": "A"
+            },
+            {
+              "content": "Modularity",
+              "key": "eeca4e6a"
+            },
+            {
+              "content": "Future Proof Technology",
+              "key": "49ce1bb6"
+            },
+            {
+              "content": "Community",
+              "key": "dae71479"
+            }
+          ]
         }
       ]
     }
