@@ -44,8 +44,13 @@
     with a deeply technical team focused on making the process simpler and
     easier, Polymath is powering the future of security tokens
 - key: polymesh
+  title: Polymesh
   shortTitle: Polymesh
   details: >-
+    [![Polymesh Mainnet
+    Demo](https://img.youtube.com/vi/8UOe8CuQAjM/0.jpg)](https://www.youtube.com/watch?v=8UOe8CuQAjM)
+
+
     Polymesh is the purpose-built blockchain network built by the Polymath team
     to manage security tokens. At the advent of Polymath, smart contracts were
     launched on a general blockchain, Ethereum, to build a token that will
@@ -101,7 +106,6 @@
     of developers that make the work seamless. So, there is a symbiotic
     relationship between the two as Ploymesh can easily leverage the Substrate
     community when releasing features or marketing their products.
-  title: Polymesh
 - key: polymath-capital-platform
   shortTitle: Polymath Capital
   details: >
