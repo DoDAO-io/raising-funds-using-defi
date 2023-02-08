@@ -129,3 +129,28 @@
       key: ce4906d9
     - content: ERC1155
       key: a3af7919
+- uuid: 24ef4d64-67f8-430d-b1c9-c302c0d1af6e
+  type: SingleChoice
+  content: Which of these is a core feature of the Polymath Capital Platform?
+  hint: 'Nohint    '
+  explanation: |-
+    Some of the core features of the Polymath Capital Platform highlighted are:
+    Cap Table Management
+    Corporate Governance
+    Onboarding
+    Investors’ Accreditation
+    Custody
+    Investment Offerings
+  answerKeys:
+    - 397f96e5
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Cap Table Management
+      key: A
+    - content: Corporate Governance
+      key: 348d74a4
+    - content: Investment Offerings
+      key: 8ccc95c2
+    - content: All of the Above
+      key: 397f96e5
