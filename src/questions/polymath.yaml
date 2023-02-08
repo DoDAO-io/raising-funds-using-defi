@@ -62,3 +62,26 @@
       key: 2dcccea2
     - content: Managing security tokens
       key: b4a58e2b
+- uuid: 03a42a34-2e10-44a3-8d67-191a85d52e34
+  type: SingleChoice
+  content: Which of these is NOT a use case for Polymath?
+  hint: 'Nohint    '
+  explanation: >-
+    With use cases such as effective asset onboarding, compliance assurance,
+    transfer restrictions, redundant data, source insight, transfer disable
+    functions, asset recovery, and identity verification, and with a deeply
+    technical team focused on making the process simpler and easier, Polymath is
+    powering the future of security tokens.
+  answerKeys:
+    - e246bae6
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Identity Verification
+      key: A
+    - content: Asset Cloning
+      key: e246bae6
+    - content: Asset Recovery
+      key: a1515125
+    - content: Compliance Assurance
+      key: e4f2a3e5
