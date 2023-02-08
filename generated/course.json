@@ -1163,6 +1163,36 @@
               "key": "61f14d68"
             }
           ]
+        },
+        {
+          "uuid": "0afc804f-e03e-473f-92c4-2a1bd06f9183",
+          "type": "SingleChoice",
+          "content": "What was Polymesh blockchain built for?",
+          "hint": "Nohint    ",
+          "explanation": "Polymath is built on the Polymesh blockchain which is a specific protocol built for handling security tokens. ",
+          "answerKeys": [
+            "b4a58e2b"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Sending and receiving cryptocurrencies",
+              "key": "A"
+            },
+            {
+              "content": "Trading DeFi tokens",
+              "key": "c1f9a1a0"
+            },
+            {
+              "content": "Low gas fees",
+              "key": "2dcccea2"
+            },
+            {
+              "content": "Managing security tokens",
+              "key": "b4a58e2b"
+            }
+          ]
         }
       ]
     }
