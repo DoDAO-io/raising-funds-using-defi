@@ -1253,6 +1253,36 @@
               "key": "dae71479"
             }
           ]
+        },
+        {
+          "uuid": "4f7235af-cd23-4edf-8f72-eb0364431a7c",
+          "type": "SingleChoice",
+          "content": "One of these blockchain network standards provides the flexibility required for identity verification and enforcement of compliance procedures when trading securities",
+          "hint": "Nohint    ",
+          "explanation": "ERC 1400 protocol was created for managing securities. ",
+          "answerKeys": [
+            "ce4906d9"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "ERC721",
+              "key": "A"
+            },
+            {
+              "content": "ERC20",
+              "key": "67da8488"
+            },
+            {
+              "content": "ERC1400",
+              "key": "ce4906d9"
+            },
+            {
+              "content": "ERC1155",
+              "key": "a3af7919"
+            }
+          ]
         }
       ]
     }
