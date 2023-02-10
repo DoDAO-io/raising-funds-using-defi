@@ -6,13 +6,26 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  ## Intoduction
  
  **Crowdfunding Issues **        
-## Traditional Fundraising
+## Traditional Fundraising Situations
 Traditional methods of fundraising can be quite limiting and outdated, often not taking into consideration new techniques that could make the project more appealing to not just venture capitalists, but to the community or customers as well. Some limitations of existing fundraising methods include:
 
-- Projects that speak VC-friendly language can easily raise funds, limiting access for first time founders or creators. 
-- The process can be time-consuming and frustrating, often requiring a lot of upfront work with no guarantee of success. 
-- Price is set by the founders or VCs, without any price discovery. 
-- Most investment opportunities are only available to accredited investors, i.e. people earning more than $200,000 (or a few other constraints)
+### Problems faced by Founders
+- It is easier for projects that speak VC-friendly language to raise funds, limiting access for first-time creators or founders.
+- Often requiring a lot of upfront work with no guarantee of success, the process can be time-consuming and frustrating
+- In most cases, founders start with a vision and mission, but due to the financial goals involved, the focus is completely on maximizing profits, with little attention given to the company's impact on society.
+
+### Problems faced by Investors
+- Price is set by the founders or VCs, without any price discovery.
+- Before the product market fit is found (startup profits significantly), it is difficult to determine a price.
+- VCs have to guess without knowing how the product will be perceived.
+- Many investors shy away from venture capital firms because of locking cycles of 5-10 years.
+
+### Other Pressing Issues
+- A majority of investment opportunities are only available to accredited investors, i.e. people earning more than $200,000 per year.
+- As companies only go public after growth has normalized, public markets aren't rewarding any more
+- Most startup companies spend far more money to acquire a customer than they will ever gain from them since there is minimal transparency in the process.
+- Often, your community is your product. Current business models don't allow community members to share in the gains and risks of their projects.
+
 
 ## DeFi Fundraising
 In DeFi projects, one or more tokens can be issued and then sold by the project using some of the fundraising primitives that have been developed in the ecosystem.  One thing to note is that many of the projects in Crypto might not adhere to security laws (selling of the shares/stocks in open market) and it is very important to do your proper research before you decide to use one of the DeFi primitives for fundraising. The most common DeFi primitives for fundraising currently used are:
@@ -21,6 +34,8 @@ In DeFi projects, one or more tokens can be issued and then sold by the project 
 3. **Staking** - Staking allows investors to deposit their funds with a protocol and earn interest on them. In the event of an unexpected loss of funds, some money may be deducted from the deposited funds. 
 4. **DeFi Bonds** - DeFi bonds are an innovative mechanism that allows investors to purchase tokens at a discount. Investors purchase the bonds and then get access to the tokens once the bond matures.
 5. **Quadratic Funding** - In this crowdfunding method, money from a central matching pool is allocated based on which projects are more democratically supported as opposed to those into which more capital goes.
+6. **Liquidity Bootstrapping Pools** - 
+7. **Batch Auctions** -
 
 We will cover each of these funding methods in the following sections. 
 
@@ -168,4 +183,34 @@ Optimism is trying to do public goods funding retroactively by creating a commit
 - https://medium.com/giveth/coordination-mechanisms-notes-from-a-conversation-with-griff-green-kevin-owocki-af95f3e831b1
 - https://youtu.be/qyd7mvQmn5I?t=1220
 - https://youtu.be/qyd7mvQmn5I?t=1680 
+ **Whale Problem**        
+# Add problems related to having whales  
+ **Regulations**        
+When issuing tokens it is very important to be aware of different regulatory implications. Here we try to touch upon some of the most important points
+
+## U.S. Securities and Exchange Commission (SEC)
+In the United States, cryptocurrencies have received a lot of attention from both federal and state governments. The SEC typically has authority over the issuance or resale of any security token or other digital asset that constitutes security.
+
+The SEC has been unequivocal in its opinion that even if a token issued in an ICO has utility, the token will still be deemed a security that is subject to the Securities Act if it meets elements of the Howey test.
+
+Securities such as stocks and debt instruments, and also investment contracts, are under the direction of the SEC. Derivatives such as futures and swaps pertaining to commodities are under the oversight of the CFTC, unless those commodities are securities.
+
+The future of cryptocurrency regulation is still an open question.
+
+## Howey Test
+The Howey Test is derived from a 1946 Supreme Court ruling in the case of the SEC v. W.J. Howey Co., which has been reaffirmed by the courts several times. Under the Howey Test, a transaction is considered a security if the following four criteria are met:
+- Money is invested.
+- There is an expectation the investor will earn a profit.
+- The investment is in a common enterprise.
+- Profits are generated via the efforts of others.
+
+## Notable Regulations
+Some of the most crucial legal frameworks that help you to fundraise from retail or private investors to offer you approval and remain compliant include the following.
+1. **Reg CF** - Reg CF permits non-accredited (retail) investors to purchase private companies up to a certain limit depending on either their net-worth or annual income, helping businesses raise up to $5 million per year.
+2. **Reg A** - Regulation A Tier 2 (the Mini-IPO/Reg A) is a less demanding variation of initial public offering (IPO). It's less regulated and can be used to raise up to $75 million every 12 months. It enables retail investors to invest alongside accredited and institutional investors
+3. **Reg D** - Regulation D, Rule 506 allows accredited investors to invest in private investment firms without an upper limit and without having to go public.
+
+
+
+  
  

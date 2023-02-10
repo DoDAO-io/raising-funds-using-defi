@@ -30,15 +30,15 @@
       "explanations": [
         {
           "key": "crowdfunding-issues",
+          "title": "Crowdfunding Issues ",
           "shortTitle": "Fundraising Intro",
-          "details": "## Traditional Fundraising Situations\nTraditional methods of fundraising can be quite limiting and outdated, often not taking into consideration new techniques that could make the project more appealing to not just venture capitalists, but to the community or customers as well. Some limitations of existing fundraising methods include:\n\n### Problems faced by Founders\n- It is easier for projects that speak VC-friendly language to raise funds, limiting access for first-time creators or founders.\n- Often requiring a lot of upfront work with no guarantee of success, the process can be time-consuming and frustrating\n- In most cases, founders start with a vision and mission, but due to the financial goals involved, the focus is completely on maximizing profits, with little attention given to the company's impact on society.\n\n### Problems faced by Investors\n- Price is set by the founders or VCs, without any price discovery.\n- Before the product market fit is found (startup profits significantly), it is difficult to determine a price.\n- VCs have to guess without knowing how the product will be perceived.\n- Many investors shy away from venture capital firms because of locking cycles of 5-10 years.\n\n### Other Pressing Issues\n- A majority of investment opportunities are only available to accredited investors, i.e. people earning more than $200,000 per year.\n- As companies only go public after growth has normalized, public markets aren't rewarding any more\n- Most startup companies spend far more money to acquire a customer than they will ever gain from them since there is minimal transparency in the process.\n- Often, your community is your product. Current business models don't allow community members to share in the gains and risks of their projects.\n\n\n## DeFi Fundraising\nIn DeFi projects, one or more tokens can be issued and then sold by the project using some of the fundraising primitives that have been developed in the ecosystem.  One thing to note is that many of the projects in Crypto might not adhere to security laws (selling of the shares/stocks in open market) and it is very important to do your proper research before you decide to use one of the DeFi primitives for fundraising. The most common DeFi primitives for fundraising currently used are:\n1. **Bonding Curves** - Bootstrapping funds with earlier investors being rewarded more lucrative than those who join the project later on.\n2. **Liquidity Mining/Yield Farming** - Offering native tokens to investors in exchange for providing liquidity to the protocol which can be used for trading, lending, or borrowing. This structure allows investors to have nearly full control over the funds and they can choose to exit the position when desired.\n3. **Staking** - Staking allows investors to deposit their funds with a protocol and earn interest on them. In the event of an unexpected loss of funds, some money may be deducted from the deposited funds. \n4. **DeFi Bonds** - DeFi bonds are an innovative mechanism that allows investors to purchase tokens at a discount. Investors purchase the bonds and then get access to the tokens once the bond matures.\n5. **Quadratic Funding** - In this crowdfunding method, money from a central matching pool is allocated based on which projects are more democratically supported as opposed to those into which more capital goes.\n6. **Liquidity Bootstrapping Pools** - \n7. **Batch Auctions** -\n\nWe will cover each of these funding methods in the following sections. \n\n## References\n- https://medium.com/giveth/the-commons-stack-scaling-the-commons-to-re-prioritize-people-and-the-planet-fdc076aec4eb\n- https://medium.com/giveth/blockchain-economies-and-the-commons-cdb67dd1a163",
-          "title": "Crowdfunding Issues "
+          "details": "## Traditional Fundraising Situations\nTraditional methods of fundraising can be quite limiting and outdated, often not taking into consideration new techniques that could make the project more appealing to not just venture capitalists, but to the community or customers as well. Some limitations of existing fundraising methods include:\n\n### Problems faced by Founders\n- It is easier for projects that speak VC-friendly language to raise funds, limiting access for first-time creators or founders.\n- Often requiring a lot of upfront work with no guarantee of success, the process can be time-consuming and frustrating\n- In most cases, founders start with a vision and mission, but due to the financial goals involved, the focus is completely on maximizing profits, with little attention given to the company's impact on society.\n\n### Problems faced by Investors\n- Price is set by the founders or VCs, without any price discovery.\n- Before the product market fit is found (startup profits significantly), it is difficult to determine a price.\n- VCs have to guess without knowing how the product will be perceived.\n- Many investors shy away from venture capital firms because of locking cycles of 5-10 years.\n\n### Other Pressing Issues\n- A majority of investment opportunities are only available to accredited investors, i.e. people earning more than $200,000 per year.\n- As companies only go public after growth has normalized, public markets aren't rewarding any more\n- Most startup companies spend far more money to acquire a customer than they will ever gain from them since there is minimal transparency in the process.\n- Often, your community is your product. Current business models don't allow community members to share in the gains and risks of their projects.\n\n\n## DeFi Fundraising\nIn DeFi projects, one or more tokens can be issued and then sold by the project using some of the fundraising primitives that have been developed in the ecosystem.  One thing to note is that many of the projects in Crypto might not adhere to security laws (selling of the shares/stocks in open market) and it is very important to do your proper research before you decide to use one of the DeFi primitives for fundraising. The most common DeFi primitives for fundraising currently used are:\n1. **Bonding Curves** - Bootstrapping funds with earlier investors being rewarded more lucrative than those who join the project later on.\n2. **Liquidity Mining/Yield Farming** - Offering native tokens to investors in exchange for providing liquidity to the protocol which can be used for trading, lending, or borrowing. This structure allows investors to have nearly full control over the funds and they can choose to exit the position when desired.\n3. **Staking** - Staking allows investors to deposit their funds with a protocol and earn interest on them. In the event of an unexpected loss of funds, some money may be deducted from the deposited funds. \n4. **DeFi Bonds** - DeFi bonds are an innovative mechanism that allows investors to purchase tokens at a discount. Investors purchase the bonds and then get access to the tokens once the bond matures.\n5. **Quadratic Funding** - In this crowdfunding method, money from a central matching pool is allocated based on which projects are more democratically supported as opposed to those into which more capital goes.\n6. **Liquidity Bootstrapping Pools** - \n7. **Batch Auctions** -\n\nWe will cover each of these funding methods in the following sections. \n\n## References\n- https://medium.com/giveth/the-commons-stack-scaling-the-commons-to-re-prioritize-people-and-the-planet-fdc076aec4eb\n- https://medium.com/giveth/blockchain-economies-and-the-commons-cdb67dd1a163"
         },
         {
           "key": "bondig-curves",
+          "title": "Bondig Curves",
           "shortTitle": "Bonding Curves",
-          "details": "### What is a Bonding Curve?\n\nThe Bonding Curves Offerings (BCO) provides a way for projects to efficiently, fairly, and reliably distribute tokens to project adopters in a transparent way. \n\nA bonding curve is a mathematical curve that defines the relationship between price and token supply. In other words, it's a way to visualize how the price of a token changes as more tokens are minted. Here's an example of a bonding curve, where `currentPrice = tokenSupply²`:\n\n\n<img style=\"max-height:300px\" src=\"https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/simple_bonding_curve.png\" />\n\n`Source: https://yos.io/2018/11/10/bonding-curves/`\n\nThe Bonding Curve explains how the price of a token is determined by the number of tokens that have already been minted. In the case of an exponential curve, such as the one shown in the example, the growth rate will speed up as the number of tokens minted increases.\n\nWhen someone buys a token, each successive buyer will need to pay a slightly higher price per token, which could generate profits for the earliest investors. As more people learn about the project and buying continues, the value of each token will go up slowly along the bonding curve. As tokens have the lowest price at the lowest part of the curve, there is a price advantage for early adopters. Early buyers have a considerable upside potential when compared with later entrants to market, as prices are lowest when supply is low as well.\n\nEarly buyers of tokens have a considerable upside potential when compared with later entrants to market, as prices are lowest when supply is low. As tokens have the lowest price at the lowest part of the curve, early adopters can benefit from a price advantage. By getting in early, buyers can take advantage of the potential for growth as prices increase as more people enter the market.\n\nThe most significant advantage that Bonding Curves have over traditional asset pricing methods is the fact that the pricing of assets is transparent, set in stone(on-chain), and unchanging at all points. The market is able to reach a collective agreement through well-defined rules, without needing outside intervention. Because the cost per token is decided by the curve/formula, every person involved knows how much each token will cost ahead of time. This allows for a honest and just market where everyone knows the score.\n\n### Buying/Minting tokens from bonding curve:\n- A bonding curve smart contract is created that allows users to buy/mint a new token (eg. Bonding Curve Token, ABC) with by supplying a currency for example USDC.\n- The price of ABC is algorithmically calculated in relation to its current circulating supply and shown in its reserve currency, USDC.\n- By providing USDC to the contract, the user can buy the new ABC token through a smart contract. \n- After the user completes their purchase, the price of the token will move along the bonding curve in relation to the amount of supply the user has just minted (likely moving the price up for future buyers)\n- A ABC holder can choose to burn or sell their token back to the curve at any time. If the price of the token goes up after they purchase it, they will likely sell it at a profit (minus gas and fees). They will receive the bonded USDC back from the smart contract after their sell is approved.\n\n\n### Key benefits of bonding curves:\n- Limitless Supply - Normally there is no limit to the number of tokens that can be minted.\n- Deterministic Price Calculation - The price of the tokens increases and decreases according to the number of tokens minted.\n- Continuous Price - The price of token n is less than token n+1 and more than token n-1.\n- Immediate Liquidity - Tokens can be bought or sold instantaneously at any time.\n\n### Limitations\n* Basic forms of bonding curves don't keep a minimal reserve that might be needed to bootstrap the project.\n* Users can buy or sell the tokens to the bonding curve, but minting of new tokens based on time schedule is not possible. This could be an issue for new projects that need to compensate for an initial burn rate.\n\n### Augmented Bonding Curves\nThe most basic form of a bonding curve is \"x = y.\" By adding more variables or constraints to the formula, you can make the bonding curve more suitable to the needs of your project. The Augmented Bonding Curve, explained below, is one such example of how bonding curves can be extended.\n\nThe Augmented Bonding Curve design can be conceptualized as a typical bonding curve with the addition of a funding pool, a token lock-up/vesting mechanism, and inter-system feedback loops. The system is launched in two stages: the Hatch Phase and the Open Phase.\n\n<img style=\"max-height:600px\" src=\"https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/augmented_bonding_curve.png\" />\n\n`Source: https://medium.com/giveth/deep-dive-augmented-bonding-curves-3f1f7c1fa751`\n\nThe Hatch Phase is designed to allow initial contributors (founding members, devoted contributors, initial investors, etc.) to participate in a hatch sale. The purpose of this phase is to gather contributors and pool capital. A percentage of the capital is put into the Reserve Pool and used to mint tokens and determine the initial spot price during the Open Phase. The remaining capital in the Funding Pool is un-bonded and can be distributed as real capital outside of the bonding curve.\n\nIn a typical bonding curve system, the tokens can be burned at any time. However, in an augmented bonding curve system, the tokens minted during the Hatch Phase are locked and cannot be burned. This is to prevent any early speculation or arbitrage that could affect the stability of the Reserve Pool. It's important to have funds locked early on in the system to make sure that the capital in the Funding Pool is allocated to community initiatives, research projects and development milestones that will help the commons grow.\n\nOnce the goal for the Hatch Sale is reached, the new tokens go into a reserve pool where they can be bought or sold according to the bonding curve. The Hatchers tokens are gradually unlocked through this vesting process.\n\nWhenever tokens are burned, an exit tax is enacted on liquidation. As members \"cash out\" and liquidate their funds, a small percentage of their returns are sent back into the funding pool, allowing for the simultaneous funding of the commons while contributors are earning returns. This means that the system always benefits - even if speculators are just looking to make a quick return.\n \n### References\n- https://hackernoon.com/what-are-bonding-curve-offerings-xi2k34bm\n- https://dev.to/ceonyema/bonding-curve-offering-an-efficient-and-transparent-funding-model-4oae\n- https://www.linumlabs.com/articles/bonding-curves-the-what-why-and-shapes-behind-it\n- https://yos.io/2018/11/10/bonding-curves/\n- https://medium.com/molecule-blog/designing-different-fundraising-scenarios-with-sigmoidal-token-bonding-curves-ceafc734ed97\n- https://blog.goodaudience.com/rewriting-the-story-of-human-collaboration-c33a8a4cd5b8\n- https://medium.com/giveth/deep-dive-augmented-bonding-curves-3f1f7c1fa751\n- https://medium.com/aventus/token-bonding-curves-683b8b309c18\n",
-          "title": "Bonding Curves"
+          "details": "### What is a Bonding Curve?\n\nThe Bonding Curves Offerings (BCO) provides a way for projects to efficiently, fairly, and reliably distribute tokens to project adopters in a transparent way. \n\nA bonding curve is a mathematical curve that defines the relationship between price and token supply. In other words, it's a way to visualize how the price of a token changes as more tokens are minted. Here's an example of a bonding curve, where `currentPrice = tokenSupply²`:\n\n\n<img style=\"max-height:300px\" src=\"https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/simple_bonding_curve.png\" />\n\n`Source: https://yos.io/2018/11/10/bonding-curves/`\n\nThe Bonding Curve explains how the price of a token is determined by the number of tokens that have already been minted. In the case of an exponential curve, such as the one shown in the example, the growth rate will speed up as the number of tokens minted increases.\n\nWhen someone buys a token, each successive buyer will need to pay a slightly higher price per token, which could generate profits for the earliest investors. As more people learn about the project and buying continues, the value of each token will go up slowly along the bonding curve. As tokens have the lowest price at the lowest part of the curve, there is a price advantage for early adopters. Early buyers have a considerable upside potential when compared with later entrants to market, as prices are lowest when supply is low as well.\n\nEarly buyers of tokens have a considerable upside potential when compared with later entrants to market, as prices are lowest when supply is low. As tokens have the lowest price at the lowest part of the curve, early adopters can benefit from a price advantage. By getting in early, buyers can take advantage of the potential for growth as prices increase as more people enter the market.\n\nThe most significant advantage that Bonding Curves have over traditional asset pricing methods is the fact that the pricing of assets is transparent, set in stone(on-chain), and unchanging at all points. The market is able to reach a collective agreement through well-defined rules, without needing outside intervention. Because the cost per token is decided by the curve/formula, every person involved knows how much each token will cost ahead of time. This allows for a honest and just market where everyone knows the score.\n\n### Buying/Minting tokens from bonding curve:\n- A bonding curve smart contract is created that allows users to buy/mint a new token (eg. Bonding Curve Token, ABC) with by supplying a currency for example USDC.\n- The price of ABC is algorithmically calculated in relation to its current circulating supply and shown in its reserve currency, USDC.\n- By providing USDC to the contract, the user can buy the new ABC token through a smart contract. \n- After the user completes their purchase, the price of the token will move along the bonding curve in relation to the amount of supply the user has just minted (likely moving the price up for future buyers)\n- A ABC holder can choose to burn or sell their token back to the curve at any time. If the price of the token goes up after they purchase it, they will likely sell it at a profit (minus gas and fees). They will receive the bonded USDC back from the smart contract after their sell is approved.\n\n\n### Key benefits of bonding curves:\n- Limitless Supply - Normally there is no limit to the number of tokens that can be minted.\n- Deterministic Price Calculation - The price of the tokens increases and decreases according to the number of tokens minted.\n- Continuous Price - The price of token n is less than token n+1 and more than token n-1.\n- Immediate Liquidity - Tokens can be bought or sold instantaneously at any time.\n\n### Limitations\n* Basic forms of bonding curves don't keep a minimal reserve that might be needed to bootstrap the project.\n* Users can buy or sell the tokens to the bonding curve, but minting of new tokens based on time schedule is not possible. This could be an issue for new projects that need to compensate for an initial burn rate.\n\n### Augmented Bonding Curves\nThe most basic form of a bonding curve is \"x = y.\" By adding more variables or constraints to the formula, you can make the bonding curve more suitable to the needs of your project. The Augmented Bonding Curve, explained below, is one such example of how bonding curves can be extended.\n\nThe Augmented Bonding Curve design can be conceptualized as a typical bonding curve with the addition of a funding pool, a token lock-up/vesting mechanism, and inter-system feedback loops. The system is launched in two stages: the Hatch Phase and the Open Phase.\n\n<img style=\"max-height:600px\" src=\"https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/augmented_bonding_curve.png\" />\n\n`Source: https://medium.com/giveth/deep-dive-augmented-bonding-curves-3f1f7c1fa751`\n\nThe Hatch Phase is designed to allow initial contributors (founding members, devoted contributors, initial investors, etc.) to participate in a hatch sale. The purpose of this phase is to gather contributors and pool capital. A percentage of the capital is put into the Reserve Pool and used to mint tokens and determine the initial spot price during the Open Phase. The remaining capital in the Funding Pool is un-bonded and can be distributed as real capital outside of the bonding curve.\n\nIn a typical bonding curve system, the tokens can be burned at any time. However, in an augmented bonding curve system, the tokens minted during the Hatch Phase are locked and cannot be burned. This is to prevent any early speculation or arbitrage that could affect the stability of the Reserve Pool. It's important to have funds locked early on in the system to make sure that the capital in the Funding Pool is allocated to community initiatives, research projects and development milestones that will help the commons grow.\n\nOnce the goal for the Hatch Sale is reached, the new tokens go into a reserve pool where they can be bought or sold according to the bonding curve. The Hatchers tokens are gradually unlocked through this vesting process.\n\nWhenever tokens are burned, an exit tax is enacted on liquidation. As members \"cash out\" and liquidate their funds, a small percentage of their returns are sent back into the funding pool, allowing for the simultaneous funding of the commons while contributors are earning returns. This means that the system always benefits - even if speculators are just looking to make a quick return.\n \n### References\n- https://hackernoon.com/what-are-bonding-curve-offerings-xi2k34bm\n- https://dev.to/ceonyema/bonding-curve-offering-an-efficient-and-transparent-funding-model-4oae\n- https://www.linumlabs.com/articles/bonding-curves-the-what-why-and-shapes-behind-it\n- https://yos.io/2018/11/10/bonding-curves/\n- https://medium.com/molecule-blog/designing-different-fundraising-scenarios-with-sigmoidal-token-bonding-curves-ceafc734ed97\n- https://blog.goodaudience.com/rewriting-the-story-of-human-collaboration-c33a8a4cd5b8\n- https://medium.com/giveth/deep-dive-augmented-bonding-curves-3f1f7c1fa751\n- https://medium.com/aventus/token-bonding-curves-683b8b309c18\n"
         },
         {
           "key": "liquidity-mining",
@@ -66,9 +66,9 @@
         },
         {
           "key": "whale-problem",
+          "title": "Whale Problem",
           "shortTitle": "Whale Problem",
-          "details": "# Add problems related to having whales ",
-          "title": "Whale Problem"
+          "details": "# Add problems related to having whales "
         },
         {
           "key": "regulations",
@@ -406,15 +406,15 @@
       "explanations": [
         {
           "key": "intro-to-bond-protocol",
+          "title": "What is Bond Protocol?",
           "shortTitle": "Introduction",
-          "details": "## What is Bond Protocol?\n\nBond Protocol (Olympus Pro) is a platform that allows any project to acquire liquidity for their DAO or protocol by selling bonds. Bond Protocol is, at its core, a service for protocols wishing to use bonds in their emissions programmes with minimal overhead and maximum impact. They give infrastructure, experience, and exposure to partners. Projects need only bring a token and a goal.\n\n## Protocol Owned Liquidity\nProtocols can accumulate the critical infrastructural liquidity that they typically service through liquidity mining through bonds. Instead of renting that liquidity (sometimes with unstainable emissions), they simply buy it, transforming a value-draining permanent expense into revenue-generating assets that enable the rest of the platform's functioning. This is a significant change from the traditional way of liquidity mining, where projects rent liquidity with rewards.\n\n ![Flow of funds in traditional model](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/flow_of_funds_in_traditional_model.png) `Reference: https://docs.bondprotocol.finance/`\n\nIn the earlier DeFi model, projects pay tokens from their treasury over a set period of time to rent liquidity and the attention of liquidity providers (LPs). Often, when these rewards end, LPs simply move on to the next farm, making the liquidity mining event a sunk cost with little to show for. With Bond Protocol, projects can make the flow of funds circular and create a symbiotic relationship with profit seekers and their community alike. As projects use the bonding mechanism to improve their liquidity, that liquidity makes its way back to the project's treasury and becomes a permanent, income-producing asset. In other words, liquidity mining through Bond Protocol is no longer a sunk cost, and the project now has full control over the liquidity they paid for.\n\n![Flow of funds using bonding](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/flow_of_funds_using_bonding.png) `Reference: https://docs.bondprotocol.finance/`\n\nBy flipping the traditional model on its head, projects not only benefit, but so do their communities. Community members can rest easy knowing that the liquidity for the token they support won't disappear overnight when incentives dry up. They'll also be much happier knowing that the project is receiving an income-producing asset in return for token rewards rather than renting mercenaries. These two major improvements create a much healthier ecosystem around each token and allow young projects to thrive.\n",
-          "title": "What is Bond Protocol?"
+          "details": "## What is Bond Protocol?\n\nBond Protocol (Olympus Pro) is a platform that allows any project to acquire liquidity for their DAO or protocol by selling bonds. Bond Protocol is, at its core, a service for protocols wishing to use bonds in their emissions programmes with minimal overhead and maximum impact. They give infrastructure, experience, and exposure to partners. Projects need only bring a token and a goal.\n\n## Protocol Owned Liquidity\nProtocols can accumulate the critical infrastructural liquidity that they typically service through liquidity mining through bonds. Instead of renting that liquidity (sometimes with unstainable emissions), they simply buy it, transforming a value-draining permanent expense into revenue-generating assets that enable the rest of the platform's functioning. This is a significant change from the traditional way of liquidity mining, where projects rent liquidity with rewards.\n\n ![Flow of funds in traditional model](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/flow_of_funds_in_traditional_model.png) `Reference: https://docs.bondprotocol.finance/`\n\nIn the earlier DeFi model, projects pay tokens from their treasury over a set period of time to rent liquidity and the attention of liquidity providers (LPs). Often, when these rewards end, LPs simply move on to the next farm, making the liquidity mining event a sunk cost with little to show for. With Bond Protocol, projects can make the flow of funds circular and create a symbiotic relationship with profit seekers and their community alike. As projects use the bonding mechanism to improve their liquidity, that liquidity makes its way back to the project's treasury and becomes a permanent, income-producing asset. In other words, liquidity mining through Bond Protocol is no longer a sunk cost, and the project now has full control over the liquidity they paid for.\n\n![Flow of funds using bonding](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/flow_of_funds_using_bonding.png) `Reference: https://docs.bondprotocol.finance/`\n\nBy flipping the traditional model on its head, projects not only benefit, but so do their communities. Community members can rest easy knowing that the liquidity for the token they support won't disappear overnight when incentives dry up. They'll also be much happier knowing that the project is receiving an income-producing asset in return for token rewards rather than renting mercenaries. These two major improvements create a much healthier ecosystem around each token and allow young projects to thrive.\n"
         },
         {
           "key": "bonding",
+          "title": "What is Bonding?",
           "shortTitle": "Bonding",
-          "details": "Bonding is a process in which a user can sell an asset, such as a Quote Token, in a bond market created by an issuer, in exchange for a discounted Payout Token at a later date. To encourage users to sell to the protocol rather than the open market, bonds are offered at a discounted rate, and they also have a vesting period to prevent users from selling all the discounted tokens at once for a quick profit.\n\nA continuous [Dutch auction](https://medium.com/@Bond_Protocol/auctions-what-the-dutch-80e4bb3ee7ad) is used to price the bonds, and the price is determined by the supply and demand of bonds in the market. The bond price goes up when there is more demand, and goes down when there is less demand. This mechanism provides a real-time reflection of the bond price in the market. As a result, bonding is a highly competitive space, with participants competing to get the largest discount.\n\nBelow image is a good visualization of how it works: \n\n![Dutch Auction](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/dutch_auction.png) `Reference: https://medium.com/@Bond_Protocol/auctions-what-the-dutch-80e4bb3ee7ad`\n\n## Benefits of Bonding\nThere are several benefits of bonding, such as allowing a protocol to accumulate their own liquidity. \n\nProtocol Owned Liquidity (POL) allows a protocols to attain sufficient liquidity for normal market operations. Without POL and relying on external liquidity providers, in distress market conditions, liquidity is often pulled from the protocol, exacerbating the situation with less exit liquidity (liquidity death spiral).\n\nAnother benefit is that POL transforms liquidity from a liability to a revenue source. Every swap transaction in a pool contributes a 0.3%/0.25% (Uniswap/Sushiswap) fee to the LPs. With POL, as liquidity is permanently locked in the treasury, these fees provide a constant source of revenue for the protocol. \n\nAdditionally, POL allows for additional yield farming opportunities, such as the Onsen program offered by Sushiswap, where protocols can have their liquidity pair listed for SUSHI rewards. Once successfully listed, the protocols can deposit their SLP tokens into the Onsen menu and farm SUSHI tokens.\n\nThere is one additional benefit for community members i.e. an opportunity to acquire the protocol's token at a discount\n",
-          "title": "What is Bonding?"
+          "details": "Bonding is a process in which a user can sell an asset, such as a Quote Token, in a bond market created by an issuer, in exchange for a discounted Payout Token at a later date. To encourage users to sell to the protocol rather than the open market, bonds are offered at a discounted rate, and they also have a vesting period to prevent users from selling all the discounted tokens at once for a quick profit.\n\nA continuous [Dutch auction](https://medium.com/@Bond_Protocol/auctions-what-the-dutch-80e4bb3ee7ad) is used to price the bonds, and the price is determined by the supply and demand of bonds in the market. The bond price goes up when there is more demand, and goes down when there is less demand. This mechanism provides a real-time reflection of the bond price in the market. As a result, bonding is a highly competitive space, with participants competing to get the largest discount.\n\nBelow image is a good visualization of how it works: \n\n![Dutch Auction](https://raw.githubusercontent.com/DoDAO-io/raising-funds-using-defi/main/images/dutch_auction.png) `Reference: https://medium.com/@Bond_Protocol/auctions-what-the-dutch-80e4bb3ee7ad`\n\n## Benefits of Bonding\nThere are several benefits of bonding, such as allowing a protocol to accumulate their own liquidity. \n\nProtocol Owned Liquidity (POL) allows a protocols to attain sufficient liquidity for normal market operations. Without POL and relying on external liquidity providers, in distress market conditions, liquidity is often pulled from the protocol, exacerbating the situation with less exit liquidity (liquidity death spiral).\n\nAnother benefit is that POL transforms liquidity from a liability to a revenue source. Every swap transaction in a pool contributes a 0.3%/0.25% (Uniswap/Sushiswap) fee to the LPs. With POL, as liquidity is permanently locked in the treasury, these fees provide a constant source of revenue for the protocol. \n\nAdditionally, POL allows for additional yield farming opportunities, such as the Onsen program offered by Sushiswap, where protocols can have their liquidity pair listed for SUSHI rewards. Once successfully listed, the protocols can deposit their SLP tokens into the Onsen menu and farm SUSHI tokens.\n\nThere is one additional benefit for community members i.e. an opportunity to acquire the protocol's token at a discount\n"
         },
         {
           "key": "types-of-bonds",
@@ -424,9 +424,9 @@
         },
         {
           "key": "advantages",
+          "title": "Advantages",
           "shortTitle": "Advantages",
-          "details": "### Advantages of Bond Protocol\n-  **Increase project runway, reduce insolvency risks**: Most protocols are over-exposed to their native governance token, with most treasuries having <10% diversification. Issuing bonds allows funds for development and investment in strategic initiatives to increase protocol viability and longevity. \n\n- **Acquire liquidity at lower long-term cost**: Protocols pay a lot to rent liquidity via inflationary incentives paid in their native governance token. High incentives paid to mercenary capital can create negative feedback loops that destroy value for the protocol and token holders. \n\n- **Permissionless**: Anyone can create a bond market! Bond Protocol is self-contained and trustless, just like you would expect from a DeFi protocol. When you launch a bond on our marketplace, you are in complete control. You can choose to receive and bond any ERC20 token, including base assets and LP tokens. The vesting period, bond capacity, and market duration can be tuned to suit your protocol’s needs. \n\n- **Composable**: Bond purchasers receive Bond Tokens (tokenized bonds) that represent their positions which allow for the creation of secondary markets. With the introduction of tokenized bonds, a new range of opportunities is unlocked in DeFi. Bonds can be used as collateral, exchanged between wallets, or even used in governance.  \n\n- **Modular**: Bond Protocol's contract architecture makes it easy to add new bond assets and auction interfaces. Protocols will be able to select from a variety of bond markets that best suit their unique attributes. Initially launched with two types of bond vesting, Fixed-Term (ERC1155) and Fixed-Expiry (ERC20). Fixed-Term bonds are most similar to classic Olympus bonds, with their maturity set a fixed number of days from purchase (ex: 14 days). With Fixed-Expiry bonds, on the other hand, all bonds issued from that market mature on a specific date (ex: Dec-31).\n",
-          "title": "Advantages"
+          "details": "### Advantages of Bond Protocol\n-  **Increase project runway, reduce insolvency risks**: Most protocols are over-exposed to their native governance token, with most treasuries having <10% diversification. Issuing bonds allows funds for development and investment in strategic initiatives to increase protocol viability and longevity. \n\n- **Acquire liquidity at lower long-term cost**: Protocols pay a lot to rent liquidity via inflationary incentives paid in their native governance token. High incentives paid to mercenary capital can create negative feedback loops that destroy value for the protocol and token holders. \n\n- **Permissionless**: Anyone can create a bond market! Bond Protocol is self-contained and trustless, just like you would expect from a DeFi protocol. When you launch a bond on our marketplace, you are in complete control. You can choose to receive and bond any ERC20 token, including base assets and LP tokens. The vesting period, bond capacity, and market duration can be tuned to suit your protocol’s needs. \n\n- **Composable**: Bond purchasers receive Bond Tokens (tokenized bonds) that represent their positions which allow for the creation of secondary markets. With the introduction of tokenized bonds, a new range of opportunities is unlocked in DeFi. Bonds can be used as collateral, exchanged between wallets, or even used in governance.  \n\n- **Modular**: Bond Protocol's contract architecture makes it easy to add new bond assets and auction interfaces. Protocols will be able to select from a variety of bond markets that best suit their unique attributes. Initially launched with two types of bond vesting, Fixed-Term (ERC1155) and Fixed-Expiry (ERC20). Fixed-Term bonds are most similar to classic Olympus bonds, with their maturity set a fixed number of days from purchase (ex: 14 days). With Fixed-Expiry bonds, on the other hand, all bonds issued from that market mature on a specific date (ex: Dec-31).\n"
         },
         {
           "key": "growth-and-adoption",
@@ -770,9 +770,9 @@
         },
         {
           "key": "refernces",
+          "title": "References",
           "shortTitle": "References",
-          "details": "- https://fjordfoundry.com/ \n- https://help.fjordfoundry.com/fjord-foundry\n- docs/welcome-info/welcome-to-fjord-foundry \n- https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2\n",
-          "title": "References"
+          "details": "- https://fjordfoundry.com/ \n- https://help.fjordfoundry.com/fjord-foundry\n- docs/welcome-info/welcome-to-fjord-foundry \n- https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2\n"
         }
       ],
       "questions": [
@@ -1069,282 +1069,6 @@
       ],
       "readings": [],
       "summaries": []
-    },
-    {
-      "key": "polymath",
-      "title": "Polymath",
-      "details": "Polymath is an asset tokenization platform that enables people to digitize real world assets and can mint tokens backing the assets for the purpose of getting investors or generally raising funds for projects.",
-      "explanations": [
-        {
-          "key": "what-is-polymath",
-          "shortTitle": "Introduction",
-          "details": "[![Introduction to Polymath](https://img.youtube.com/vi/irGYjihFx3o/0.jpg)](https://www.youtube.com/watch?v=irGYjihFx3o)\n\nPolymath is an asset tokenization platform that enables people to digitize real-world assets and can mint tokens backing the assets for the purpose of getting investors or generally raising funds for projects. It is built as an open-source tool operated on smart contracts where anyone can access it and build on its infrastructure to create new solutions. As a security token, Polymenth is powered by ERC1400 which is the standard for regulated assets living on the Blockchain. This way investors can be whitelisted, Know Your Customer (KYC) processes can be initiated easily to know who owns what, limits on transitions can be set, and so on.\n\nPolymath is built on the Polymesh blockchain which is a specific protocol built for handling security tokens. It is able to manage certain functions such as compliance, identity, confidentiality, and governance which other blockchains may not be able to cover in full. Polymesh is operated on the ERC 1400 (an Ethereum-based standard for security tokens). \n\nSince 2017, Polymath has continuously strived to work with the Blockchain ecosystem to come up with a system that works for all. With the advanced technology that has been built by Polymath, issuers can automate their flows and state the rules about who can access or hold their tokens, what locations the tokens can be accessed from, how they can be transferred, the requirements for holding the tokens, etc. It is also highly customizable as you can create your offer, set up your yield strategy, issue tokens, manage your team of experts, attract investors to your business, manage current and future portfolios, and access to key players in the ecosystem while positioning your business for massive growth.\n\nAs a major player in the industry, Polymath has developed products that will cater to the needs of anyone who wants to build solutions that will digitize their real-world assets. With use cases such as effective asset onboarding, compliance assurance, transfer restrictions, redundant data, source insight, transfer disable functions, asset recovery, and identity verification, and with a deeply technical team focused on making the process simpler and easier, Polymath is powering the future of security tokens",
-          "title": "What is Polymath?"
-        },
-        {
-          "key": "polymesh",
-          "shortTitle": "Polymesh",
-          "details": "[![Polymesh Mainnet Demo](https://img.youtube.com/vi/8UOe8CuQAjM/0.jpg)](https://www.youtube.com/watch?v=8UOe8CuQAjM)\n\nPolymesh is the purpose-built blockchain network built by the Polymath team to manage security tokens. At the advent of Polymath, smart contracts were launched on a general blockchain, Ethereum, to build a token that will digitize physical assets. These tokens would serve as security tokens such that people who own physical assets in real life, can have a digital token to prove ownership of such assets. These tokens can then be traded in the primary and secondary markets thereby transferring ownership of not just the token but also the assets. \n\nHowever, there are many challenges surrounding the ERC20 protocol that was to be used that would make it not suitable for security tokens. Some of those challenges include anonymity since people can trade tokens without necessarily verifying their identities so this could easily create a loophole for theft. Also, these assets sit on regulated markets but the core ERC20 protocol was built for an unregulated environment so there is almost no way to enforce compliance with procedures and basic requirements for trading securities on the Blockchain.\n\nThese and many more issues created an opportunity for a new protocol and a new network, hence Polymath going ahead to build the Polymesh network specifically for security tokens, backed by the ERC 1400 protocol which was also created for securities. Polymesh, therefore, was built on the parity substrate framework because of its novel technology, product roadmap and fit with what Ploymath is building, community and a number of other factors some of which include:\n\n* Modularity: Polymath operates a modular structure as a part of its infrastructure where new rules and features can be added to the network easily by creating new modules while maintaining an interoperable library of the ERC 1400 protocol where people can use only parts of the protocol that makes sense to them. Substrate also operates a similar model thereby making a seamless integration possible. It has a library of modules for functions such as finality, block production, balance management, governance features, and support for smart contracts.\n* Future-Proof Technology: The major parts of the Substrate infrastructure are built on Rust; a language known for high performance, low runtime size, and optimized for memory safety guarantees. It is also built on industry standards such as LibP2P and WASM which are slowly being adopted by other Blockchains like Ethereum.\n* Governance and Upgrades: Polymesh being a blockchain built for a specific purpose, needed to run on a framework that gives it the flexibility it needed to provide all necessary requirements. Substrate provides a forkless upgrade mechanism such that the process of upgrading the software is done seamlessly. \n* Community: Polymath has a large number of people building various solutions on their infrastructure and Substrate also has a great community of developers that make the work seamless. So, there is a symbiotic relationship between the two as Ploymesh can easily leverage the Substrate community when releasing features or marketing their products.",
-          "title": "Polymesh"
-        },
-        {
-          "key": "polymath-capital-platform",
-          "shortTitle": "Polymath Capital",
-          "details": "The Polymath Capital Platform is an all-inclusive platform built on the Polymesh blockchain to power the process of raising funds for real-world projects or getting investments on a real-world asset by providing security tokens to people who invest in these assets or projects. It is designed to work for everyone, whether you are an investment advisor, an investor, or an asset owner. It is one of the most robust systems to provide this service to people. What makes this really interesting is that it is operated on the Blockchain which is a transparent and decentralized network for anyone to be a part of.\n\nAsset owners can easily create and issue tokens, create a yield amount for investments made, create a capitalization table to know what all investors own, apply KYC/KYB restrictions where necessary, and get team members onboarded on the Ploymath Capital Platform. Investors can as well get invited to invest or be able to browse through various investments to know which fit them based on the jurisdiction, yield, KYC, and any other constraint that might be placed on investment while advisors can generally have access to information if the team has that function from the get-go. They can have information on cap tables, tokens created, and any other documentation or process created in the team.\n\nAs an end-to-end platform, Polymath provides not just tools for fundraising but for investor management throughout the lifecycle of the investment. Everything needed to manage the process is already included in the software. Some of the core features highlighted are:\n\n* Cap Table Management\n* Corporate Governance\n* Onboarding\n* Investors’ Accreditation\n* Custody\n* Investment Offerings\n\nBuilding for regulated markets definitely has a lot of challenges and this is why Polymath is committed to making the process of securitizing physical assets via tokens operated on the blockchain seamless. \n",
-          "title": "Polymath Capital Platform"
-        },
-        {
-          "key": "polymath-token-studio",
-          "shortTitle": "Token Studio",
-          "details": "The Polymath token studio is the platform where issuers can create security tokens either on the Polymesh network or on Ethereum. The process of creating these tokens starts with reservation, which is a 60-day period where a security token ticker symbol can be locked before opening it up to the public. For example, if GMT is a ticker symbol that is available on Polymesh, an issuer can reserve GMT for a period of 60 days within which the token must be created and if after that period the token is not created, then GMT is made available for the public to use. Reserving a token on Polymath costs 500 POLYX.\n\nBefore the minting process can begin, the issuer needs to firstly assemble the team that will provide the base requirements for the token to be created. This team can be a combination of Legal Firms, Deal Brokers, KYC providers, and a network of custody agents among others.\n\nOnce the issuer is ready to mint the security token, 2500 POLYX is required to sign the transaction so that the token will go live. After that process is completed then the compliance rules of the token can be set so that people who will own the token will be bound by those rules. The last process is then to distribute the token.\n\nWhen Polymath was first launched on Ethereum, it created the POLY token which is an ERC20 token. However, when it moved to Polymesh which is its own Blockchain network, it changed its token to POLYX. Issuers who owned POLY and wish to change them to POLYX so as to use the Polymesh blockchain can do so by following the steps in the video below:\n\n[![POLY to POLYX Upgrade Bridge](https://img.youtube.com/vi/zZetUxboCSI/0.jpg)](https://www.youtube.com/watch?v=zZetUxboCSI)\n\nIn order to know how to mint a security token on the Polymesh network, watch the video below:\n\n[![Token Studio on Polymesh](https://img.youtube.com/vi/TGDBulqZUM0/0.jpg)](https://www.youtube.com/watch?v=TGDBulqZUM0)\n\nAlso, Polymath supports the minting of security tokens that operate on the Ethereum Blockchain to enable people who want to use a general-purpose blockchain network. To set this up, watch the video below:\n\n[![Token Studio on Ethereum](https://img.youtube.com/vi/C0eM1GU2G04/0.jpg)](https://www.youtube.com/watch?v=C0eM1GU2G04)",
-          "title": "Polymath Token Studio"
-        }
-      ],
-      "readings": [],
-      "summaries": [],
-      "questions": [
-        {
-          "uuid": "cdb36b34-b7bf-4d51-b5b2-f0e620871527",
-          "type": "MultipleChoice",
-          "content": "What is Polymath used for? (Select two options)",
-          "hint": "Nohint",
-          "explanation": "Polymath is an asset tokenization platform that enables people to digitize real world assets and can mint tokens backing the assets for the purpose of getting investors or generally raising funds for projects.",
-          "answerKeys": [
-            "A",
-            "511103dc"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "To raise funds for projects",
-              "key": "A"
-            },
-            {
-              "content": "To mint tokens",
-              "key": "0877fea8"
-            },
-            {
-              "content": "To digitize real-world assets",
-              "key": "511103dc"
-            },
-            {
-              "content": "To whitelist investors",
-              "key": "11c1dafa"
-            }
-          ]
-        },
-        {
-          "uuid": "d02ac3f0-055b-4513-b376-7d5c37473f52",
-          "type": "SingleChoice",
-          "content": "What is the standard for regulated assets living on the Blockchain that Polymath is powered by?",
-          "hint": "Nohint    ",
-          "explanation": "As a security token, Polymenth is powered by ERC1400 which is the standard for regulated assets living on the Blockchain.  ",
-          "answerKeys": [
-            "342d85c3"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "ERC20",
-              "key": "A"
-            },
-            {
-              "content": "ERC1400",
-              "key": "342d85c3"
-            },
-            {
-              "content": "ERC721",
-              "key": "ba58c0c8"
-            },
-            {
-              "content": "ERC1155",
-              "key": "61f14d68"
-            }
-          ]
-        },
-        {
-          "uuid": "0afc804f-e03e-473f-92c4-2a1bd06f9183",
-          "type": "SingleChoice",
-          "content": "What was Polymesh blockchain built for?",
-          "hint": "Nohint    ",
-          "explanation": "Polymath is built on the Polymesh blockchain which is a specific protocol built for handling security tokens. ",
-          "answerKeys": [
-            "b4a58e2b"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Sending and receiving cryptocurrencies",
-              "key": "A"
-            },
-            {
-              "content": "Trading DeFi tokens",
-              "key": "c1f9a1a0"
-            },
-            {
-              "content": "Low gas fees",
-              "key": "2dcccea2"
-            },
-            {
-              "content": "Managing security tokens",
-              "key": "b4a58e2b"
-            }
-          ]
-        },
-        {
-          "uuid": "03a42a34-2e10-44a3-8d67-191a85d52e34",
-          "type": "SingleChoice",
-          "content": "Which of these is NOT a use case for Polymath?",
-          "hint": "Nohint    ",
-          "explanation": "With use cases such as effective asset onboarding, compliance assurance, transfer restrictions, redundant data, source insight, transfer disable functions, asset recovery, and identity verification, and with a deeply technical team focused on making the process simpler and easier, Polymath is powering the future of security tokens.",
-          "answerKeys": [
-            "e246bae6"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Identity Verification",
-              "key": "A"
-            },
-            {
-              "content": "Asset Cloning",
-              "key": "e246bae6"
-            },
-            {
-              "content": "Asset Recovery",
-              "key": "a1515125"
-            },
-            {
-              "content": "Compliance Assurance",
-              "key": "e4f2a3e5"
-            }
-          ]
-        },
-        {
-          "uuid": "9fa7cf33-7e65-44fc-b235-0f8ff135d602",
-          "type": "SingleChoice",
-          "content": "Which of these is NOT a reason Polymesh was built on the Substrate framework?",
-          "hint": "Nohint    ",
-          "explanation": "Polymesh was built on the parity substrate framework because of its novel technology, product roadmap and fit with what Ploymath is building, community, and modularity.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Non Upgradable",
-              "key": "A"
-            },
-            {
-              "content": "Modularity",
-              "key": "eeca4e6a"
-            },
-            {
-              "content": "Future Proof Technology",
-              "key": "49ce1bb6"
-            },
-            {
-              "content": "Community",
-              "key": "dae71479"
-            }
-          ]
-        },
-        {
-          "uuid": "4f7235af-cd23-4edf-8f72-eb0364431a7c",
-          "type": "SingleChoice",
-          "content": "One of these blockchain network standards provides the flexibility required for identity verification and enforcement of compliance procedures when trading securities",
-          "hint": "Nohint    ",
-          "explanation": "ERC 1400 protocol was created for managing securities. ",
-          "answerKeys": [
-            "ce4906d9"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "ERC721",
-              "key": "A"
-            },
-            {
-              "content": "ERC20",
-              "key": "67da8488"
-            },
-            {
-              "content": "ERC1400",
-              "key": "ce4906d9"
-            },
-            {
-              "content": "ERC1155",
-              "key": "a3af7919"
-            }
-          ]
-        },
-        {
-          "uuid": "24ef4d64-67f8-430d-b1c9-c302c0d1af6e",
-          "type": "SingleChoice",
-          "content": "Which of these is a core feature of the Polymath Capital Platform?",
-          "hint": "Nohint    ",
-          "explanation": "Some of the core features of the Polymath Capital Platform highlighted are:\nCap Table Management\nCorporate Governance\nOnboarding\nInvestors’ Accreditation\nCustody\nInvestment Offerings",
-          "answerKeys": [
-            "397f96e5"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Cap Table Management",
-              "key": "A"
-            },
-            {
-              "content": "Corporate Governance",
-              "key": "348d74a4"
-            },
-            {
-              "content": "Investment Offerings",
-              "key": "8ccc95c2"
-            },
-            {
-              "content": "All of the Above",
-              "key": "397f96e5"
-            }
-          ]
-        },
-        {
-          "uuid": "38e5332c-8814-4fc7-ab9b-1f1b8a02b298",
-          "type": "SingleChoice",
-          "content": "What is the cost of reserving a token on Polymath token studio?",
-          "hint": "Nohint    ",
-          "explanation": "Reserving a token on Polymath costs 500 POLYX.",
-          "answerKeys": [
-            "b67868fd"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "500 POLY",
-              "key": "A"
-            },
-            {
-              "content": "1000 POLYX",
-              "key": "e44c2dac"
-            },
-            {
-              "content": "800 POLY",
-              "key": "e903f436"
-            },
-            {
-              "content": "500 POLYX",
-              "key": "b67868fd"
-            }
-          ]
-        }
-      ]
     }
   ]
 }

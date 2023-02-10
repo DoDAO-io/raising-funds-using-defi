@@ -87,6 +87,9 @@ When undertaking token buybacks via traditional automated market maker (AMM) mod
 Conversely, undertaking a treasury buyback via Fjord's weighted liquidity pools allows projects to accumulate governance tokens back to the treasury in a slow and steady manner. The use of weighted pools enables a reduced market impact, leading to a higher accrual of tokens, less tokens on the market, and an improved composition of the treasury. This approach can help to ensure that token buybacks are effective in supporting the price of the token over the long term, by taking a more sustainable approach to removing tokens from circulation.
  
  **References**        
-- https://fjordfoundry.com/ - https://help.fjordfoundry.com/fjord-foundry-docs/welcome-info/welcome-to-fjord-foundry - https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2
+- https://fjordfoundry.com/ 
+- https://help.fjordfoundry.com/fjord-foundry
+- docs/welcome-info/welcome-to-fjord-foundry 
+- https://medium.com/balancer-protocol/a-primer-on-fair-token-launches-and-liquidity-bootstrapping-pools-11bab5ff33a2
  
  
