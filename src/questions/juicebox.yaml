@@ -21,3 +21,29 @@
       key: b39557b3
     - content: Juicebox is a platform for buying and selling NFTs
       key: c1d6439e
+- uuid: 181552eb-c2b4-45a9-9920-44528a0fc716
+  type: SingleChoice
+  content: >-
+    What is the structure of Juicebox and how is it flexible to accommodate
+    different projects?
+  hint: 'Nohint    '
+  explanation: >-
+    One of the key things to look out for in communities as they grow is if they
+    are flexible to adapt to changes overtime. This is why Juicebox lets
+    projects adapt their rules and conditions as projects grow and members
+    increase.
+  answerKeys:
+    - 8459c7d3
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Juicebox has a rigid structure and can only accommodate large projects
+      key: A
+    - content: Juicebox is structured to only accommodate NFT projects
+      key: 6b6ff2dd
+    - content: >-
+        Juicebox has a flexible structure to accommodate both the smallest and
+        largest projects
+      key: 8459c7d3
+    - content: Juicebox is structured to only accommodate DAOs
+      key: 2e68eac6
