@@ -97,3 +97,31 @@
       key: a2edefa4
     - content: Juicebox requires projects to change their rules every 6 months
       key: 11e1dc97
+- uuid: 921f4f6a-a2ec-47c9-9de3-63bc24ecb861
+  type: SingleChoice
+  content: >-
+    What is the purpose of the tokens created on Juicebox and how do they serve
+    the projects?
+  hint: 'Nohint    '
+  explanation: >-
+    These tokens can be governance tokens of DAOs i.e. being used to create
+    proposals or vote on them depending on the voting structures that are in
+    place within the DAO, they may also be a form of compensation for
+    contributors or even a way to provide membership perks to community members.
+  answerKeys:
+    - db626a52
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Tokens on Juicebox serve as a form of payment for goods and services
+      key: A
+    - content: >-
+        Tokens on Juicebox serve as governance tokens, compensation for
+        contributors, or membership perks
+      key: db626a52
+    - content: >-
+        Tokens on Juicebox serve as a way for projects to rug pull or scam
+        people of their investments
+      key: 6e59b46f
+    - content: Tokens on Juicebox serve as a form of investment with no practical use
+      key: 025500a8
