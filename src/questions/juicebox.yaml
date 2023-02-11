@@ -125,3 +125,25 @@
       key: 6e59b46f
     - content: Tokens on Juicebox serve as a form of investment with no practical use
       key: 025500a8
+- uuid: 620cbcd1-9086-456e-b9ef-5a960fe09658
+  type: SingleChoice
+  content: What integrations does Juicebox have with other tools?
+  hint: 'Nohint    '
+  explanation: >-
+    Juicebox integrates nicely with other tools such as Gnosis Safe, Snapshot,
+    and other tools that various communities use to operate.
+  answerKeys:
+    - e1c43be4
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Juicebox has no integrations with other tools
+      key: A
+    - content: >-
+        Juicebox integrates with Gnosis Safe, Snapshot, and other tools used by
+        communities
+      key: e1c43be4
+    - content: Juicebox integrates with popular payment gateways
+      key: 7b15a68f
+    - content: Juicebox integrates with NFT marketplaces
+      key: 32b0c431
