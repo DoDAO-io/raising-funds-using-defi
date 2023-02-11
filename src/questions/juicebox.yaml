@@ -69,3 +69,31 @@
         Juicebox requires no rules to be set in place, making it easier for
         projects to scam people
       key: 40fe0640
+- uuid: 1447811f-23ec-4070-867a-21079ef57317
+  type: SingleChoice
+  content: >-
+    How does Juicebox allow projects to adapt their rules as they grow and
+    change?
+  hint: Nohint
+  explanation: >-
+    One of the key things to look out for in communities as they grow is if they
+    are flexible to adapt to changes overtime. This is why Juicebox lets
+    projects adapt their rules and conditions as projects grow and members
+    increase.
+  answerKeys:
+    - d73a667f
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: ' Juicebox does not allow projects to change their rules'
+      key: A
+    - content: >-
+        Juicebox allows projects to change their rules as they grow and adapt to
+        changes over time
+      key: d73a667f
+    - content: >-
+        Juicebox requires projects to keep their rules static throughout the
+        life of the project
+      key: a2edefa4
+    - content: Juicebox requires projects to change their rules every 6 months
+      key: 11e1dc97
