@@ -1306,6 +1306,36 @@
               "key": "3f78819e"
             }
           ]
+        },
+        {
+          "uuid": "bf8497c7-96ca-4428-9c3c-a3b1d2deab5b",
+          "type": "SingleChoice",
+          "content": "How does Juicebox track voting power for standard on-chain governance?",
+          "hint": "Nohint    ",
+          "explanation": "Standard on-chain governance tracks the total voting power of each address over time.",
+          "answerKeys": [
+            "a20ad367"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "It does not track voting power",
+              "key": "A"
+            },
+            {
+              "content": "It tracks the total voting power of each address over time",
+              "key": "a20ad367"
+            },
+            {
+              "content": "It tracks the voting power of each address within an NFT tier",
+              "key": "18b62f34"
+            },
+            {
+              "content": "None of the above",
+              "key": "f90593bf"
+            }
+          ]
         }
       ]
     }
