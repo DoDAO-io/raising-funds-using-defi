@@ -147,3 +147,25 @@
       key: 7b15a68f
     - content: Juicebox integrates with NFT marketplaces
       key: 32b0c431
+- uuid: 0a53d340-c221-42f3-8a2a-eb5cece83a50
+  type: SingleChoice
+  content: >-
+    What are some of the features that can be set for a tier when creating an
+    NFT on Juicebox?
+  hint: 'Nohint    '
+  explanation: >-
+    Each tier has a unique price, reserved rate, governance voting power,
+    maximum supply, and unique metadata.
+  answerKeys:
+    - 3f78819e
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: The cost of the NFT
+      key: A
+    - content: The name and description of the NFT
+      key: d7b01d6b
+    - content: The maximum number of NFTs that can be produced from the tier
+      key: 4a7f5b94
+    - content: All of the above
+      key: 3f78819e
