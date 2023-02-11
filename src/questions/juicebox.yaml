@@ -1,0 +1,23 @@
+- uuid: 440017c8-3054-413c-9766-f4064609d8b1
+  type: SingleChoice
+  content: What is Juicebox and what kind of projects does it serve?
+  hint: 'Nohint    '
+  explanation: >-
+    Juicebox serves as a blockchain equivalent of crowdfunding platforms like
+    Kickstarter, Patreon, and Gofundme, or even a substitute for venture
+    capital.
+  answerKeys:
+    - 925df435
+  subTopics: []
+  difficultyLevel: Medium
+  choices:
+    - content: Juicebox is a platform for individuals to pay for goods and services
+      key: A
+    - content: >-
+        Juicebox is a platform for web3 native projects or DAOs to raise funds
+        for their projects
+      key: 925df435
+    - content: Juicebox is a platform for large corporations to create tokens
+      key: b39557b3
+    - content: Juicebox is a platform for buying and selling NFTs
+      key: c1d6439e
