@@ -1,0 +1,52 @@
+- key: introduction
+  title: Introduction
+  shortTitle: Introduction
+  details: >-
+    Juicebox is a versatile crypto financing protocol that allows you to
+    customize various aspects of it to fit your needs. It serves as a blockchain
+    equivalent of crowdfunding platforms like Kickstarter, Patreon, and
+    Gofundme, or even a substitute for venture capital. The basic principle of
+    the protocol is that when individuals invest in your project, they receive
+    tokens specific to your project. These tokens can be utilized for governance
+    or access to token-restricted websites. 
+
+
+    ### **Managing Funds**
+
+
+    As the project creator, you have the ability to distribute funds to the
+    wallets or projects of your choice, which you can change over time. If
+    contributors are unhappy with the direction of the project, they can
+    exchange their tokens for a proportional share of the ETH stored in the
+    project. You have control over various mechanics such as token issuance
+    rates, redemption rates, distributions, and other project details, giving
+    you full flexibility in shaping the tokenomics of your project. These rules
+    put in place build trust for communities and make it hard for projects to
+    rug pull or try to scam people of their investments. Supporters and members
+    of communities can easily believe in projects and what they want to achieve.
+
+
+    ### **Building Trust**
+
+
+    Additionally, you can lock in your settings for a set period, ensuring your
+    community that you won't make any sudden changes. Juicebox offers you the
+    choice to retain control or relinquish it when necessary. Built on Ethereum,
+    Juicebox provides the platform for individuals to pay projects to either own
+    their tokens or NFTs. As earlier mentioned, these tokens can be governance
+    tokens of DAOs ie. being used to create proposals or vote on them depending
+    on the voting structures that are in place within the DAO, they may also be
+    a form of compensation for contributors or even a way to provide membership
+    perks to community members. Every project has a unique way to use Juicebox
+    depending on the peculiarity of the project.
+
+
+    ### **Community Development**
+
+
+    Finally, one of the key things to look out for in communities as they grow
+    is if they are flexible to adapt to changes over time. This is why Juicebox
+    lets projects adapt their rules and conditions as projects grow and members
+    increase. Juicebox also integrates nicely with other tools such as Gnosis
+    Safe, Snapshot, and other tools that various communities use to operate.
+    With these in place, projects can rely on Juicebox for scalability. 
