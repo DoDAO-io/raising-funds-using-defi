@@ -98,6 +98,12 @@ topics:
       shape the future they want to see.
     explanations: fjord-foundry.yaml
     questions: fjord-foundry.yaml
+  - key: juicebox
+    title: Juicebox
+    details: >-
+      Raising funds for projects has now been made easy as Juicebox provides a
+      unique platform for project creators in web3 to raise and manage funds
+      from the public or even private investors.
 courseAdmins:
   - '0x47a67e14b3804dc652b3a3200d8c00d4f55abb6b'
   - '0x34d014758297c00fea49935fce172677904d51ef'

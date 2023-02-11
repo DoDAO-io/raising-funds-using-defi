@@ -1069,6 +1069,15 @@
       ],
       "readings": [],
       "summaries": []
+    },
+    {
+      "key": "juicebox",
+      "title": "Juicebox",
+      "details": "Raising funds for projects has now been made easy as Juicebox provides a unique platform for project creators in web3 to raise and manage funds from the public or even private investors.",
+      "explanations": [],
+      "readings": [],
+      "summaries": [],
+      "questions": []
     }
   ]
 }
