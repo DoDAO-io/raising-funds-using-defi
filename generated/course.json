@@ -1156,6 +1156,36 @@
               "key": "2e68eac6"
             }
           ]
+        },
+        {
+          "uuid": "ca7f0b53-bff1-4ff1-bce1-997d2a12208f",
+          "type": "SingleChoice",
+          "content": "How does Juicebox build trust between the community and projects on the platform?",
+          "hint": "Nohint    ",
+          "explanation": "Juicebox enables projects to set up their rules ahead when setting up the project or minting tokens.",
+          "answerKeys": [
+            "bbe4f9ee"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Juicebox creates distrust between community and projects",
+              "key": "A"
+            },
+            {
+              "content": "Juicebox allows projects to manipulate the rules for their advantage",
+              "key": "721a51ed"
+            },
+            {
+              "content": "Juicebox sets rules for projects ahead of time to build trust with the community",
+              "key": "bbe4f9ee"
+            },
+            {
+              "content": "Juicebox requires no rules to be set in place, making it easier for projects to scam people",
+              "key": "40fe0640"
+            }
+          ]
         }
       ]
     }
