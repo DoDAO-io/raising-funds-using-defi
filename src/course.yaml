@@ -62,6 +62,14 @@ topics:
       the best model for your project and ensure that you have a solid plan for
       raising the necessary funds.
     explanations: intoduction.yaml
+  - key: juicebox
+    title: Juicebox
+    details: >-
+      Raising funds for projects has now been made easy as Juicebox provides a
+      unique platform for project creators in web3 to raise and manage funds
+      from the public or even private investors.
+    explanations: juicebox.yaml
+    questions: juicebox.yaml
   - key: bond-protocol
     title: Bond Protocol
     details: >
@@ -71,14 +79,6 @@ topics:
       Bonds-as-a-Service to meet the needs of DeFi with innovative ideas.
     explanations: bond-protocol.yaml
     questions: bond-protocol.yaml
-  - key: juicebox
-    title: Juicebox
-    details: >-
-      Raising funds for projects has now been made easy as Juicebox provides a
-      unique platform for project creators in web3 to raise and manage funds
-      from the public or even private investors.
-    explanations: juicebox.yaml
-    questions: juicebox.yaml
   - key: chicken-bonds
     title: Chicken bonds
     details: >-

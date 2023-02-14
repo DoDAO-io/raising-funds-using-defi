@@ -82,6 +82,275 @@
       "summaries": []
     },
     {
+      "key": "juicebox",
+      "title": "Juicebox",
+      "details": "Raising funds for projects has now been made easy as Juicebox provides a unique platform for project creators in web3 to raise and manage funds from the public or even private investors.",
+      "explanations": [
+        {
+          "key": "introduction",
+          "shortTitle": "Introduction",
+          "details": "Juicebox is a versatile crypto financing protocol that allows you to customize various aspects of it to fit your needs. It serves as a blockchain equivalent of crowdfunding platforms like Kickstarter, Patreon, and Gofundme, or even a substitute for venture capital. The basic principle of the protocol is that when individuals invest in your project, they receive tokens specific to your project. These tokens can be utilized for governance or access to token-restricted websites. \n\n### **Managing Funds**\n\nAs the project creator, you have the ability to distribute funds to the wallets or projects of your choice, which you can change over time. If contributors are unhappy with the direction of the project, they can exchange their tokens for a proportional share of the ETH stored in the project. You have control over various mechanics such as token issuance rates, redemption rates, distributions, and other project details, giving you full flexibility in shaping the tokenomics of your project. These rules put in place build trust for communities and make it hard for projects to rug pull or try to scam people of their investments. Supporters and members of communities can easily believe in projects and what they want to achieve.\n\n### **Building Trust**\n\nAdditionally, you can lock in your settings for a set period, ensuring your community that you won't make any sudden changes. Juicebox offers you the choice to retain control or relinquish it when necessary. Built on Ethereum, Juicebox provides the platform for individuals to pay projects to either own their tokens or NFTs. As earlier mentioned, these tokens can be governance tokens of DAOs ie. being used to create proposals or vote on them depending on the voting structures that are in place within the DAO, they may also be a form of compensation for contributors or even a way to provide membership perks to community members. Every project has a unique way to use Juicebox depending on the peculiarity of the project.\n\n### **Community Development**\n\nFinally, one of the key things to look out for in communities as they grow is if they are flexible to adapt to changes over time. This is why Juicebox lets projects adapt their rules and conditions as projects grow and members increase. Juicebox also integrates nicely with other tools such as Gnosis Safe, Snapshot, and other tools that various communities use to operate. With these in place, projects can rely on Juicebox for scalability. ",
+          "title": "Introduction"
+        },
+        {
+          "key": "how-to-set-up-a-project-on-juicebox",
+          "shortTitle": "Setting Up",
+          "details": "Starting out on Juicebox is simply following a number of steps, the first is creating a project on Juicebox. To create a project on Juicebox, visit, [https://juicebox.money](https://juicebox.money) and click on ‘Create A Project’. In this course, we will be creating a project so you can follow the steps highlighted below. In this case, we will be using the Juicebox testnet on Goerli via [https://goerli.juicebox.money](https://goerli.juicebox.money) \n\n1. Connect your wallet address on the Goerli network to get started.\n![Available Wallets](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/available_wallets.jpg)\n\n2. Input the project details. These details are information such as the project name, project description, logo, project links, owner of the project, and customize pay button. Some of the fields are optional so you don’t have to fill them.\n![Project Details](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/project_details.jpg)\n\n3. The next is to set the funding cycle for the project. On Juicebox, a funding cycle is a period where the settings are locked in before any change is made. This helps to build trust among contributors and community members knowing that for that period, no change to the rules of the token can be made. The default on Juicebox is 14 days if you select the automated funding cycle. Projects can however customize their funding cycles and put their own number of days if they choose the manual funding cycle.\n![Funding Cycles](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/funding_cycles.jpg)\n\n4. Depending on the project, you can choose if the target for the funds being raised is specific where a portion of the funds is distributed to specific wallet addresses or an infinite target where the project holds all the funds.\n![Funding Target](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/funding_target.jpg)\n\n5. The next step is to set the wallets that the payouts from the funds will be sent. This allows the project to allocate funds to various wallets in form of percentages or specific amounts (if the specific funding target was chosen). We will choose the project owner since that’s the wallet that will hold the funds in this case.\n![Payouts](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/payouts.jpg)\n\n6. You can now set the rules for the token to be created. The token will have information such as reserved rate (the amount reserved when 1 ETH is contributed to the project), discount rate (the number of extra tokens contributors will receive in a funding cycle), redemption rate (the number of overflows each token can be redeemed for), token minting (whether or not the project owner can mint tokens to wallet addresses). A project can choose the default settings or customize its own settings to fit its goals.\n![Token settings](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/token_settings.jpg)\n\n7. The next step is to create NFTs for the project. This step is optional and you can decide whether or not NFTs are relevant to your project or how they will be distributed to contributors or even what the utility will be for your project.\n![Create NFTs](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/create_nfts.jpg)\n\n8. Projects can also choose the delay period before a funding cycle starts where changes are made to the token configuration. This delay will ensure that contributors know the changes that have been made before they are implemented on Juicebox. Again, this encourages trust among community members. The default on Juicebox is 3 days.\n![Reconfiguration Rules](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/reconfiguration_rules.jpg)\n\n9. Finally, the project owner can deploy the project on Goerli by signing the transaction with the required gas fee.\n![Deploy to Goerli](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/deploy_to%20goerli.jpg)\n\nSetting up your Juicebox project is quite simple and can be done in minutes if you have structured the rules that will govern the project as it relates to funding. You can also watch the video below to get a step-by-step view of how to set up your project on Juicebox.\n\n[![How to fund projects with Juicebox](https://img.youtube.com/vi/2s2OyxG_rvo/0.jpg)](https://www.youtube.com/watch?v=2s2OyxG_rvo)",
+          "title": "How to set up a project on Juicebox"
+        },
+        {
+          "key": "creating-nfts-as-payout-to-contributors",
+          "shortTitle": "Creating NFTs",
+          "details": "Juicebox allows project creators/owners to optionally reward their community members or contributors with NFTs by creating one or more custom NFT tiers. These NFTs can serve as tokens for governance within the projects whether off-chain on platforms such as Snapshot or on-chain on Tally. When creating projects, owners can set tiers from where a limited number of NFTs can be minted. They can also add or remove tiers as the project progresses. Each tier has a unique price, reserved rate, governance voting power, maximum supply, and unique metadata. Also, NFTs can be used for redemption instead of project tokens.\n\nIn order to have NFTs, your project must have at least one tier. To establish a tier, select the \"Add NFT\" option. Every tier can possess:\n\n* An exclusive image, name, description, and link.\n* A minimum donation amount - the cost of your NFT. \n* A limited quantity - the maximum number of NFTs that can be produced from this tier. You can utilize this to motivate early supporters. Each tier can have its own unique quantity.\n\nSome other functions that can be created when minting NFTs on Juicebox are **Reserve NFTs**\n\nWhere contributors can be rewarded by giving them the opportunity to mint one NFT to any address of their choice when they earn an NFT. **Voting Weight** can also be created for each tier to allow for voting whether off-chain or on-chain within the DAO or project. Finally, you can create **External Links** to direct minters to the project’s website, Discord, or any place of their choice.\n\nTo operate on-chain governance processes, Juicebox NFTs are deployed on the **ERC721Votes** standard To achieve this, Juicebox tracks an NFT’s ownership over time when they are minted, burned, traded, or transferred. Juicebox has three on-chain options when setting up NFTs, they include:\n\n* No on-chain governance: This means that the project won’t track voting power over time.\n* Standard on-chain governance: This tracks the total voting power of each address over time\n* Tier-based on-chain governance: As against tracking the total voting power of each address, this tracks the voting power on each address within an NFT tier. This is quite advanced as it is used for complex on-chain governance procedures.",
+          "title": "Creating NFTs as Payout to Contributors"
+        }
+      ],
+      "readings": [],
+      "summaries": [],
+      "questions": [
+        {
+          "uuid": "e7c1985d-bc09-4f3f-bd62-13b7c3947051",
+          "type": "SingleChoice",
+          "content": "What is Juicebox and what kind of projects does it serve?",
+          "hint": "Nohint    ",
+          "explanation": "Juicebox serves as a blockchain equivalent of crowdfunding platforms like Kickstarter, Patreon, and Gofundme, or even a substitute for venture capital.",
+          "answerKeys": [
+            "925df435"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Juicebox is a platform for individuals to pay for goods and services",
+              "key": "A"
+            },
+            {
+              "content": "Juicebox is a platform for web3 native projects or DAOs to raise funds for their projects",
+              "key": "925df435"
+            },
+            {
+              "content": "Juicebox is a platform for large corporations to create tokens",
+              "key": "b39557b3"
+            },
+            {
+              "content": "Juicebox is a platform for buying and selling NFTs",
+              "key": "c1d6439e"
+            }
+          ]
+        },
+        {
+          "uuid": "181552eb-c2b4-45a9-9920-44528a0fc716",
+          "type": "SingleChoice",
+          "content": "What is the structure of Juicebox and how is it flexible to accommodate different projects?",
+          "hint": "Nohint    ",
+          "explanation": "Juicebox works for all types of projects whether big or small.",
+          "answerKeys": [
+            "8459c7d3"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Juicebox has a rigid structure and can only accommodate large projects",
+              "key": "A"
+            },
+            {
+              "content": "Juicebox is structured to only accommodate NFT projects",
+              "key": "6b6ff2dd"
+            },
+            {
+              "content": "Juicebox has a flexible structure to accommodate both the smallest and largest projects",
+              "key": "8459c7d3"
+            },
+            {
+              "content": "Juicebox is structured to only accommodate DAOs",
+              "key": "2e68eac6"
+            }
+          ]
+        },
+        {
+          "uuid": "ca7f0b53-bff1-4ff1-bce1-997d2a12208f",
+          "type": "SingleChoice",
+          "content": "How does Juicebox build trust between the community and projects on the platform?",
+          "hint": "Nohint    ",
+          "explanation": "Juicebox enables projects to set up their rules ahead when setting up the project or minting tokens.",
+          "answerKeys": [
+            "bbe4f9ee"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Juicebox creates distrust between community and projects",
+              "key": "A"
+            },
+            {
+              "content": "Juicebox allows projects to manipulate the rules for their advantage",
+              "key": "721a51ed"
+            },
+            {
+              "content": "Juicebox sets rules for projects ahead of time to build trust with the community",
+              "key": "bbe4f9ee"
+            },
+            {
+              "content": "Juicebox requires no rules to be set in place, making it easier for projects to scam people",
+              "key": "40fe0640"
+            }
+          ]
+        },
+        {
+          "uuid": "1447811f-23ec-4070-867a-21079ef57317",
+          "type": "SingleChoice",
+          "content": "How does Juicebox allow projects to adapt their rules as they grow and change?",
+          "hint": "Nohint",
+          "explanation": "One of the key things to look out for in communities as they grow is if they are flexible to adapt to changes overtime. This is why Juicebox lets projects adapt their rules and conditions as projects grow and members increase.",
+          "answerKeys": [
+            "d73a667f"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": " Juicebox does not allow projects to change their rules",
+              "key": "A"
+            },
+            {
+              "content": "Juicebox allows projects to change their rules as they grow and adapt to changes over time",
+              "key": "d73a667f"
+            },
+            {
+              "content": "Juicebox requires projects to keep their rules static throughout the life of the project",
+              "key": "a2edefa4"
+            },
+            {
+              "content": "Juicebox requires projects to change their rules every 6 months",
+              "key": "11e1dc97"
+            }
+          ]
+        },
+        {
+          "uuid": "921f4f6a-a2ec-47c9-9de3-63bc24ecb861",
+          "type": "SingleChoice",
+          "content": "What is the purpose of the tokens created on Juicebox and how do they serve the projects?",
+          "hint": "Nohint    ",
+          "explanation": "These tokens can be governance tokens of DAOs i.e. being used to create proposals or vote on them depending on the voting structures that are in place within the DAO, they may also be a form of compensation for contributors or even a way to provide membership perks to community members.",
+          "answerKeys": [
+            "db626a52"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Tokens on Juicebox serve as a form of payment for goods and services",
+              "key": "A"
+            },
+            {
+              "content": "Tokens on Juicebox serve as governance tokens, compensation for contributors, or membership perks",
+              "key": "db626a52"
+            },
+            {
+              "content": "Tokens on Juicebox serve as a way for projects to rug pull or scam people of their investments",
+              "key": "6e59b46f"
+            },
+            {
+              "content": "Tokens on Juicebox serve as a form of investment with no practical use",
+              "key": "025500a8"
+            }
+          ]
+        },
+        {
+          "uuid": "620cbcd1-9086-456e-b9ef-5a960fe09658",
+          "type": "SingleChoice",
+          "content": "What integrations does Juicebox have with other tools?",
+          "hint": "Nohint    ",
+          "explanation": "Juicebox integrates nicely with other tools such as Gnosis Safe, Snapshot, and other tools that various communities use to operate.",
+          "answerKeys": [
+            "e1c43be4"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Juicebox has no integrations with other tools",
+              "key": "A"
+            },
+            {
+              "content": "Juicebox integrates with Gnosis Safe, Snapshot, and other tools used by communities",
+              "key": "e1c43be4"
+            },
+            {
+              "content": "Juicebox integrates with popular payment gateways",
+              "key": "7b15a68f"
+            },
+            {
+              "content": "Juicebox integrates with NFT marketplaces",
+              "key": "32b0c431"
+            }
+          ]
+        },
+        {
+          "uuid": "0a53d340-c221-42f3-8a2a-eb5cece83a50",
+          "type": "SingleChoice",
+          "content": "What are some of the features that can be set for a tier when creating an NFT on Juicebox?",
+          "hint": "Nohint    ",
+          "explanation": "Each tier has a unique price, reserved rate, governance voting power, maximum supply, and unique metadata.",
+          "answerKeys": [
+            "3f78819e"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "The cost of the NFT",
+              "key": "A"
+            },
+            {
+              "content": "The name and description of the NFT",
+              "key": "d7b01d6b"
+            },
+            {
+              "content": "The maximum number of NFTs that can be produced from the tier",
+              "key": "4a7f5b94"
+            },
+            {
+              "content": "All of the above",
+              "key": "3f78819e"
+            }
+          ]
+        },
+        {
+          "uuid": "bf8497c7-96ca-4428-9c3c-a3b1d2deab5b",
+          "type": "SingleChoice",
+          "content": "How does Juicebox track voting power for standard on-chain governance?",
+          "hint": "Nohint    ",
+          "explanation": "Standard on-chain governance tracks the total voting power of each address over time.",
+          "answerKeys": [
+            "a20ad367"
+          ],
+          "subTopics": [],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "It does not track voting power",
+              "key": "A"
+            },
+            {
+              "content": "It tracks the total voting power of each address over time",
+              "key": "a20ad367"
+            },
+            {
+              "content": "It tracks the voting power of each address within an NFT tier",
+              "key": "18b62f34"
+            },
+            {
+              "content": "None of the above",
+              "key": "f90593bf"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Bond Protocol",
       "key": "bond-protocol",
       "details": "Bond Protocol was born out of OIP-104 on July 15th, 2022 following the success of Olympus Pro (OP), enabling it to establish a standalone entity. It aims to be a credibly neutral platform, laser-focused on providing Bonds-as-a-Service to meet the needs of DeFi with innovative ideas.\n",
@@ -420,275 +689,6 @@
       ],
       "readings": [],
       "summaries": []
-    },
-    {
-      "key": "juicebox",
-      "title": "Juicebox",
-      "details": "Raising funds for projects has now been made easy as Juicebox provides a unique platform for project creators in web3 to raise and manage funds from the public or even private investors.",
-      "explanations": [
-        {
-          "key": "introduction",
-          "shortTitle": "Introduction",
-          "details": "Juicebox is a versatile crypto financing protocol that allows you to customize various aspects of it to fit your needs. It serves as a blockchain equivalent of crowdfunding platforms like Kickstarter, Patreon, and Gofundme, or even a substitute for venture capital. The basic principle of the protocol is that when individuals invest in your project, they receive tokens specific to your project. These tokens can be utilized for governance or access to token-restricted websites. \n\n### **Managing Funds**\n\nAs the project creator, you have the ability to distribute funds to the wallets or projects of your choice, which you can change over time. If contributors are unhappy with the direction of the project, they can exchange their tokens for a proportional share of the ETH stored in the project. You have control over various mechanics such as token issuance rates, redemption rates, distributions, and other project details, giving you full flexibility in shaping the tokenomics of your project. These rules put in place build trust for communities and make it hard for projects to rug pull or try to scam people of their investments. Supporters and members of communities can easily believe in projects and what they want to achieve.\n\n### **Building Trust**\n\nAdditionally, you can lock in your settings for a set period, ensuring your community that you won't make any sudden changes. Juicebox offers you the choice to retain control or relinquish it when necessary. Built on Ethereum, Juicebox provides the platform for individuals to pay projects to either own their tokens or NFTs. As earlier mentioned, these tokens can be governance tokens of DAOs ie. being used to create proposals or vote on them depending on the voting structures that are in place within the DAO, they may also be a form of compensation for contributors or even a way to provide membership perks to community members. Every project has a unique way to use Juicebox depending on the peculiarity of the project.\n\n### **Community Development**\n\nFinally, one of the key things to look out for in communities as they grow is if they are flexible to adapt to changes over time. This is why Juicebox lets projects adapt their rules and conditions as projects grow and members increase. Juicebox also integrates nicely with other tools such as Gnosis Safe, Snapshot, and other tools that various communities use to operate. With these in place, projects can rely on Juicebox for scalability. ",
-          "title": "Introduction"
-        },
-        {
-          "key": "how-to-set-up-a-project-on-juicebox",
-          "shortTitle": "Setting Up",
-          "details": "Starting out on Juicebox is simply following a number of steps, the first is creating a project on Juicebox. To create a project on Juicebox, visit, [https://juicebox.money](https://juicebox.money) and click on ‘Create A Project’. In this course, we will be creating a project so you can follow the steps highlighted below. In this case, we will be using the Juicebox testnet on Goerli via [https://goerli.juicebox.money](https://goerli.juicebox.money) \n\n1. Connect your wallet address on the Goerli network to get started.\n![Available Wallets](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/available_wallets.jpg)\n\n2. Input the project details. These details are information such as the project name, project description, logo, project links, owner of the project, and customize pay button. Some of the fields are optional so you don’t have to fill them.\n![Project Details](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/project_details.jpg)\n\n3. The next is to set the funding cycle for the project. On Juicebox, a funding cycle is a period where the settings are locked in before any change is made. This helps to build trust among contributors and community members knowing that for that period, no change to the rules of the token can be made. The default on Juicebox is 14 days if you select the automated funding cycle. Projects can however customize their funding cycles and put their own number of days if they choose the manual funding cycle.\n![Funding Cycles](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/funding_cycles.jpg)\n\n4. Depending on the project, you can choose if the target for the funds being raised is specific where a portion of the funds is distributed to specific wallet addresses or an infinite target where the project holds all the funds.\n![Funding Target](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/funding_target.jpg)\n\n5. The next step is to set the wallets that the payouts from the funds will be sent. This allows the project to allocate funds to various wallets in form of percentages or specific amounts (if the specific funding target was chosen). We will choose the project owner since that’s the wallet that will hold the funds in this case.\n![Payouts](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/payouts.jpg)\n\n6. You can now set the rules for the token to be created. The token will have information such as reserved rate (the amount reserved when 1 ETH is contributed to the project), discount rate (the number of extra tokens contributors will receive in a funding cycle), redemption rate (the number of overflows each token can be redeemed for), token minting (whether or not the project owner can mint tokens to wallet addresses). A project can choose the default settings or customize its own settings to fit its goals.\n![Token settings](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/token_settings.jpg)\n\n7. The next step is to create NFTs for the project. This step is optional and you can decide whether or not NFTs are relevant to your project or how they will be distributed to contributors or even what the utility will be for your project.\n![Create NFTs](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/create_nfts.jpg)\n\n8. Projects can also choose the delay period before a funding cycle starts where changes are made to the token configuration. This delay will ensure that contributors know the changes that have been made before they are implemented on Juicebox. Again, this encourages trust among community members. The default on Juicebox is 3 days.\n![Reconfiguration Rules](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/reconfiguration_rules.jpg)\n\n9. Finally, the project owner can deploy the project on Goerli by signing the transaction with the required gas fee.\n![Deploy to Goerli](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/deploy_to%20goerli.jpg)\n\nSetting up your Juicebox project is quite simple and can be done in minutes if you have structured the rules that will govern the project as it relates to funding. You can also watch the video below to get a step-by-step view of how to set up your project on Juicebox.\n\n[![How to fund projects with Juicebox](https://img.youtube.com/vi/2s2OyxG_rvo/0.jpg)](https://www.youtube.com/watch?v=2s2OyxG_rvo)",
-          "title": "How to set up a project on Juicebox"
-        },
-        {
-          "key": "creating-nfts-as-payout-to-contributors",
-          "shortTitle": "Creating NFTs",
-          "details": "Juicebox allows project creators/owners to optionally reward their community members or contributors with NFTs by creating one or more custom NFT tiers. These NFTs can serve as tokens for governance within the projects whether off-chain on platforms such as Snapshot or on-chain on Tally. When creating projects, owners can set tiers from where a limited number of NFTs can be minted. They can also add or remove tiers as the project progresses. Each tier has a unique price, reserved rate, governance voting power, maximum supply, and unique metadata. Also, NFTs can be used for redemption instead of project tokens.\n\nIn order to have NFTs, your project must have at least one tier. To establish a tier, select the \"Add NFT\" option. Every tier can possess:\n\n* An exclusive image, name, description, and link.\n* A minimum donation amount - the cost of your NFT. \n* A limited quantity - the maximum number of NFTs that can be produced from this tier. You can utilize this to motivate early supporters. Each tier can have its own unique quantity.\n\nSome other functions that can be created when minting NFTs on Juicebox are **Reserve NFTs**\n\nWhere contributors can be rewarded by giving them the opportunity to mint one NFT to any address of their choice when they earn an NFT. **Voting Weight** can also be created for each tier to allow for voting whether off-chain or on-chain within the DAO or project. Finally, you can create **External Links** to direct minters to the project’s website, Discord, or any place of their choice.\n\nTo operate on-chain governance processes, Juicebox NFTs are deployed on the **ERC721Votes** standard To achieve this, Juicebox tracks an NFT’s ownership over time when they are minted, burned, traded, or transferred. Juicebox has three on-chain options when setting up NFTs, they include:\n\n* No on-chain governance: This means that the project won’t track voting power over time.\n* Standard on-chain governance: This tracks the total voting power of each address over time\n* Tier-based on-chain governance: As against tracking the total voting power of each address, this tracks the voting power on each address within an NFT tier. This is quite advanced as it is used for complex on-chain governance procedures.",
-          "title": "Creating NFTs as Payout to Contributors"
-        }
-      ],
-      "readings": [],
-      "summaries": [],
-      "questions": [
-        {
-          "uuid": "e7c1985d-bc09-4f3f-bd62-13b7c3947051",
-          "type": "SingleChoice",
-          "content": "What is Juicebox and what kind of projects does it serve?",
-          "hint": "Nohint    ",
-          "explanation": "Juicebox serves as a blockchain equivalent of crowdfunding platforms like Kickstarter, Patreon, and Gofundme, or even a substitute for venture capital.",
-          "answerKeys": [
-            "925df435"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Juicebox is a platform for individuals to pay for goods and services",
-              "key": "A"
-            },
-            {
-              "content": "Juicebox is a platform for web3 native projects or DAOs to raise funds for their projects",
-              "key": "925df435"
-            },
-            {
-              "content": "Juicebox is a platform for large corporations to create tokens",
-              "key": "b39557b3"
-            },
-            {
-              "content": "Juicebox is a platform for buying and selling NFTs",
-              "key": "c1d6439e"
-            }
-          ]
-        },
-        {
-          "uuid": "181552eb-c2b4-45a9-9920-44528a0fc716",
-          "type": "SingleChoice",
-          "content": "What is the structure of Juicebox and how is it flexible to accommodate different projects?",
-          "hint": "Nohint    ",
-          "explanation": "Juicebox works for all types of projects whether big or small.",
-          "answerKeys": [
-            "8459c7d3"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Juicebox has a rigid structure and can only accommodate large projects",
-              "key": "A"
-            },
-            {
-              "content": "Juicebox is structured to only accommodate NFT projects",
-              "key": "6b6ff2dd"
-            },
-            {
-              "content": "Juicebox has a flexible structure to accommodate both the smallest and largest projects",
-              "key": "8459c7d3"
-            },
-            {
-              "content": "Juicebox is structured to only accommodate DAOs",
-              "key": "2e68eac6"
-            }
-          ]
-        },
-        {
-          "uuid": "ca7f0b53-bff1-4ff1-bce1-997d2a12208f",
-          "type": "SingleChoice",
-          "content": "How does Juicebox build trust between the community and projects on the platform?",
-          "hint": "Nohint    ",
-          "explanation": "Juicebox enables projects to set up their rules ahead when setting up the project or minting tokens.",
-          "answerKeys": [
-            "bbe4f9ee"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Juicebox creates distrust between community and projects",
-              "key": "A"
-            },
-            {
-              "content": "Juicebox allows projects to manipulate the rules for their advantage",
-              "key": "721a51ed"
-            },
-            {
-              "content": "Juicebox sets rules for projects ahead of time to build trust with the community",
-              "key": "bbe4f9ee"
-            },
-            {
-              "content": "Juicebox requires no rules to be set in place, making it easier for projects to scam people",
-              "key": "40fe0640"
-            }
-          ]
-        },
-        {
-          "uuid": "1447811f-23ec-4070-867a-21079ef57317",
-          "type": "SingleChoice",
-          "content": "How does Juicebox allow projects to adapt their rules as they grow and change?",
-          "hint": "Nohint",
-          "explanation": "One of the key things to look out for in communities as they grow is if they are flexible to adapt to changes overtime. This is why Juicebox lets projects adapt their rules and conditions as projects grow and members increase.",
-          "answerKeys": [
-            "d73a667f"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": " Juicebox does not allow projects to change their rules",
-              "key": "A"
-            },
-            {
-              "content": "Juicebox allows projects to change their rules as they grow and adapt to changes over time",
-              "key": "d73a667f"
-            },
-            {
-              "content": "Juicebox requires projects to keep their rules static throughout the life of the project",
-              "key": "a2edefa4"
-            },
-            {
-              "content": "Juicebox requires projects to change their rules every 6 months",
-              "key": "11e1dc97"
-            }
-          ]
-        },
-        {
-          "uuid": "921f4f6a-a2ec-47c9-9de3-63bc24ecb861",
-          "type": "SingleChoice",
-          "content": "What is the purpose of the tokens created on Juicebox and how do they serve the projects?",
-          "hint": "Nohint    ",
-          "explanation": "These tokens can be governance tokens of DAOs i.e. being used to create proposals or vote on them depending on the voting structures that are in place within the DAO, they may also be a form of compensation for contributors or even a way to provide membership perks to community members.",
-          "answerKeys": [
-            "db626a52"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Tokens on Juicebox serve as a form of payment for goods and services",
-              "key": "A"
-            },
-            {
-              "content": "Tokens on Juicebox serve as governance tokens, compensation for contributors, or membership perks",
-              "key": "db626a52"
-            },
-            {
-              "content": "Tokens on Juicebox serve as a way for projects to rug pull or scam people of their investments",
-              "key": "6e59b46f"
-            },
-            {
-              "content": "Tokens on Juicebox serve as a form of investment with no practical use",
-              "key": "025500a8"
-            }
-          ]
-        },
-        {
-          "uuid": "620cbcd1-9086-456e-b9ef-5a960fe09658",
-          "type": "SingleChoice",
-          "content": "What integrations does Juicebox have with other tools?",
-          "hint": "Nohint    ",
-          "explanation": "Juicebox integrates nicely with other tools such as Gnosis Safe, Snapshot, and other tools that various communities use to operate.",
-          "answerKeys": [
-            "e1c43be4"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Juicebox has no integrations with other tools",
-              "key": "A"
-            },
-            {
-              "content": "Juicebox integrates with Gnosis Safe, Snapshot, and other tools used by communities",
-              "key": "e1c43be4"
-            },
-            {
-              "content": "Juicebox integrates with popular payment gateways",
-              "key": "7b15a68f"
-            },
-            {
-              "content": "Juicebox integrates with NFT marketplaces",
-              "key": "32b0c431"
-            }
-          ]
-        },
-        {
-          "uuid": "0a53d340-c221-42f3-8a2a-eb5cece83a50",
-          "type": "SingleChoice",
-          "content": "What are some of the features that can be set for a tier when creating an NFT on Juicebox?",
-          "hint": "Nohint    ",
-          "explanation": "Each tier has a unique price, reserved rate, governance voting power, maximum supply, and unique metadata.",
-          "answerKeys": [
-            "3f78819e"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "The cost of the NFT",
-              "key": "A"
-            },
-            {
-              "content": "The name and description of the NFT",
-              "key": "d7b01d6b"
-            },
-            {
-              "content": "The maximum number of NFTs that can be produced from the tier",
-              "key": "4a7f5b94"
-            },
-            {
-              "content": "All of the above",
-              "key": "3f78819e"
-            }
-          ]
-        },
-        {
-          "uuid": "bf8497c7-96ca-4428-9c3c-a3b1d2deab5b",
-          "type": "SingleChoice",
-          "content": "How does Juicebox track voting power for standard on-chain governance?",
-          "hint": "Nohint    ",
-          "explanation": "Standard on-chain governance tracks the total voting power of each address over time.",
-          "answerKeys": [
-            "a20ad367"
-          ],
-          "subTopics": [],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "It does not track voting power",
-              "key": "A"
-            },
-            {
-              "content": "It tracks the total voting power of each address over time",
-              "key": "a20ad367"
-            },
-            {
-              "content": "It tracks the voting power of each address within an NFT tier",
-              "key": "18b62f34"
-            },
-            {
-              "content": "None of the above",
-              "key": "f90593bf"
-            }
-          ]
-        }
-      ]
     },
     {
       "title": "Chicken bonds",
