@@ -70,15 +70,6 @@ topics:
       from the public or even private investors.
     explanations: juicebox.yaml
     questions: juicebox.yaml
-  - key: bond-protocol
-    title: Bond Protocol
-    details: >
-      Bond Protocol was born out of OIP-104 on July 15th, 2022 following the
-      success of Olympus Pro (OP), enabling it to establish a standalone entity.
-      It aims to be a credibly neutral platform, laser-focused on providing
-      Bonds-as-a-Service to meet the needs of DeFi with innovative ideas.
-    explanations: bond-protocol.yaml
-    questions: bond-protocol.yaml
   - key: fjord-foundry
     title: Fjord Foundry
     details: >
@@ -91,6 +82,15 @@ topics:
       shape the future they want to see.
     explanations: fjord-foundry.yaml
     questions: fjord-foundry.yaml
+  - key: bond-protocol
+    title: Bond Protocol
+    details: >
+      Bond Protocol was born out of OIP-104 on July 15th, 2022 following the
+      success of Olympus Pro (OP), enabling it to establish a standalone entity.
+      It aims to be a credibly neutral platform, laser-focused on providing
+      Bonds-as-a-Service to meet the needs of DeFi with innovative ideas.
+    explanations: bond-protocol.yaml
+    questions: bond-protocol.yaml
   - key: chicken-bonds
     title: Chicken bonds
     details: >-
