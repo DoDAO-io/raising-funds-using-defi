@@ -79,6 +79,18 @@ topics:
       Bonds-as-a-Service to meet the needs of DeFi with innovative ideas.
     explanations: bond-protocol.yaml
     questions: bond-protocol.yaml
+  - key: fjord-foundry
+    title: Fjord Foundry
+    details: >
+      Fjord Foundry is a community platform that connects project teams with
+      passionate supporters via Liquidity Bootstrapping Pools (LBP's). It
+      empowers project teams to generate liquidity directly through community
+      participation. The creators of Fjord Foundry believe in a world where
+      decentralized, permissionless engagement creates the ideal conditions for
+      bold ideas to thrive and gives individuals and communities the power to
+      shape the future they want to see.
+    explanations: fjord-foundry.yaml
+    questions: fjord-foundry.yaml
   - key: chicken-bonds
     title: Chicken bonds
     details: >-
@@ -94,18 +106,6 @@ topics:
       implementation of "DeFi Bonds."
     explanations: chicken-bonds.yaml
     questions: chicken-bonds.yaml
-  - key: fjord-foundry
-    title: Fjord Foundry
-    details: >
-      Fjord Foundry is a community platform that connects project teams with
-      passionate supporters via Liquidity Bootstrapping Pools (LBP's). It
-      empowers project teams to generate liquidity directly through community
-      participation. The creators of Fjord Foundry believe in a world where
-      decentralized, permissionless engagement creates the ideal conditions for
-      bold ideas to thrive and gives individuals and communities the power to
-      shape the future they want to see.
-    explanations: fjord-foundry.yaml
-    questions: fjord-foundry.yaml
 courseAdmins:
   - '0x47a67e14b3804dc652b3a3200d8c00d4f55abb6b'
   - '0x34d014758297c00fea49935fce172677904d51ef'
