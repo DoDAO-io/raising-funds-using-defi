@@ -71,6 +71,14 @@ topics:
       Bonds-as-a-Service to meet the needs of DeFi with innovative ideas.
     explanations: bond-protocol.yaml
     questions: bond-protocol.yaml
+  - key: juicebox
+    title: Juicebox
+    details: >-
+      Raising funds for projects has now been made easy as Juicebox provides a
+      unique platform for project creators in web3 to raise and manage funds
+      from the public or even private investors.
+    explanations: juicebox.yaml
+    questions: juicebox.yaml
   - key: chicken-bonds
     title: Chicken bonds
     details: >-
@@ -86,14 +94,6 @@ topics:
       implementation of "DeFi Bonds."
     explanations: chicken-bonds.yaml
     questions: chicken-bonds.yaml
-  - key: juicebox
-    title: Juicebox
-    details: >-
-      Raising funds for projects has now been made easy as Juicebox provides a
-      unique platform for project creators in web3 to raise and manage funds
-      from the public or even private investors.
-    explanations: juicebox.yaml
-    questions: juicebox.yaml
   - key: fjord-foundry
     title: Fjord Foundry
     details: >
