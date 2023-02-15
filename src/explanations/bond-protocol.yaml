@@ -208,8 +208,14 @@
 - key: refernces
   title: References
   shortTitle: References
-  details: |
+  details: >-
     - https://bondprotocol.finance/ 
+
     - https://docs.bondprotocol.finance/ 
+
     - https://medium.com/@Bond_Protocol 
+
     - https://eyesoftheworld.substack.com/p/olympus-pro
+
+    -
+    https://medium.com/coinmonks/what-is-protocol-owned-liquidity-a-primer-on-the-model-developed-by-olympus-dao-55368f200d66

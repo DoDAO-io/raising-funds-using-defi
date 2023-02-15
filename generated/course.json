@@ -720,9 +720,9 @@
         },
         {
           "key": "refernces",
-          "title": "References",
           "shortTitle": "References",
-          "details": "- https://bondprotocol.finance/ \n- https://docs.bondprotocol.finance/ \n- https://medium.com/@Bond_Protocol \n- https://eyesoftheworld.substack.com/p/olympus-pro\n"
+          "details": "- https://bondprotocol.finance/ \n- https://docs.bondprotocol.finance/ \n- https://medium.com/@Bond_Protocol \n- https://eyesoftheworld.substack.com/p/olympus-pro\n- https://medium.com/coinmonks/what-is-protocol-owned-liquidity-a-primer-on-the-model-developed-by-olympus-dao-55368f200d66",
+          "title": "References"
         }
       ],
       "questions": [
