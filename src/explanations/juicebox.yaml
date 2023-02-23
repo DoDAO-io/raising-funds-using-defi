@@ -69,6 +69,43 @@
     increase. Juicebox also integrates nicely with other tools such as Gnosis
     Safe, Snapshot, and other tools that various communities use to operate.
     With these in place, projects can rely on Juicebox for scalability. 
+- key: why-juicebox
+  shortTitle: Why Juicebox
+  details: >-
+    Creating a Juicebox project takes only 10 minutes, and it can help you in
+    the following ways:
+
+
+    - Raise ETH for your project through crowdfunding.
+
+    - Generate Project Tokens and Project NFTs for your supporters, and reserve
+    a portion of those tokens and NFTs for yourself, your team, or a community
+    pool.
+
+    - Establish trust with Cycles. These are predefined periods (e.g., 3
+    minutes, 2 years, or 14 days) that allow you to lock your project's rules.
+
+    When you modify your rules, the changes are queued for the next Cycle,
+    instead of taking immediate effect.
+
+    - Each cycle, pay out automated ETH compensations to your team. These
+    payouts can be fixed ETH amounts, ETH amounts that adjust to USD values, or
+    percentages of the total available ETH.
+
+    - Enable your supporters to redeem their Project Tokens/NFTs for a portion
+    of the ETH in your project. This can be a full or partial refund or can be
+    turned off completely.
+
+    - Set an Edit Deadline to prevent last-minute changes to your Cycle and
+    prevent rug pulls. With a 3-day Edit Deadline, your community has three days
+    to review any queued edits.
+
+
+    When you create a Juicebox project, an Owner NFT is sent to your wallet,
+    which is the only way to control the project. The project's rules are
+    managed directly on the Ethereum blockchain, making your project transparent
+    and immune to censorship.
+  title: Why Juicebox
 - key: how-to-set-up-a-project-on-juicebox
   title: How to set up a project on Juicebox
   shortTitle: Setting Up
@@ -173,43 +210,6 @@
 
     [![How to fund projects with
     Juicebox](https://img.youtube.com/vi/2s2OyxG_rvo/0.jpg)](https://www.youtube.com/watch?v=2s2OyxG_rvo)
-- key: why-juicebox
-  shortTitle: Why Juicebox
-  details: >-
-    Creating a Juicebox project takes only 10 minutes, and it can help you in
-    the following ways:
-
-
-    - Raise ETH for your project through crowdfunding.
-
-    - Generate Project Tokens and Project NFTs for your supporters, and reserve
-    a portion of those tokens and NFTs for yourself, your team, or a community
-    pool.
-
-    - Establish trust with Cycles. These are predefined periods (e.g., 3
-    minutes, 2 years, or 14 days) that allow you to lock your project's rules.
-
-    When you modify your rules, the changes are queued for the next Cycle,
-    instead of taking immediate effect.
-
-    - Each cycle, pay out automated ETH compensations to your team. These
-    payouts can be fixed ETH amounts, ETH amounts that adjust to USD values, or
-    percentages of the total available ETH.
-
-    - Enable your supporters to redeem their Project Tokens/NFTs for a portion
-    of the ETH in your project. This can be a full or partial refund or can be
-    turned off completely.
-
-    - Set an Edit Deadline to prevent last-minute changes to your Cycle and
-    prevent rug pulls. With a 3-day Edit Deadline, your community has three days
-    to review any queued edits.
-
-
-    When you create a Juicebox project, an Owner NFT is sent to your wallet,
-    which is the only way to control the project. The project's rules are
-    managed directly on the Ethereum blockchain, making your project transparent
-    and immune to censorship.
-  title: Why Juicebox
 - key: creating-nfts-as-payout-to-contributors
   shortTitle: Creating NFTs
   details: >-
