@@ -2,13 +2,32 @@
   title: Introduction
   shortTitle: Introduction
   details: >-
-    Juicebox is a versatile crypto financing protocol that allows you to
-    customize various aspects of it to fit your needs. It serves as a blockchain
-    equivalent of crowdfunding platforms like Kickstarter, Patreon, and
-    Gofundme, or even a substitute for venture capital. The basic principle of
-    the protocol is that when individuals invest in your project, they receive
-    tokens specific to your project. These tokens can be utilized for governance
-    or access to token-restricted websites. 
+    Juicebox is a flexible programmable crypto funding protocol that can serve
+    as a crypto-native replacement for platforms such as Kickstarter, Patreon,
+    Gofundme, or even as an alternative to venture capital. Its fundamentals are
+    straightforward:
+
+
+    1. Supporters of your project receive tokens when they contribute. These
+    tokens can be used for governance or accessing token-gated websites.
+
+    2. You have the ability to distribute funds from your project to designated
+    wallets or other Juicebox projects, with the flexibility to modify these
+    distributions over time.
+
+    3. If supporters are dissatisfied with the project's direction, they can
+    redeem their tokens for a proportionate share of the Ethereum held in the
+    project.
+
+    As the project creator, you have significant control over these mechanisms.
+    You can adjust token issuance rates, redemption rates, distributions, and
+    other project settings, allowing for dynamic and effective tokenomics. 
+
+
+    Additionally, you can lock in your settings for predetermined periods,
+    demonstrating to the community that you will not take advantage of them.
+    Juicebox provides you with the freedom to have as much control as you
+    desire, while also allowing you to relinquish control when necessary.
 
 
     ### **Managing Funds**
