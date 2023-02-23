@@ -93,14 +93,14 @@
     Details](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/project_details.jpg)
 
 
-    3. The next is to set the funding cycle for the project. On Juicebox, a
-    funding cycle is a period where the settings are locked in before any change
-    is made. This helps to build trust among contributors and community members
-    knowing that for that period, no change to the rules of the token can be
-    made. The default on Juicebox is 14 days if you select the automated funding
-    cycle. Projects can however customize their funding cycles and put their own
-    number of days if they choose the manual funding cycle.
+    3. The next is to set the funding cycle for the project. On Juicebox,
+    funding cycles let you clearly set your terms, and shows your community that
+    you won't change them on a whim! If you try to change your project, those
+    changes get queued for the next funding cycle — instead of going into effect
+    immediately, they go into effect when your next funding cycle starts. If
+    your don't queue a funding cycle, it just copies your current settings over.
 
+      If you don't want to lock your settings, you can use manual funding cycles, which lets you change settings at any time.
     ![Funding
     Cycles](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/funding_cycles.jpg)
 
