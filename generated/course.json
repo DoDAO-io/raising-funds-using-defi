@@ -66,9 +66,9 @@
         },
         {
           "key": "whale-problem",
-          "title": "Whale Problem",
           "shortTitle": "Whale Problem",
-          "details": "# Add problems related to having whales "
+          "details": "One of the most commonly heard phrases in the world of cryptocurrency projects is \"pump and dump\". This can occur when a small group of individuals holds a majority of the token supply and manipulates the market through buying and selling pressure to their advantage. The stability of a project is generally considered to be greater when there are more token holders and they hold a more even distribution of tokens.\n\nIn many crypto projects, the governance token is also used as the voting mechanism, with the weight of each vote corresponding to the number of tokens held. However, it is often observed that the large token holders, commonly known as \"whales\", propose and vote for proposals that benefit them.\n\nRegardless of the funding mechanism used by a project, it is crucial to ensure that the tokens are distributed evenly throughout the community and not concentrated in the hands of a few select individuals.",
+          "title": "Whale Problem"
         },
         {
           "key": "regulations",
