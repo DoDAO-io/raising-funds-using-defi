@@ -100,19 +100,17 @@
     immediately, they go into effect when your next funding cycle starts. If
     your don't queue a funding cycle, it just copies your current settings over.
 
-      If you don't want to lock your settings, you can use manual funding cycles, which lets you change settings at any time.
-    ![Funding
-    Cycles](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/funding_cycles.jpg)
-
+        If you don't want to lock your settings, you can use manual funding cycles, which lets you change settings at any time.
+        ![Funding Cycles](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/funding_cycles.jpg)
 
     4. Depending on the project, you can choose if the target for the funds
-    being raised is specific where a portion of the funds is distributed to
-    specific wallet addresses or an infinite target where the project holds all
-    the funds.
-
-    ![Funding
-    Target](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/funding_target.jpg)
-
+    being raised.Your funding target is the maximum amount of funds you can pull
+    out of the project during a funding cycle:
+        - A funding target of 0 means you can't pull any funds out.
+        - An infinite funding target means you can pull all of the funds out.
+        - A funding target of 3 ETH means you can pull 3 ETH out.
+        - And a funding target of $4,500 means you can pull $4,500 worth of ETH out.
+      ![Funding Target](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/juicebox/funding_target.jpg)
 
     5. The next step is to set the wallets that the payouts from the funds will
     be sent. This allows the project to allocate funds to various wallets in
