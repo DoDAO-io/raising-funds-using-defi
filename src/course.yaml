@@ -65,9 +65,9 @@ topics:
   - key: juicebox
     title: Juicebox
     details: >-
-      Raising funds for projects has now been made easy as Juicebox provides a
-      unique platform for project creators in web3 to raise and manage funds
-      from the public or even private investors.
+      uicebox is a flexible programmable crypto funding protocol that can serve
+      as a crypto-native replacement for platforms such as Kickstarter, Patreon,
+      Gofundme, or even as an alternative to venture capital.
     explanations: juicebox.yaml
     questions: juicebox.yaml
   - key: fjord-foundry
