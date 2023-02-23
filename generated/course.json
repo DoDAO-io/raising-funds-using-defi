@@ -147,7 +147,7 @@
         {
           "uuid": "181552eb-c2b4-45a9-9920-44528a0fc716",
           "type": "SingleChoice",
-          "content": "What is the structure of Juicebox and how is it flexible to accommodate different projects?",
+          "content": "What is the structure of Juicebox and is it suited more for small or big projects?",
           "hint": "Nohint    ",
           "explanation": "Juicebox works for all types of projects whether big or small.",
           "answerKeys": [
@@ -157,7 +157,7 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Juicebox has a rigid structure and can only accommodate large projects",
+              "content": "Juicebox has a enterprise structure and can only accommodate large projects",
               "key": "A"
             },
             {

@@ -24,8 +24,8 @@
 - uuid: 181552eb-c2b4-45a9-9920-44528a0fc716
   type: SingleChoice
   content: >-
-    What is the structure of Juicebox and how is it flexible to accommodate
-    different projects?
+    What is the structure of Juicebox and is it suited more for small or big
+    projects?
   hint: 'Nohint    '
   explanation: Juicebox works for all types of projects whether big or small.
   answerKeys:
@@ -34,7 +34,9 @@
   difficultyLevel: Medium
   choices:
     - key: A
-      content: Juicebox has a rigid structure and can only accommodate large projects
+      content: >-
+        Juicebox has a enterprise structure and can only accommodate large
+        projects
     - key: 6b6ff2dd
       content: Juicebox is structured to only accommodate NFT projects
     - key: 8459c7d3
