@@ -109,6 +109,8 @@
     Below image gives nice visualization of how the price discovery curve varies
     with start and end weights.
 
+    ![](https://d31h13bdjwgzxs.cloudfront.net/academy/dodao-academy-eth-1/Course/raising-funds-in-DeFi/fjord-foundry/image.png)
+
 
     But having said that, price does not always keep decreasing as it not only
     depends on the weights but also takes the demand into consideration. Thus
