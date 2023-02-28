@@ -70,6 +70,7 @@ topics:
       Gofundme, or even as an alternative to venture capital.
     explanations: juicebox.yaml
     questions: juicebox.yaml
+    readings: juicebox.yaml
   - key: fjord-foundry
     title: Fjord Foundry
     details: >

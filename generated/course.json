@@ -111,7 +111,17 @@
           "title": "Creating NFTs as Payout to Contributors"
         }
       ],
-      "readings": [],
+      "readings": [
+        {
+          "uuid": "53c2ddab-a2c2-446d-9d85-49b4fb2acaf5",
+          "shortTitle": "Create New Project",
+          "details": "This video explains how to create a new project in Juicebox",
+          "title": "Create Juicebox Project",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=2s2OyxG_rvo",
+          "subTopics": []
+        }
+      ],
       "summaries": [],
       "questions": [
         {
