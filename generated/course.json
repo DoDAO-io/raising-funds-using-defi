@@ -85,7 +85,7 @@
     {
       "key": "juicebox",
       "title": "Juicebox",
-      "details": "Juicebox is a flexible programmable crypto funding protocol that can serve as a crypto-native replacement for platforms such as Kickstarter, Patreon, Gofundme, or even as an alternative to venture capital.",
+      "details": "Juicebox is an Ethereum funding protocol which can help you fund, operate, and scale your project on-chain. You can see how people are using it on [juicebox.money](https://juicebox.money) — it's an extremely powerful tool for building trust with your supporters, funding your project, and then running your project effectively.\n\nPeople often use Juicebox as a crypto-native alternative to platforms like Kickstarter or GoFundMe, or even as an alternative to venture capital.",
       "explanations": [
         {
           "key": "introduction",
